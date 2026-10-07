@@ -1,0 +1,18 @@
+\input{plot_style.tex}
+\begin{tikzpicture}
+    \begin{axis}[width=9.2cm,height=7.8cm,
+      xmin=0,xmax=3,ymode=log,ymin=1e-11,ymax=2e-2,
+      xtick={0,1,2,3},ytick={1e-10,1e-8,1e-6,1e-4,1e-2},
+      xlabel={Expansion interval $\Delta N=\ln(a/a_i)$},ylabel={Sound speed squared $c_s^2$},
+      legend pos=north west,legend style={font=\fontsize{8.8}{10}\selectfont}]
+    \addplot[udmgray,dashed,line width=1.3pt] table[col sep=comma,x=dn,y=bare] {../figure_data/mechanism.csv};
+    \addlegendentry{Constant prefactor, potential term neglected}
+    \addplot[udmblue,line width=1.5pt] table[col sep=comma,x=dn,y=coupled] {../figure_data/mechanism.csv};
+    \addlegendentry{Field-dependent prefactor, prescribed history}
+    \addplot[udmblue,densely dotted,line width=.6pt,forget plot] coordinates {(0,1e-7) (3,1e-7)};
+    \node[anchor=east,text=udmblue,font=\fontsize{9}{10}\selectfont] at (axis cs:2.98,2.1e-7) {$c_\infty^2=10^{-7}$};
+    \addplot[only marks,black,mark=*,mark size=2pt,forget plot] coordinates {(0,1e-10)};
+    \node[anchor=west,font=\fontsize{9}{10}\selectfont] at (axis cs:.08,2e-11) {Same initial $c_s^2=10^{-10}$};
+    \end{axis}
+\end{tikzpicture}
+\end{document}

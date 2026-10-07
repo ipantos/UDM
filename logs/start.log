@@ -1,0 +1,39 @@
+Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+
+Background-only preparation: BAO chi2 = 4.5562
+Seed: A = 32.4072, sigma_8 = 0.5656, CALM = 35.6099, seed chi2 = 44.8693
+
+Constrained minimisation with 12 independent starts
+  restart  0: chi2 =      43.7261   accepted
+  restart  1: chi2 =     801.4310   accepted
+  restart  2: chi2 =     525.4232   accepted
+  restart  3: chi2 =     290.0611   accepted
+  restart  4: chi2 =      53.6269   accepted
+  restart  5: chi2 =     961.6615   accepted
+  restart  6: chi2 =      93.2469   accepted
+  restart  7: chi2 =    1608.5800   accepted
+  restart  8: chi2 =    1880.7935   accepted
+  restart  9: chi2 =    2603.5492   accepted
+  restart 10: chi2 =    2758.6025   accepted
+  restart 11: chi2 =      53.7031   accepted
+
+Best chi2 = 43.7261
+Measurements: 52 | parameters: 11 | dof: 41
+Reduced chi2 = 1.0665
+BAO chi2    = 5.5553
+SNe chi2    = 30.2639
+growth chi2 = 7.9069
+c_s^2       = 1.996129e-07
+sigma_8     = 0.576727
+A           = 32.371683
+CALM        = 35.609415
+
+Full-grid physical check:
+  max(w+c_s^2) = -1.7515e-03  [must be <= 0]
+  min(w+1)     = +5.2905e-01  [must be >= 0]
+
+Saved physical starting point: ./runs/joint_norm051_log_454989fb0b76b3f2/start.npz
+
+real	0m5.526s
+user	0m10.041s
+sys	0m0.099s

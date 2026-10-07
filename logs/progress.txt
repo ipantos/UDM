@@ -1,0 +1,25 @@
+grid 19:35:39
+start 19:35:39
+start done 19:35:45
+nodes begin 19:35:52
+nodes done 19:46:01 exit=0
+mcmc segment 1 begin 19:55:08
+mcmc segment 1 done 20:07:19 exit=0
+mcmc segment 2 begin 20:07:19
+mcmc segment 2 done 20:19:20 exit=0
+mcmc segment 3 begin 20:19:20
+mcmc segment 3 done 20:31:04 exit=0
+mcmc segment 4 begin 20:31:04
+mcmc segment 4 done 20:42:38 exit=0
+mcmc segment 5 begin 20:42:38
+mcmc segment 5 done 20:53:48 exit=0
+mcmc segment 6 begin 20:53:48
+mcmc segment 6 done 21:05:05 exit=0
+mcmc segment 7 begin 21:05:05
+mcmc segment 7 done 21:16:46 exit=0
+mcmc segment 8 begin 21:16:46
+mcmc segment 8 done 21:28:47 exit=0
+mcmc summary begin 21:28:47
+summary done 21:31:59 exit=0
+validate done 21:32:20 exit=0
+ALL DONE 21:32:20

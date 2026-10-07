@@ -1,0 +1,72 @@
+{
+  "cubic_polynomial_max_error": 3.5388358909926865e-16,
+  "spline_cardinality_max_error": 1.0413079817834622e-15,
+  "pressureless_EdS_relative_error": 3.04867242562068e-13,
+  "reconstruction_node_medians": {
+    "coupling": [
+      1.0057082146530898,
+      1.0,
+      0.9416793441023024,
+      0.8175544520576404,
+      0.9676668474331938,
+      1.0016244103145038
+    ],
+    "potential": [
+      0.9938347901860526,
+      1.0,
+      1.125099884006328,
+      1.4677410948163971,
+      0.7132162722102122,
+      0.4686034740715863
+    ]
+  },
+  "cs2_upper95": 2.4445297594391116e-07,
+  "prior_floor_upper95": {
+    "1e-12": 2.4445297594391116e-07,
+    "1e-10": 3.0892422349235226e-07,
+    "1e-09": 3.5062751612861496e-07,
+    "1e-08": 4.09005306315351e-07
+  },
+  "jeans_estimate_minimum": {
+    "z": 0.38,
+    "kmax": 0.3,
+    "median": 1.2477238564941172e-06,
+    "lo68": 1.2015252170304694e-06,
+    "hi68": 1.2963632968060669e-06,
+    "median_over_cs2_upper95": 5.104146724646146
+  },
+  "mechanism": {
+    "initial_cs2": 1e-10,
+    "ceiling_cs2": 1e-07,
+    "A": 998.9999999999999
+  },
+  "growth_step_refinement": {
+    "samples": 32,
+    "max_800_1600_sigma": 2.2116800935417088e-08,
+    "max_1600_3200_sigma": 1.2372012909105996e-06
+  },
+  "fit_solver_comparison_max_sigma": 0.00022364496469506442,
+  "best_in_plotted_random_subset": {
+    "chain_row": 27693,
+    "samples_searched": 4096,
+    "chi2": 35.041608313978436,
+    "bao": 5.436247083114351,
+    "supernova": 21.115902404288452,
+    "growth": 8.489458826575635,
+    "optimized": false
+  },
+  "posterior_sha256": "e183f99d6f73a28edbaeb9fb3f2a79789e272a36e9d93e793b15aac6accbf599",
+  "observational_data_sha256": {
+    "udm_data.txt": "58023089668cb53bed19a4e0b4f023bfd7cd5c7a5d83e9230b992edd607f0d31"
+  },
+  "samples_reconstruction_and_prior": 40000,
+  "samples_observables": 4096,
+  "numerics": {
+    "backend": "independent NumPy not-a-knot spline + RK4 of the exact y-V system",
+    "background_grid": 3201,
+    "RK4_base_steps": 1600
+  },
+  "figures_source_sha256": "d766228a33de7d529c0720aab946ef3ddd82b402bf362c531a15b43a2a7f12db",
+  "numpy_version": "2.5.3",
+  "elapsed_seconds": 8.852008279000017
+}

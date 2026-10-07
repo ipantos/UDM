@@ -1,0 +1,89 @@
+\input{plot_style.tex}
+\begin{tikzpicture}
+    \begin{groupplot}[group style={group size=3 by 2,horizontal sep=38pt,vertical sep=13pt},
+      width=5.95cm,xmin=0,xmax=2.43,xtick={0,1,2},
+      tick label style={font=\fontsize{9}{10}\selectfont},
+      legend style={font=\fontsize{8.5}{9.5}\selectfont}]
+    \nextgroupplot[height=5.8cm,ymin=0,ymax=45.0,ytick={0,10,20,30,40},xticklabels=\empty,
+      title={(a) DESI DR2 BAO},ylabel={Distance / $r_d$},legend pos=north west]
+    \addplot[draw=none,forget plot,name path=b1lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/bao_dm_curve.csv};
+\addplot[draw=none,forget plot,name path=b1hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/bao_dm_curve.csv};
+\addplot[draw=none,fill=udmblue!12,forget plot] fill between[of=b1lo95 and b1hi95];
+\addplot[draw=none,forget plot,name path=b1lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/bao_dm_curve.csv};
+\addplot[draw=none,forget plot,name path=b1hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/bao_dm_curve.csv};
+\addplot[draw=none,fill=udmblue!30,forget plot] fill between[of=b1lo68 and b1hi68];
+\addplot[udmblue,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/bao_dm_curve.csv};
+\addplot[draw=none,forget plot,name path=b2lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/bao_dh_curve.csv};
+\addplot[draw=none,forget plot,name path=b2hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/bao_dh_curve.csv};
+\addplot[draw=none,fill=udmorange!12,forget plot] fill between[of=b2lo95 and b2hi95];
+\addplot[draw=none,forget plot,name path=b2lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/bao_dh_curve.csv};
+\addplot[draw=none,forget plot,name path=b2hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/bao_dh_curve.csv};
+\addplot[draw=none,fill=udmorange!30,forget plot] fill between[of=b2lo68 and b2hi68];
+\addplot[udmorange,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/bao_dh_curve.csv};
+\addplot[only marks,udmblue,mark=*,mark size=1.8pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.55pt},error mark options={mark size=1.5pt}]
+          table[col sep=comma,x=z,y=observed,y error=sigma] {../figure_data/bao_dm_points.csv};
+    \addlegendentry{$D_M/r_d$}
+\addplot[only marks,udmorange,mark=triangle*,mark size=2.2pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.55pt},error mark options={mark size=1.5pt}]
+          table[col sep=comma,x=z,y=observed,y error=sigma] {../figure_data/bao_dh_points.csv};
+    \addlegendentry{$D_H/r_d$}
+\addplot[only marks,udmpurple,mark=diamond*,mark size=2.4pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.55pt},error mark options={mark size=1.5pt}]
+          table[col sep=comma,x=z,y=observed,y error=sigma] {../figure_data/bao_dv_points.csv};
+    \addlegendentry{$D_V/r_d$}
+\nextgroupplot[height=5.8cm,ymin=35.4,ymax=47.0,ytick={36,39,42,45},xticklabels=\empty,
+      title={(b) Union3 supernovae},ylabel={Binned distance modulus}]
+    \addplot[draw=none,forget plot,name path=b3lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/supernova_curve.csv};
+\addplot[draw=none,forget plot,name path=b3hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/supernova_curve.csv};
+\addplot[draw=none,fill=udmblue!12,forget plot] fill between[of=b3lo95 and b3hi95];
+\addplot[draw=none,forget plot,name path=b3lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/supernova_curve.csv};
+\addplot[draw=none,forget plot,name path=b3hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/supernova_curve.csv};
+\addplot[draw=none,fill=udmblue!30,forget plot] fill between[of=b3lo68 and b3hi68];
+\addplot[udmblue,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/supernova_curve.csv};
+\addplot[only marks,black,mark=*,mark size=1.5pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.55pt},error mark options={mark size=1.5pt}]
+          table[col sep=comma,x=z,y=observed,y error=sigma] {../figure_data/supernova_points.csv};
+    \nextgroupplot[height=5.8cm,ymin=0.18,ymax=0.78,ytick={.2,.4,.6},xticklabels=\empty,
+      title={(c) Growth compilation},ylabel={$f_g\sigma_8$},legend pos=north east]
+    \addplot[only marks,udmblue!45,mark=none,line width=2pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=2pt},error mark=none]
+          table[col sep=comma,x=z,y=median,y error plus expr=\thisrow{hi95}-\thisrow{median},
+          y error minus expr=\thisrow{median}-\thisrow{lo95}] {../figure_data/growth_points.csv};
+    \addplot[only marks,udmblue,mark=square*,mark size=1.6pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=1.6pt},error mark=none]
+          table[col sep=comma,x=z,y=median,y error plus expr=\thisrow{hi68}-\thisrow{median},
+          y error minus expr=\thisrow{median}-\thisrow{lo68}] {../figure_data/growth_points.csv};
+    \addlegendentry{95\% model interval}
+\addlegendentry{68\% model interval}
+\addplot[only marks,black,mark=o,mark size=2.2pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.55pt},error mark options={mark size=1.5pt}]
+          table[col sep=comma,x=z,y=observed,y error=sigma] {../figure_data/growth_points.csv};
+    \addlegendentry{Measurements}
+\nextgroupplot[height=3.45cm,ymin=-3,ymax=3,ytick={-2,0,2},xlabel={Redshift $z$},ylabel={$\Delta/\sigma$}]
+    \path[fill=black!5] (axis cs:0,-1) rectangle (axis cs:2.43,1);
+    \addplot[black!50,densely dashed,forget plot] coordinates {(0,0) (2.43,0)};
+    \addplot[only marks,udmblue,mark=*,mark size=1.8pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}]
+          table[col sep=comma,x=z,y=residual,y error expr=1] {../figure_data/bao_dm_points.csv};
+    \addplot[only marks,udmorange,mark=triangle*,mark size=1.8pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}]
+          table[col sep=comma,x=z,y=residual,y error expr=1] {../figure_data/bao_dh_points.csv};
+    \addplot[only marks,udmpurple,mark=diamond*,mark size=1.8pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}]
+          table[col sep=comma,x=z,y=residual,y error expr=1] {../figure_data/bao_dv_points.csv};
+    \nextgroupplot[height=3.45cm,ymin=-3,ymax=3,ytick={-2,0,2},xlabel={Redshift $z$}]
+    \path[fill=black!5] (axis cs:0,-1) rectangle (axis cs:2.43,1);
+    \addplot[black!50,densely dashed,forget plot] coordinates {(0,0) (2.43,0)};
+    \addplot[only marks,black,mark=*,mark size=1.8pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}]
+          table[col sep=comma,x=z,y=residual,y error expr=1] {../figure_data/supernova_points.csv};
+    \nextgroupplot[height=3.45cm,ymin=-3,ymax=3,ytick={-2,0,2},xlabel={Redshift $z$}]
+    \path[fill=black!5] (axis cs:0,-1) rectangle (axis cs:2.43,1);
+    \addplot[black!50,densely dashed,forget plot] coordinates {(0,0) (2.43,0)};
+    \addplot[only marks,black,mark=o,mark size=1.8pt,
+          error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}]
+          table[col sep=comma,x=z,y=residual,y error expr=1] {../figure_data/growth_points.csv};
+    \end{groupplot}
+\end{tikzpicture}
+\end{document}

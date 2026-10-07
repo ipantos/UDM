@@ -1,0 +1,36 @@
+Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+
+Closure diagnostic at k=0
+Source: 300 posterior samples
+Usable samples: 300
+Skipped samples: 0
+
+Maximum absolute fractional difference within each sample:
+  median:          0.003%
+  68th percentile: 0.005%
+  95th percentile: 0.044%
+  maximum:         17.118%
+
+First usable sample, redshift by redshift:
+       z      f (growth)    f (u-equation)    difference %
+   0.070        0.348146          0.348148           0.001
+   0.170        0.751755          0.751759           0.000
+   0.180        0.768373          0.768376           0.000
+   0.295        0.750067          0.750071           0.001
+   0.380        0.540871          0.540876           0.001
+   0.440        0.304078          0.304083           0.002
+   0.510       -0.070938         -0.070932           0.008
+   0.600       -0.734135         -0.734128           0.001
+   0.706       -1.853621         -1.853613           0.000
+   0.730       -2.110040         -2.110032           0.000
+   0.919        0.072717          0.072722           0.007
+   0.978        1.840420          1.840422           0.000
+   1.230        3.180987          3.180988           0.000
+   1.317        2.468976          2.468975           0.000
+   1.491        1.058517          1.058517           0.000
+   1.526        0.853308          0.853308           0.000
+   1.944        0.133031          0.133031           0.000
+
+real	0m21.410s
+user	0m21.306s
+sys	0m0.112s

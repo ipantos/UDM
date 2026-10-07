@@ -1,0 +1,28 @@
+\documentclass[tikz,border=4pt]{standalone}
+    \usepackage[T1]{fontenc}
+    %\usepackage{lmodern}
+    \usepackage{amsmath}
+    \usepackage{pgfplots}
+    \usepgfplotslibrary{groupplots,fillbetween}
+    \usetikzlibrary{arrows.meta}
+    \pgfplotsset{compat=1.18}
+    \definecolor{udmblue}{HTML}{21618C}
+    \definecolor{udmorange}{HTML}{B75519}
+    \definecolor{udmpurple}{HTML}{765589}
+    \definecolor{udmgray}{HTML}{545B63}
+    \pgfplotsset{every axis/.append style={
+      font=\fontsize{9.5}{11}\selectfont,
+      label style={font=\fontsize{10}{12}\selectfont},
+      tick label style={font=\fontsize{9}{10}\selectfont},
+      title style={font=\fontsize{10}{12}\selectfont,align=left},
+      axis line style={black!65},axis x line*=bottom,axis y line*=left,
+      tick align=outside,tick style={black!60},
+      major tick length=2.5pt,minor tick length=1.2pt,
+      grid=none,scaled ticks=false,
+      legend style={draw=none,fill=white,fill opacity=.92,text opacity=1,
+        font=\fontsize{9}{10.5}\selectfont,cells={anchor=west},inner sep=2pt},
+      legend cell align=left,
+      every axis plot/.append style={line join=round},
+    }}
+    \begin{document}
+    

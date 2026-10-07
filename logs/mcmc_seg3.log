@@ -1,0 +1,10 @@
+Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+Resuming from 10000 completed steps, with saved random state
+Completed raw steps: 15000; elapsed 703.1 s
+Mean acceptance fraction (this segment): 0.2977
+Saved checkpoint: ./runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
+Convergence: still inside the burn-in (15000 of 20000 burn-in steps).
+
+real	11m44.471s
+user	11m37.345s
+sys	0m0.192s

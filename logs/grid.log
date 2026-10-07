@@ -1,0 +1,15 @@
+Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+(no starting point found; testing at eps_H=-1.0 and A=30.0)
+
+Background-grid convergence
+Target: maximum distance change < 1.0e-03
+   NGRID     maximum change from previous grid
+     401                            1.7424e-04
+     801                            4.0802e-05
+    1601                            1.0200e-05
+    3201                            2.5501e-06
+    6401                            6.3753e-07
+   12801                            1.7110e-07
+
+First grid satisfying target: 401
+Grid adopted by the fit:       3201

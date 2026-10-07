@@ -1,0 +1,42 @@
+\input{plot_style.tex}
+\begin{tikzpicture}
+    \begin{groupplot}[group style={group size=2 by 1,horizontal sep=50pt},width=8.5cm,height=7cm,
+      xmin=.27,xmax=1.51,xtick={.3,.6,.9,1.2,1.48},xlabel={Redshift $z$},
+      legend pos=north west]
+    \nextgroupplot[ymin=0.53,ymax=1.42,ylabel={Normalized $f(z)a^3(z)$},
+      title={(a) Reconstructed kinetic prefactor}]
+    \addplot[draw=none,forget plot,name path=b4lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/reconstructed_coupling.csv};
+\addplot[draw=none,forget plot,name path=b4hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/reconstructed_coupling.csv};
+\addplot[draw=none,fill=udmblue!12,forget plot] fill between[of=b4lo95 and b4hi95];
+\addplot[draw=none,forget plot,name path=b4lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/reconstructed_coupling.csv};
+\addplot[draw=none,forget plot,name path=b4hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/reconstructed_coupling.csv};
+\addplot[draw=none,fill=udmblue!30,forget plot] fill between[of=b4lo68 and b4hi68];
+\addplot[udmblue,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/reconstructed_coupling.csv};
+\addplot[udmorange,dashed,line width=1pt] coordinates {(.295,1) (1.484,1)};
+    \addlegendentry{Reference: $f\propto a^{-3}$}
+    \addlegendimage{area legend,fill=udmblue!30,draw=none}\addlegendentry{68\% pointwise interval}
+    \addlegendimage{area legend,fill=udmblue!12,draw=none}\addlegendentry{95\% pointwise interval}
+    \addplot[udmblue,only marks,mark=*,mark size=1.8pt,forget plot]
+     table[col sep=comma,x=z,y=coupling] {../figure_data/reconstruction_nodes.csv};
+    \draw[black!40,densely dotted] ({axis cs:.51,1}|-{rel axis cs:0,0}) -- (axis cs:.51,1.15);
+    \addplot[black,only marks,mark=*,mark size=2.2pt,forget plot] coordinates {(.51,1)};
+    \node[anchor=west,font=\fontsize{9}{10}\selectfont] at (axis cs:.53,1.1) {$z_\star=0.51$};
+    \nextgroupplot[ymin=-0.06,ymax=2.65,ylabel={Normalized $V(z)$},
+      title={(b) Reconstructed potential},legend pos=north west]
+    \addplot[draw=none,forget plot,name path=b5lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/reconstructed_potential.csv};
+\addplot[draw=none,forget plot,name path=b5hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/reconstructed_potential.csv};
+\addplot[draw=none,fill=udmblue!12,forget plot] fill between[of=b5lo95 and b5hi95];
+\addplot[draw=none,forget plot,name path=b5lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/reconstructed_potential.csv};
+\addplot[draw=none,forget plot,name path=b5hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/reconstructed_potential.csv};
+\addplot[draw=none,fill=udmblue!30,forget plot] fill between[of=b5lo68 and b5hi68];
+\addplot[udmblue,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/reconstructed_potential.csv};
+\addplot[udmorange,dashed,line width=1pt] coordinates {(.295,1) (1.484,1)};
+    \addlegendentry{Reference: constant $V$}
+    \addplot[udmblue,only marks,mark=*,mark size=1.8pt,forget plot]
+     table[col sep=comma,x=z,y=potential] {../figure_data/reconstruction_nodes.csv};
+    \draw[black!40,densely dotted] ({axis cs:.51,1}|-{rel axis cs:0,0}) -- (axis cs:.51,1.4);
+    \addplot[black,only marks,mark=*,mark size=2.2pt,forget plot] coordinates {(.51,1)};
+    \node[anchor=west,font=\fontsize{9}{10}\selectfont] at (axis cs:.53,1.32) {$z_\star=0.51$};
+    \end{groupplot}
+    \end{tikzpicture}
+\end{document}

@@ -1,0 +1,26 @@
+Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+
+Posterior samples after burn-in: 40000
+Number of c_s^2 nodes: 1
+
+c_s^2 node 1 at z=0.3689:
+  8.933801e-10 -8.84e-10 +6.58e-08
+  95% upper limit: 2.444530e-07
+
+sigma_8:
+  0.562375 -0.043574 +0.048734
+
+A    = 30.892127
+CALM = 35.668236
+
+Best sampled chi2 = 34.7262
+Measurements: 52 | parameters: 11 | dof: 41
+Reduced chi2 = 0.8470
+
+Posterior samples with monotonic w at the seven nodes: 8.94%
+
+Saved physical posterior: ./runs/joint_norm051_log_454989fb0b76b3f2/n1_posterior.npz
+
+real	3m12.257s
+user	3m10.769s
+sys	0m0.147s

@@ -1,0 +1,10 @@
+Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+Resuming from 30000 completed steps, with saved random state
+Completed raw steps: 35000; elapsed 699.8 s
+Mean acceptance fraction (this segment): 0.2980
+Saved checkpoint: ./runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 277 raw steps; retained 15000 of the 13827 the rule of fifty lengths asks for (MET).
+
+real	11m41.128s
+user	11m34.489s
+sys	0m0.271s
