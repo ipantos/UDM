@@ -3,7 +3,7 @@
     \begin{groupplot}[group style={group size=2 by 1,horizontal sep=50pt},width=8.5cm,height=7cm,
       xmin=.27,xmax=1.51,xtick={.3,.6,.9,1.2,1.48},xlabel={Redshift $z$},
       legend pos=north west]
-    \nextgroupplot[ymin=0.53,ymax=1.42,ylabel={Normalized $f(z)a^3(z)$},
+    \nextgroupplot[ymin=0.53,ymax=1.43,ylabel={Normalized $f(z)a^3(z)$},
       title={(a) Reconstructed kinetic prefactor}]
     \addplot[draw=none,forget plot,name path=b4lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/reconstructed_coupling.csv};
 \addplot[draw=none,forget plot,name path=b4hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/reconstructed_coupling.csv};

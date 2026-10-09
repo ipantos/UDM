@@ -1,26 +1,26 @@
 \input{plot_style.tex}
 \begin{tikzpicture}
     \begin{groupplot}[group style={group size=2 by 1,horizontal sep=50pt},width=8.5cm,height=7cm]
-    \nextgroupplot[xmin=-12,xmax=-5.55,ymin=0,ymax=0.238,
+    \nextgroupplot[xmin=-12,xmax=-5.55,ymin=0,ymax=0.218,
       xtick={-12,-10,-8,-6},yticklabel style={/pgf/number format/fixed},
       xlabel={$u=\log_{10}c_s^2$},ylabel={Posterior density $p(u\mid\mathrm{data})$},
       title={(a) An upper limit on sound speed},legend pos=north west]
     \addplot[ybar interval,fill=udmblue!35,draw=udmblue!60,line width=.3pt,forget plot]
       table[col sep=comma,x=u,y=density] {../figure_data/sound_speed_density.csv};
-    \addplot[udmblue,line width=1.3pt] coordinates {(-6.61180467131423,0) (-6.61180467131423,0.238)};
-    \addlegendentry{95\% upper limit: $2.44\times10^{-7}$}
+    \addplot[udmblue,line width=1.3pt] coordinates {(-6.626243608915086,0) (-6.626243608915086,0.218)};
+    \addlegendentry{95\% upper limit: $2.36\times10^{-7}$}
     \node[anchor=south west,font=\fontsize{9}{11}\selectfont,align=left,fill=white,inner sep=2pt]
       at (axis cs:-11.8,.012) {Logarithmic prior:\\$10^{-12}\leq c_s^2\leq10^{-2}$};
-    \nextgroupplot[xmin=-12.45,xmax=-7.55,ymin=1.99,ymax=4.54,
+    \nextgroupplot[xmin=-12.45,xmax=-7.55,ymin=1.91,ymax=4.43,
       xtick={-12,-10,-9,-8},xticklabels={$10^{-12}$,$10^{-10}$,$10^{-9}$,$10^{-8}$},
       xlabel={Lower cutoff of the logarithmic prior},
       ylabel={95\% upper limit on $c_s^2$ ($10^{-7}$)},title={(b) Dependence on the prior cutoff}]
     \addplot[udmblue,dashed,line width=1pt,mark=*,mark size=2.5pt]
       table[col sep=comma,x=log_floor,y=upper95_scaled] {../figure_data/prior_sensitivity.csv};
-    \node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-12.0,2.5145297594391116) {2.44};
-\node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-10.0,3.1592422349235227) {3.09};
-\node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-9.0,3.5762751612861496) {3.51};
-\node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-8.0,4.16005306315351) {4.09};
+    \node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-12.0,2.4345929536833903) {2.36};
+\node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-10.0,3.075109711768715) {3.01};
+\node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-9.0,3.4592879911386514) {3.39};
+\node[anchor=south,font=\fontsize{9}{11}\selectfont] at (axis cs:-8.0,4.052644326178147) {3.98};
 \node[anchor=south east,font=\fontsize{8.8}{10.5}\selectfont,align=right]
       at (rel axis cs:0.97,0.04) {Same stored posterior,\\conditioned on each cutoff};
     \end{groupplot}

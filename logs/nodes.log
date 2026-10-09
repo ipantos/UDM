@@ -1,18 +1,14 @@
-Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
 
 Node scan on the joint likelihood
 Penalty per extra c_s node: ln(52) = 3.9512
-  1 node(s): chi2 =    33.7983 | relative BIC =    37.7495
-  2 node(s): chi2 =    33.5050 | relative BIC =    41.4075
-  3 node(s): chi2 =    33.1582 | relative BIC =    45.0119
+  1 node(s): chi2 =    34.0356 | relative BIC =    37.9869
+  2 node(s): chi2 =    33.8229 | relative BIC =    41.7254
+  3 node(s): chi2 =    33.3205 | relative BIC =    45.1742
 
 Selected number of c_s^2 nodes: 1
 
 Improvement relative to the fewest nodes:
   1 node(s): Delta chi2 = +0.0000
-  2 node(s): Delta chi2 = +0.2933
-  3 node(s): Delta chi2 = +0.6401
-
-real	10m9.331s
-user	10m2.757s
-sys	0m0.143s
+  2 node(s): Delta chi2 = +0.2127
+  3 node(s): Delta chi2 = +0.7152

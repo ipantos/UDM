@@ -1,14 +1,10 @@
-Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
 Resuming from 25000 completed steps, with saved random state
-Completed raw steps: 30000; elapsed 675.9 s
-Mean acceptance fraction (this segment): 0.2985
-Saved checkpoint: ./runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
-The chain is shorter than 50 times the integrated autocorrelation time for 10 parameter(s). Use this estimate with caution and run a longer chain!
+Completed raw steps: 30000; elapsed 304.5 s
+Mean acceptance fraction (this segment): 0.3030
+Saved checkpoint: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
+The chain is shorter than 50 times the integrated autocorrelation time for 11 parameter(s). Use this estimate with caution and run a longer chain!
 N/50 = 10;
-tau: [10.71142072 10.26966983 12.01085943 10.82313633 12.35696896 11.31231769
- 11.99479985 11.20596588 12.64665932  9.71690523 10.407264  ]
-Convergence: integrated autocorrelation time 253 raw steps; retained 10000 of the 12647 the rule of fifty lengths asks for (NOT met: run 2647 more raw steps).
-
-real	11m17.190s
-user	11m10.685s
-sys	0m0.213s
+tau: [10.55532325 10.84523865 11.8367353  10.94947378 12.00780992 12.15042247
+ 10.78592361 11.61373215 13.91509058 10.28730072 10.39619262]
+Convergence: integrated autocorrelation time 278 raw steps; retained 10000 of the 13915 the rule of fifty lengths asks for (NOT met: run 3915 more raw steps).

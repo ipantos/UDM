@@ -1,10 +1,6 @@
-Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
 Resuming from 15000 completed steps, with saved random state
-Completed raw steps: 20000; elapsed 692.1 s
-Mean acceptance fraction (this segment): 0.2981
-Saved checkpoint: ./runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
+Completed raw steps: 20000; elapsed 297.7 s
+Mean acceptance fraction (this segment): 0.2993
+Saved checkpoint: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
 Convergence: still inside the burn-in (20000 of 20000 burn-in steps).
-
-real	11m33.325s
-user	11m26.298s
-sys	0m0.252s

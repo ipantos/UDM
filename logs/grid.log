@@ -1,4 +1,4 @@
-Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
 (no starting point found; testing at eps_H=-1.0 and A=30.0)
 
 Background-grid convergence

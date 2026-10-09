@@ -1,3 +1,21 @@
+Full-chain reconstructed functions tabulated.
+Growth step refinement: maximum error 1.09e-06 observational sigma.
+Observable predictions: 256/4096 samples.
+Observable predictions: 512/4096 samples.
+Observable predictions: 768/4096 samples.
+Observable predictions: 1024/4096 samples.
+Observable predictions: 1280/4096 samples.
+Observable predictions: 1536/4096 samples.
+Observable predictions: 1792/4096 samples.
+Observable predictions: 2048/4096 samples.
+Observable predictions: 2304/4096 samples.
+Observable predictions: 2560/4096 samples.
+Observable predictions: 2816/4096 samples.
+Observable predictions: 3072/4096 samples.
+Observable predictions: 3328/4096 samples.
+Observable predictions: 3584/4096 samples.
+Observable predictions: 3840/4096 samples.
+Observable predictions: 4096/4096 samples.
 {
   "cubic_polynomial_max_error": 3.5388358909926865e-16,
   "spline_cardinality_max_error": 1.0413079817834622e-15,
@@ -70,3 +88,8 @@
   "numpy_version": "2.3.5",
   "elapsed_seconds": 4.791988709000066
 }
+Compiling fig01_mechanism.tex
+Compiling fig02_observations.tex
+Compiling fig03_sound_speed.tex
+Compiling fig04_reconstructed_functions.tex
+Figures written to /workspace/scratch/b46695869ef0/fresh_fit/UDM/figures

@@ -1,10 +1,6 @@
-Prior: log; data points: 52; run directory: ./runs/joint_norm051_log_454989fb0b76b3f2
+Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
 Resuming from 35000 completed steps, with saved random state
-Completed raw steps: 40000; elapsed 719.0 s
-Mean acceptance fraction (this segment): 0.2994
-Saved checkpoint: ./runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
-Convergence: integrated autocorrelation time 280 raw steps; retained 20000 of the 13999 the rule of fifty lengths asks for (MET).
-
-real	12m0.327s
-user	11m54.353s
-sys	0m0.194s
+Completed raw steps: 40000; elapsed 308.3 s
+Mean acceptance fraction (this segment): 0.3027
+Saved checkpoint: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 297 raw steps; retained 20000 of the 14842 the rule of fifty lengths asks for (MET).

@@ -1,0 +1,54 @@
+{
+  "steps_per_walker": 40000,
+  "walkers": 40,
+  "burn_in_steps": 20000,
+  "thin": 20,
+  "posterior_shape": [
+    40000,
+    11
+  ],
+  "posterior_array_sha256": "142d03d41114899f543f78ee5349bc99a9cc271cd3a8bfbb374059370cc42a2c",
+  "fit_joint_source_sha256": "acfc31d331fedf79cc8de879596fdd975e3c682dfce87911c065a8f605a79e65",
+  "validated_npz_files": [
+    "best_1.npz",
+    "best_2.npz",
+    "best_3.npz",
+    "n1_mcmc.npz",
+    "n1_posterior.npz",
+    "node_choice.npz",
+    "start.npz"
+  ],
+  "all_npz_source_hashes_match": true,
+  "checkpoint_posterior_arrays_match": true,
+  "figure_data_posterior_hash_matches": true,
+  "observational_data_unchanged": true,
+  "runtime": {
+    "python": "3.12.14",
+    "platform": "Linux-6.18.44-x86_64-with-glibc2.39",
+    "machine": "x86_64",
+    "implementation": "CPython",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "emcee": "3.1.6"
+  },
+  "cs2_upper95": 2.3645929536833905e-07,
+  "sigma8_quantiles_16_50_84": [
+    0.5197174920678252,
+    0.5631862588301871,
+    0.6123243461385355
+  ],
+  "retained_halves": {
+    "steps_20001-30000": {
+      "rows": 20000,
+      "cs2_upper95": 2.3289401836043828e-07,
+      "sigma8_median": 0.5632215948602003
+    },
+    "steps_30001-40000": {
+      "rows": 20000,
+      "cs2_upper95": 2.4070634228692204e-07,
+      "sigma8_median": 0.5631549671555791
+    }
+  },
+  "best_sampled_chi2": 34.70074448634979
+}
