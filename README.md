@@ -29,45 +29,55 @@ additions. All of them are recorded in the logs.
 The five figures of the paper are in `paper_output/` and are produced by
 `python paper_scripts/paper_figures.py . paper_output`.
 
-## Getting started
+## Using the stored results
 
-Download the repository into a **new folder** and open a terminal in it.
-Python 3.12, which was used for the run, is recommended.
+The repository holds the completed run. The following commands work in the
+repository itself and do not change the stored results (the last one
+writes the five figures of `paper_output/` again):
 
-Windows:
+```bash
+python -m pip install -r requirements.txt
+python verify_package.py                              # check of the package, without the full chains
+python run_pipeline.py --plan                         # list of the stages, without running them
+python mc_uncertainty.py                              # Monte Carlo uncertainty of the posterior limit
+python paper_scripts/paper_figures.py . paper_output  # the five figures of the paper (needs pdflatex)
+```
+
+## Running the analysis again
+
+`run_pipeline.py` does not start in a folder that already contains results:
+it stops with the message "Existing numerical outputs without pipeline
+state", so that the stored results cannot be overwritten. To run the
+analysis again, copy the code and the inputs, which are exactly the files
+listed in `SHA256SUMS.txt`, into a new, empty folder, and run the pipeline
+there. From the repository folder, on any system:
+
+```bash
+python -c "import pathlib, shutil; d = pathlib.Path('../UDM_rerun'); files = [l[66:].strip() for l in open('SHA256SUMS.txt')] + ['SHA256SUMS.txt']; [(d/f).parent.mkdir(parents=True, exist_ok=True) or shutil.copy2(f, d/f) for f in files]"
+```
+
+This creates the folder `UDM_rerun` beside the repository. Python 3.12,
+which was used for the run, is recommended. Then, on Windows:
 
 ```powershell
+cd ..\UDM_rerun
 py -3.12 -m venv .venv
 .venv\Scripts\python.exe -m pip install -r requirements.txt
 .venv\Scripts\python.exe run_pipeline.py
 ```
 
-Linux / macOS:
+and on Linux or macOS:
 
 ```bash
+cd ../UDM_rerun
 python3.12 -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python run_pipeline.py
 ```
 
-With a suitable Python environment already in place:
-
-```bash
-python -m pip install -r requirements.txt
-python run_pipeline.py
-```
-
-Check of the package only, without the full chains:
-
-```bash
-python verify_package.py
-```
-
-List of the stages without running them:
-
-```bash
-python run_pipeline.py --plan
-```
+The pipeline runs the main chain to 40,000 steps. To reproduce the run of
+the paper exactly, continue it afterwards as described in "The run of the
+paper".
 
 ## What the pipeline runs
 
@@ -101,8 +111,8 @@ repeated after an interruption.
 Do not run two pipelines at the same time in the same folder, do not copy
 outputs of other runs into the folder, do not set `UDM_OUTPUT_DIR`, and do
 not change code or data in between: the pipeline refuses inputs whose
-identity has changed. For a different analysis use a fresh copy of the
-repository.
+identity has changed. For a different analysis make a new folder as
+described in "Running the analysis again".
 
 The individual commands `extensions.py chain NAME 12000` **add** 12,000
 steps. The pipeline computes by itself how many remain; use it for normal
