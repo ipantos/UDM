@@ -1,0 +1,60 @@
+\input{plot_style.tex}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=3 by 1,horizontal sep=42pt},width=6.05cm,height=6.3cm,
+  set layers=standard,
+  xmin=0,xmax=2.33,xtick={0,.5,1,1.5,2},xlabel={Redshift $z$},
+  legend style={font=\fontsize{8.6}{10}\selectfont}]
+\nextgroupplot[ymin=-.95,ymax=.75,ytick={-.8,-.4,0,.4},ylabel={Deceleration parameter $q$},
+  title={(a) Expansion history},legend style={at={(.97,.03)},anchor=south east}]
+\addplot[draw=none,forget plot,name path=b4lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/ext_deceleration.csv};
+\addplot[draw=none,forget plot,name path=b4hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/ext_deceleration.csv};
+\addplot[draw=none,fill=udmblue!20,forget plot] fill between[of=b4lo95 and b4hi95];
+\addplot[draw=none,forget plot,name path=b4lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/ext_deceleration.csv};
+\addplot[draw=none,forget plot,name path=b4hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/ext_deceleration.csv};
+\addplot[draw=none,fill=udmblue!42,forget plot] fill between[of=b4lo68 and b4hi68];
+\addplot[udmblue,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/ext_deceleration.csv};
+\pgfonlayer{axis background}\path[fill=black!6] (axis cs:0,-0.95) rectangle (axis cs:.295,0.75);\draw[black!35,line width=.4pt] (axis cs:.295,-0.95) -- (axis cs:.295,0.75);\endpgfonlayer
+\addplot[udmblue,only marks,mark=*,mark size=1.6pt,forget plot] table[col sep=comma,x=z,y=q] {../figure_data/paper_nodes.csv};
+\addplot[black!45,densely dotted,line width=.8pt,forget plot] coordinates {(0,.5) (2.33,.5)};
+\addplot[udmorange,dashed,line width=1pt] table[col sep=comma,x=z,y=q] {../figure_data/paper_lcdm_q.csv};
+\addlegendentry{$\Lambda$CDM}
+\addplot[black,line width=.6pt] table[col sep=comma,x=z,y=q] {../figure_data/paper_best_fit.csv};
+\addlegendentry{best fit}
+\addlegendimage{area legend,fill=udmblue!42,draw=none}\addlegendentry{68\%}
+\addlegendimage{area legend,fill=udmblue!20,draw=none}\addlegendentry{95\%}
+\node[anchor=south east,text=black!70,font=\fontsize{9}{10.5}\selectfont] at (axis cs:2.31,.5) {$w_\phi=0$};
+\nextgroupplot[ymode=log,ymin=.4,ymax=3.4,ytick={.5,1,2,3},yticklabels={0.5,1,2,3},
+  ylabel={$\mathcal{F}$: normalized $f a^3$},
+  title={(b) Kinetic prefactor},legend style={at={(.97,.96)},anchor=north east}]
+\addplot[draw=none,forget plot,name path=b5lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/ext_prefactor_full_range.csv};
+\addplot[draw=none,forget plot,name path=b5hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/ext_prefactor_full_range.csv};
+\addplot[draw=none,fill=udmblue!20,forget plot] fill between[of=b5lo95 and b5hi95];
+\addplot[draw=none,forget plot,name path=b5lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/ext_prefactor_full_range.csv};
+\addplot[draw=none,forget plot,name path=b5hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/ext_prefactor_full_range.csv};
+\addplot[draw=none,fill=udmblue!42,forget plot] fill between[of=b5lo68 and b5hi68];
+\addplot[udmblue,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/ext_prefactor_full_range.csv};
+\pgfonlayer{axis background}\path[fill=black!6] (axis cs:0,0.4) rectangle (axis cs:.295,3.4);\draw[black!35,line width=.4pt] (axis cs:.295,0.4) -- (axis cs:.295,3.4);\endpgfonlayer
+\addplot[udmblue,only marks,mark=*,mark size=1.6pt,forget plot] table[col sep=comma,x=z,y=prefactor] {../figure_data/paper_nodes.csv};
+\addplot[udmorange,dashed,line width=1pt] coordinates {(0,1) (2.33,1)};
+\addlegendentry{$f\propto a^{-3}$}
+\addplot[black,line width=.6pt,forget plot] table[col sep=comma,x=z,y=prefactor] {../figure_data/paper_best_fit.csv};
+\addplot[black,only marks,mark=*,mark size=2.2pt,forget plot] coordinates {(.51,1)};
+\nextgroupplot[ymode=log,ymin=.02,ymax=14,ytick={.03,.1,.3,1,3,10},yticklabels={0.03,0.1,0.3,1,3,10},
+  ylabel={$\mathcal{V}$: normalized $V$},
+  title={(c) Potential},legend style={at={(.42,.975)},anchor=north}]
+\addplot[draw=none,forget plot,name path=b6lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/paper_potential_full_range.csv};
+\addplot[draw=none,forget plot,name path=b6hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/paper_potential_full_range.csv};
+\addplot[draw=none,fill=udmblue!20,forget plot] fill between[of=b6lo95 and b6hi95];
+\addplot[draw=none,forget plot,name path=b6lo68] table[col sep=comma,x=z,y=lo68] {../figure_data/paper_potential_full_range.csv};
+\addplot[draw=none,forget plot,name path=b6hi68] table[col sep=comma,x=z,y=hi68] {../figure_data/paper_potential_full_range.csv};
+\addplot[draw=none,fill=udmblue!42,forget plot] fill between[of=b6lo68 and b6hi68];
+\addplot[udmblue,line width=1.2pt,forget plot] table[col sep=comma,x=z,y=median] {../figure_data/paper_potential_full_range.csv};
+\pgfonlayer{axis background}\path[fill=black!6] (axis cs:0,0.02) rectangle (axis cs:.295,14);\draw[black!35,line width=.4pt] (axis cs:.295,0.02) -- (axis cs:.295,14);\endpgfonlayer
+\addplot[udmblue,only marks,mark=*,mark size=1.6pt,forget plot] table[col sep=comma,x=z,y=potential] {../figure_data/paper_nodes.csv};
+\addplot[udmorange,dashed,line width=1pt] coordinates {(0,1) (2.33,1)};
+\addlegendentry{constant $V$}
+\addplot[black,line width=.6pt,forget plot] table[col sep=comma,x=z,y=potential] {../figure_data/paper_best_fit.csv};
+\addplot[black,only marks,mark=*,mark size=2.2pt,forget plot] coordinates {(.51,1)};
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

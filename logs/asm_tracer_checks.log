@@ -1,0 +1,303 @@
+
+Invocation 2026-10-12T16:24:39Z: ['assumptions.py', 'tracer_checks']
+start at z = 10 | scalar, one fluid {
+ "chi2_minimum": 46.37059147755893,
+ "c_s2_at_minimum": 2.491041057587056e-07,
+ "omega_at_minimum": 0.30385511241381336,
+ "sigma8_ref_at_minimum": 0.6591716026295047,
+ "chi2_at_zero_sound_speed": 47.52207530074373,
+ "delta_chi2_at_zero_sound_speed": 1.1514838231847975,
+ "delta_chi2_at_grid_end": 363.465736045284,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 4.7869485493604e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 6.2332798634485e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 6.933346072473581e-07
+ },
+ "bayes_95_upper_limit": 3.599727631324528e-07,
+ "omega_at_95_limit": 0.3056438001344407,
+ "sigma8_ref_at_95_limit": 0.7213477845525448,
+ "lowest_delta_chi2_above_the_limit": 2.8188922809752697
+}
+start at z = 10 | pressureless fraction {
+ "chi2_minimum": 46.401209541145064,
+ "c_s2_at_minimum": 1.3444614738924616e-06,
+ "omega_at_minimum": 0.303942198744185,
+ "sigma8_ref_at_minimum": 0.6583147194162741,
+ "chi2_at_zero_sound_speed": 47.52208261310042,
+ "delta_chi2_at_zero_sound_speed": 1.1208730719553586,
+ "delta_chi2_at_grid_end": 20.47202766573389,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 2.7566898556707806e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 3.7606169631100197e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 4.2843140769118306e-06
+ },
+ "bayes_95_upper_limit": 2.0238700415858366e-06,
+ "omega_at_95_limit": 0.30555765260494233,
+ "sigma8_ref_at_95_limit": 0.7222986563896071,
+ "lowest_delta_chi2_above_the_limit": 3.165780185715917
+}
+start at z = 10 | test particle in the potential of the scalar {
+ "chi2_minimum": 46.405204260247544,
+ "c_s2_at_minimum": 1.109288307516354e-06,
+ "omega_at_minimum": 0.3039027610708764,
+ "sigma8_ref_at_minimum": 0.6562299372067651,
+ "chi2_at_zero_sound_speed": 47.52208229075869,
+ "delta_chi2_at_zero_sound_speed": 1.1168780305111454,
+ "delta_chi2_at_grid_end": 62.699786911762715,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 2.2434740706062604e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 3.017323485289752e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 3.411025316912648e-06
+ },
+ "bayes_95_upper_limit": 1.630124645746005e-06,
+ "omega_at_95_limit": 0.30558636843451925,
+ "sigma8_ref_at_95_limit": 0.7188168779676133,
+ "lowest_delta_chi2_above_the_limit": 3.103957678932396
+}
+start at z = 100 | scalar, one fluid {
+ "chi2_minimum": 46.34685005764746,
+ "c_s2_at_minimum": 2.3784547167556228e-07,
+ "omega_at_minimum": 0.3038823573352483,
+ "sigma8_ref_at_minimum": 0.6637396791336222,
+ "chi2_at_zero_sound_speed": 47.522074586437874,
+ "delta_chi2_at_zero_sound_speed": 1.175224528790416,
+ "delta_chi2_at_grid_end": 465.5500982449116,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 4.552167615818555e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 5.939515555673305e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 6.615102903234023e-07
+ },
+ "bayes_95_upper_limit": 3.4541257883411294e-07,
+ "omega_at_95_limit": 0.30558980068584485,
+ "sigma8_ref_at_95_limit": 0.727803930994609,
+ "lowest_delta_chi2_above_the_limit": 3.3030534757089214
+}
+start at z = 100 | pressureless fraction {
+ "chi2_minimum": 46.30969796334662,
+ "c_s2_at_minimum": 1.087050327933426e-06,
+ "omega_at_minimum": 0.3038611728967038,
+ "sigma8_ref_at_minimum": 0.665762302869287,
+ "chi2_at_zero_sound_speed": 47.522082029715904,
+ "delta_chi2_at_zero_sound_speed": 1.2123840663692818,
+ "delta_chi2_at_grid_end": 14.295329640484127,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 2.1872607674955946e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 2.96403380700378e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 3.3675350442805496e-06
+ },
+ "bayes_95_upper_limit": 2.103732396459882e-06,
+ "omega_at_95_limit": 0.30539589883736384,
+ "sigma8_ref_at_95_limit": 0.7429289928470488,
+ "lowest_delta_chi2_above_the_limit": 3.245047467869753
+}
+start at z = 100 | test particle in the potential of the scalar {
+ "chi2_minimum": 46.3138819393847,
+ "c_s2_at_minimum": 8.994636921323622e-07,
+ "omega_at_minimum": 0.303824314422468,
+ "sigma8_ref_at_minimum": 0.6632435361967983,
+ "chi2_at_zero_sound_speed": 47.5220815991891,
+ "delta_chi2_at_zero_sound_speed": 1.2081996598044,
+ "delta_chi2_at_grid_end": 61.718098292430724,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 1.7841960458896363e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 2.3869291835843893e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 2.693281007184488e-06
+ },
+ "bayes_95_upper_limit": 1.3359529427897824e-06,
+ "omega_at_95_limit": 0.3054306750992007,
+ "sigma8_ref_at_95_limit": 0.738918114765367,
+ "lowest_delta_chi2_above_the_limit": 3.1483257764027144
+}
+check {"limit_95": [8.488522667242478e-06, 8.488522667242478e-06], "chi2_minimum": [46.804123261853555, 46.804123261853555]}
+other wavenumber | constant {
+ "chi2_minimum": 46.32351538598259,
+ "c_s2_at_minimum": 4.07004829385677e-06,
+ "omega_at_minimum": 0.3039859581640088,
+ "sigma8_ref_at_minimum": 0.6357006189856934,
+ "chi2_at_zero_sound_speed": 47.43663621166077,
+ "delta_chi2_at_zero_sound_speed": 1.1131208256781804,
+ "delta_chi2_at_grid_end": 34.189655037071404,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 8.5001223610928e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 1.1720749833636163e-05,
+  "95% two-sided (Delta chi2 = 3.84)": 1.3428570105364854e-05
+ },
+ "bayes_95_upper_limit": 5.8986624652089965e-06,
+ "omega_at_95_limit": 0.3056628943804827,
+ "sigma8_ref_at_95_limit": 0.671881101039585,
+ "lowest_delta_chi2_above_the_limit": 3.2667538482263154
+}
+other wavenumber | minimal {
+ "chi2_minimum": 46.612034863067464,
+ "c_s2_at_minimum": 0.0003373441126674749,
+ "omega_at_minimum": 0.30395525616741714,
+ "sigma8_ref_at_minimum": 0.6332839865413697,
+ "chi2_at_zero_sound_speed": 47.522084337602784,
+ "delta_chi2_at_zero_sound_speed": 0.9100494745353203,
+ "delta_chi2_at_grid_end": 38.87099407787393,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 0.0008355609218104963,
+  "95% one-sided (Delta chi2 = 2.71)": 0.0012819643567611313,
+  "95% two-sided (Delta chi2 = 3.84)": 0.0015505400194868997
+ },
+ "bayes_95_upper_limit": 0.000497727626752693,
+ "omega_at_95_limit": 0.30549565397093803,
+ "sigma8_ref_at_95_limit": 0.6603258027157487,
+ "profile_95_upper_limit_omega_f": 0.009244534442721806,
+ "profile_95_upper_limit_c_s2_at_z_ref": 0.00010827404166939257,
+ "lowest_delta_chi2_above_the_limit": 3.2533861112108298
+}
+minimal model, start at z = 10 | scalar, one fluid {
+ "chi2_minimum": 47.31162320735226,
+ "c_s2_at_minimum": 9.860096156673264e-07,
+ "omega_at_minimum": 0.303486404668294,
+ "sigma8_ref_at_minimum": 0.6236277504935948,
+ "chi2_at_zero_sound_speed": 47.52208391980136,
+ "delta_chi2_at_zero_sound_speed": 0.21046071244909825,
+ "delta_chi2_at_grid_end": 653.350917678458,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 3.1303920402081758e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 4.494589857563414e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 5.157213218430746e-06
+ },
+ "bayes_95_upper_limit": 1.7510621053396536e-06,
+ "omega_at_95_limit": 0.3050065166262757,
+ "sigma8_ref_at_95_limit": 0.6387053319840064,
+ "profile_95_upper_limit_omega_f": 0.0006482233562279901,
+ "profile_95_upper_limit_c_s2_at_z_ref": 3.7916668445408003e-07,
+ "lowest_delta_chi2_above_the_limit": 3.5752688622329316
+}
+minimal model, start at z = 10 | pressureless fraction {
+ "chi2_minimum": 47.220435278370324,
+ "c_s2_at_minimum": 0.00011939152771350573,
+ "omega_at_minimum": 0.30362684395626044,
+ "sigma8_ref_at_minimum": 0.6258337546631426,
+ "chi2_at_zero_sound_speed": 47.522084338195214,
+ "delta_chi2_at_zero_sound_speed": 0.3016490598248893,
+ "delta_chi2_at_grid_end": 36.36737731720495,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 0.00044074529449302505,
+  "95% one-sided (Delta chi2 = 2.71)": 0.0007896708247822315,
+  "95% two-sided (Delta chi2 = 3.84)": 0.0010260360233780108
+ },
+ "bayes_95_upper_limit": 0.0002314823813817685,
+ "omega_at_95_limit": 0.30515677544804143,
+ "sigma8_ref_at_95_limit": 0.6530436238421548,
+ "profile_95_upper_limit_omega_f": 0.007243820329136056,
+ "profile_95_upper_limit_c_s2_at_z_ref": 6.666510093511885e-05,
+ "lowest_delta_chi2_above_the_limit": 2.728667773907489
+}
+pressureless share 0.30 | constant {
+ "chi2_minimum": 46.803154153423684,
+ "c_s2_at_minimum": 3.0334151287033697e-06,
+ "omega_at_minimum": 0.30393431240253715,
+ "sigma8_ref_at_minimum": 0.630358047648983,
+ "chi2_at_zero_sound_speed": 47.436636348246175,
+ "delta_chi2_at_zero_sound_speed": 0.6334821948224914,
+ "delta_chi2_at_grid_end": 18.539879149512565,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 7.476580782602461e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 1.0850827388163756e-05,
+  "95% two-sided (Delta chi2 = 3.84)": 1.2703513387728986e-05
+ },
+ "bayes_95_upper_limit": 4.7406025738811556e-06,
+ "omega_at_95_limit": 0.3056319036894148,
+ "sigma8_ref_at_95_limit": 0.6640571060020362,
+ "lowest_delta_chi2_above_the_limit": 2.923418269301699
+}
+pressureless share 0.30 | minimal {
+ "chi2_minimum": 47.22338494051205,
+ "c_s2_at_minimum": 0.00015090490532271178,
+ "omega_at_minimum": 0.30363223630906616,
+ "sigma8_ref_at_minimum": 0.6257601051711862,
+ "chi2_at_zero_sound_speed": 47.522084342198994,
+ "delta_chi2_at_zero_sound_speed": 0.298699401686946,
+ "delta_chi2_at_grid_end": 22.949306305838576,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 0.0006234982192844993,
+  "95% one-sided (Delta chi2 = 2.71)": 0.0012208188770292763,
+  "95% two-sided (Delta chi2 = 3.84)": 0.0016147204706417828
+ },
+ "bayes_95_upper_limit": 0.00033517191357746584,
+ "omega_at_95_limit": 0.3053105872538583,
+ "sigma8_ref_at_95_limit": 0.6558205218270929,
+ "profile_95_upper_limit_omega_f": 0.0074767167103049065,
+ "profile_95_upper_limit_c_s2_at_z_ref": 0.00010310394702015158,
+ "lowest_delta_chi2_above_the_limit": 2.8147483331819743
+}
+pressureless share 0.50 | constant {
+ "chi2_minimum": 46.80149413896635,
+ "c_s2_at_minimum": 4.407608286632695e-06,
+ "omega_at_minimum": 0.30391863484167436,
+ "sigma8_ref_at_minimum": 0.6301803626143613,
+ "chi2_at_zero_sound_speed": 47.43663647400826,
+ "delta_chi2_at_zero_sound_speed": 0.6351423350419125,
+ "delta_chi2_at_grid_end": 6.946132588448222,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 1.1622870259728098e-05,
+  "95% one-sided (Delta chi2 = 2.71)": 1.806843903989787e-05,
+  "95% two-sided (Delta chi2 = 3.84)": 2.2188587232426082e-05
+ },
+ "bayes_95_upper_limit": 1.0704418032685824e-05,
+ "omega_at_95_limit": 0.3056206902131089,
+ "sigma8_ref_at_95_limit": 0.6683820803132438,
+ "lowest_delta_chi2_above_the_limit": 3.230293341562991
+}
+pressureless share 0.50 | minimal {
+ "chi2_minimum": 47.20513115828283,
+ "c_s2_at_minimum": 0.0002462233173934781,
+ "omega_at_minimum": 0.30366361318659413,
+ "sigma8_ref_at_minimum": 0.6263943015803364,
+ "chi2_at_zero_sound_speed": 47.52208434831293,
+ "delta_chi2_at_zero_sound_speed": 0.31695319003009814,
+ "delta_chi2_at_grid_end": 8.572427146007982,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 0.0013158131127836608,
+  "95% one-sided (Delta chi2 = 2.71)": 0.0026499012756110323,
+  "95% two-sided (Delta chi2 = 3.84)": 0.0037385680124642573
+ },
+ "bayes_95_upper_limit": 0.0007575856742746108,
+ "omega_at_95_limit": 0.30548322291853536,
+ "sigma8_ref_at_95_limit": 0.6615366115151895,
+ "profile_95_upper_limit_omega_f": 0.007871886628309161,
+ "profile_95_upper_limit_c_s2_at_z_ref": 0.00022409029244621888,
+ "lowest_delta_chi2_above_the_limit": 2.906563820355778
+}
+pressureless share 0.70 | constant {
+ "chi2_minimum": 46.79806897612851,
+ "c_s2_at_minimum": 8.127696658723084e-06,
+ "omega_at_minimum": 0.3039103768654138,
+ "sigma8_ref_at_minimum": 0.6304154100680432,
+ "chi2_at_zero_sound_speed": 47.436636599770466,
+ "delta_chi2_at_zero_sound_speed": 0.6385676236419542,
+ "delta_chi2_at_grid_end": 1.8475634890156272,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 2.8137017286925863e-05,
+  "95% one-sided (Delta chi2 = 2.71)": 7.505945986446893e-05,
+  "95% two-sided (Delta chi2 = 3.84)": null
+ },
+ "bayes_95_upper_limit": 0.01643368292875908,
+ "omega_at_95_limit": 0.30548999007064914,
+ "sigma8_ref_at_95_limit": 0.6936946778002782,
+ "lowest_delta_chi2_above_the_limit": 0.7183741447306957
+}
+pressureless share 0.70 | minimal {
+ "chi2_minimum": 47.14318159364293,
+ "c_s2_at_minimum": 0.0006838470318774531,
+ "omega_at_minimum": 0.30382349540794146,
+ "sigma8_ref_at_minimum": 0.6296835245273491,
+ "chi2_at_zero_sound_speed": 47.52208434876741,
+ "delta_chi2_at_zero_sound_speed": 0.3789027551244786,
+ "delta_chi2_at_grid_end": 1.9932412365615377,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 0.004044762093853884,
+  "95% one-sided (Delta chi2 = 2.71)": null,
+  "95% two-sided (Delta chi2 = 3.84)": null
+ },
+ "bayes_95_upper_limit": 0.007781619305274319,
+ "profile_95_upper_limit_omega_f": null,
+ "profile_95_upper_limit_c_s2_at_z_ref": null,
+ "lowest_delta_chi2_above_the_limit": null
+}
+response at z = 0.07, k = 0.232, constant sound speed: {"2.33": {"scalar": -0.99, "pressureless": 0.665, "potential": 0.195}, "10": {"scalar": -0.296, "pressureless": 0.614, "potential": 0.357}, "100": {"scalar": -0.152, "pressureless": 0.602, "potential": 0.398}}
+[tracer_checks] done in 2006.5 s

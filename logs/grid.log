@@ -1,4 +1,6 @@
-Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
+
+Invocation 2026-10-12T14:07:48Z: ['fit_joint.py', 'grid']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
 (no starting point found; testing at eps_H=-1.0 and A=30.0)
 
 Background-grid convergence

@@ -1,0 +1,46 @@
+\input{plot_style.tex}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group name=g,group size=2 by 1,horizontal sep=34pt},width=8.9cm,height=6.9cm,
+  xmin=0,xmax=2.06,ymin=.35,ymax=1.82,xtick={0,.5,1,1.5,2},ytick={.4,.6,.8,1,1.2,1.4,1.6},
+  xlabel={Redshift $z$},clip mode=individual,
+  legend columns=3,legend image code/.code={\draw[#1] (0cm,0cm) -- (.42cm,0cm);},
+  legend style={at={(.99,.985)},anchor=north east,font=\fontsize{8.8}{10.3}\selectfont,fill=none,
+    /tikz/every even column/.append style={column sep=5pt}}]
+\nextgroupplot[title={(a) Constant sound speed},ylabel={Prediction / prediction for $c_s=0$},]
+\addplot[black!45,forget plot] coordinates {(0,1) (2.06,1)};
+\addplot[udmbluelight,line width=1.4pt] table[col sep=comma,x=z,y=ratio_cs2_1p00em07_k0p232] {../figure_data/ext_response_constant.csv};
+\addlegendentry{$c_s^2=10^{-7}$}
+\addplot[udmblue,line width=1.4pt] table[col sep=comma,x=z,y=ratio_cs2_7p80em07_k0p232] {../figure_data/ext_response_constant.csv};
+\addlegendentry{$7.8\times10^{-7}$ (limit)}
+\addplot[udmbluedark,line width=1.4pt] table[col sep=comma,x=z,y=ratio_cs2_1p00em06_k0p232] {../figure_data/ext_response_constant.csv};
+\addlegendentry{$10^{-6}$}
+\addplot[udmblue,dashed,line width=1pt,forget plot] table[col sep=comma,x=z,y=ratio_cs2_7p80em07_k0p155] {../figure_data/ext_response_constant.csv};
+\addplot[udmblue,densely dotted,line width=1pt,forget plot] table[col sep=comma,x=z,y=ratio_cs2_7p80em07_k0p116] {../figure_data/ext_response_constant.csv};
+\addplot[black!70,dashdotted,line width=1pt,forget plot] table[col sep=comma,x=z,y=pressureless] {../figure_data/asm_response_constant.csv};
+\addplot[only marks,black,mark=*,mark size=2.3pt,mark options={draw=white,fill=black,line width=.5pt},forget plot,error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}] table[col sep=comma,x=z,y=ratio_a,y error=error_a] {../figure_data/paper_response_data_k0p232.csv};
+\addplot[only marks,black,mark=square*,mark size=2.1pt,mark options={draw=black,fill=white,line width=.6pt},forget plot,error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}] table[col sep=comma,x=z,y=ratio_a,y error=error_a] {../figure_data/paper_response_data_k0p155.csv};
+\addplot[only marks,black,mark=triangle*,mark size=3pt,mark options={draw=white,fill=black,line width=.5pt},forget plot,error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}] table[col sep=comma,x=z,y=ratio_a,y error=error_a] {../figure_data/paper_response_data_k0p116.csv};
+\nextgroupplot[title={(b) Minimal model, $c_s\propto a^3$: values today},]
+\addplot[black!45,forget plot] coordinates {(0,1) (2.06,1)};
+\addplot[udmorangelight,line width=1.4pt] table[col sep=comma,x=z,y=ratio_cs2today_1p00em06_k0p232] {../figure_data/ext_response_minimal.csv};
+\addlegendentry{$c_s^2=10^{-6}$}
+\addplot[udmorange,line width=1.4pt] table[col sep=comma,x=z,y=ratio_cs2today_4p49em06_k0p232] {../figure_data/ext_response_minimal.csv};
+\addlegendentry{$4.5\times10^{-6}$ (limit)}
+\addplot[udmorangedark,line width=1.4pt] table[col sep=comma,x=z,y=ratio_cs2today_1p00em05_k0p232] {../figure_data/ext_response_minimal.csv};
+\addlegendentry{$10^{-5}$}
+\addplot[udmorange,dashed,line width=1pt,forget plot] table[col sep=comma,x=z,y=ratio_cs2today_4p49em06_k0p155] {../figure_data/ext_response_minimal.csv};
+\addplot[udmorange,densely dotted,line width=1pt,forget plot] table[col sep=comma,x=z,y=ratio_cs2today_4p49em06_k0p116] {../figure_data/ext_response_minimal.csv};
+\addplot[black!70,dashdotted,line width=1pt,forget plot] table[col sep=comma,x=z,y=pressureless] {../figure_data/asm_response_minimal.csv};
+\addplot[only marks,black,mark=*,mark size=2.3pt,mark options={draw=white,fill=black,line width=.5pt},forget plot,error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}] table[col sep=comma,x=z,y=ratio_b,y error=error_b] {../figure_data/paper_response_data_k0p232.csv};
+\addplot[only marks,black,mark=square*,mark size=2.1pt,mark options={draw=black,fill=white,line width=.6pt},forget plot,error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}] table[col sep=comma,x=z,y=ratio_b,y error=error_b] {../figure_data/paper_response_data_k0p155.csv};
+\addplot[only marks,black,mark=triangle*,mark size=3pt,mark options={draw=white,fill=black,line width=.5pt},forget plot,error bars/.cd,y dir=both,y explicit,error bar style={line width=.5pt},error mark options={mark size=1.4pt}] table[col sep=comma,x=z,y=ratio_b,y error=error_b] {../figure_data/paper_response_data_k0p116.csv};
+\end{groupplot}
+\newcommand{\mk}[1]{\tikz[baseline=-.55ex]{\pgfsetplotmarksize{2pt}\pgfuseplotmark{#1}}}
+\newcommand{\sample}[1]{\tikz[baseline=-.55ex]{\draw[black!70,line width=1pt,#1] (0,0) -- (16pt,0);}}
+\path (g c1r1.south west) -- (g c2r1.south east) coordinate[midway] (mid);
+\node[anchor=north,font=\fontsize{9}{10.5}\selectfont,align=center,inner sep=1pt] at ([yshift=-34pt]mid)
+  {Wavenumber $k$ in $h\,\mathrm{Mpc}^{-1}$:\quad \sample{}\;\mk{*}\;$0.232$\qquad \sample{dashed}\;\mk{square}\;$0.155$\qquad
+   \sample{densely dotted}\;\mk{triangle*}\;$0.116$\qquad\qquad
+   \sample{dashdotted}\; pressureless component, middle $c_s^2$, $0.232$};
+\end{tikzpicture}
+\end{document}

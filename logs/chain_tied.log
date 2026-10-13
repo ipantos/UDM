@@ -1,0 +1,27 @@
+
+Invocation 2026-10-12T16:03:21Z: ['extensions.py', 'chain', 'tied', '12000']
+  tied: 500 steps, acceptance 0.340, 42 s
+  tied: 1000 steps, acceptance 0.346, 80 s
+  tied: 1500 steps, acceptance 0.342, 119 s
+  tied: 2000 steps, acceptance 0.342, 162 s
+  tied: 2500 steps, acceptance 0.343, 204 s
+  tied: 3000 steps, acceptance 0.342, 242 s
+  tied: 3500 steps, acceptance 0.339, 281 s
+  tied: 4000 steps, acceptance 0.337, 321 s
+  tied: 4500 steps, acceptance 0.333, 364 s
+  tied: 5000 steps, acceptance 0.345, 406 s
+  tied: 5500 steps, acceptance 0.344, 450 s
+  tied: 6000 steps, acceptance 0.334, 488 s
+  tied: 6500 steps, acceptance 0.341, 525 s
+  tied: 7000 steps, acceptance 0.335, 563 s
+  tied: 7500 steps, acceptance 0.338, 602 s
+  tied: 8000 steps, acceptance 0.335, 641 s
+  tied: 8500 steps, acceptance 0.340, 679 s
+  tied: 9000 steps, acceptance 0.335, 719 s
+  tied: 9500 steps, acceptance 0.339, 757 s
+  tied: 10000 steps, acceptance 0.345, 796 s
+  tied: 10500 steps, acceptance 0.344, 836 s
+  tied: 11000 steps, acceptance 0.341, 878 s
+  tied: 11500 steps, acceptance 0.339, 917 s
+  tied: 12000 steps, acceptance 0.339, 956 s
+[chain] done in 956.3 s

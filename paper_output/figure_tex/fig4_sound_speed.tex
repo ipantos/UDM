@@ -1,0 +1,42 @@
+\input{plot_style.tex}
+\begin{tikzpicture}
+\begin{groupplot}[group style={group size=2 by 1,horizontal sep=50pt},width=8.5cm,height=7cm,
+  xlabel={$\log_{10}c_s^2$}]
+\nextgroupplot[xmin=-9,xmax=-4.5,ymin=0,ymax=7,xtick={-9,-8,-7,-6,-5},ytick={0,1,2,3,4,5,6,7},
+  ylabel={Rise of the profile $\chi^2$ above its minimum},
+  title={(a) Profile likelihood},legend style={at={(.03,.98)},anchor=north west}]
+\addplot[black!45,line width=.5pt,forget plot] coordinates {(-9,2.706) (-4.95,2.706)};
+\addplot[black!45,line width=.5pt,densely dashed,forget plot] coordinates {(-9,3.841) (-4.95,3.841)};
+\node[anchor=south west,text=black!70,font=\fontsize{9}{10.5}\selectfont] at (axis cs:-8.98,2.706) {$2.71$: 95\% limit};
+\node[anchor=south west,text=black!70,font=\fontsize{9}{10.5}\selectfont] at (axis cs:-8.98,3.841) {$3.84$};
+\addplot[udmblue,line width=1.5pt] table[col sep=comma,x=u,y=delta_chi2] {../figure_data/ext_profile_with_V_nonnegative.csv};
+\addlegendentry{General model}
+\addplot[udmorange,dashed,line width=1.2pt] table[col sep=comma,x=u,y=delta_chi2] {../figure_data/ext_profile_without_V_restriction.csv};
+\addlegendentry{without $V\geq0$}
+\addplot[udmpurple,densely dashdotted,line width=1.2pt] table[col sep=comma,x=u,y=delta_chi2] {../figure_data/ext_profile_without_lowest_z.csv};
+\addlegendentry{without $z=0.07$}
+\addplot[udmgray,densely dotted,line width=1.7pt] table[col sep=comma,x=u,y=delta_chi2] {../figure_data/asm_profile_general_pressureless.csv};
+\addlegendentry{pressureless galaxies}
+\draw[udmblue,line width=.8pt] (axis cs:-6.1081,0) -- (axis cs:-6.1081,2.706);
+\addplot[udmblue,only marks,mark=*,mark size=1.8pt,forget plot] coordinates {(-6.1081,2.706)};
+\draw[udmgray,line width=.8pt] (axis cs:-5.0558,0) -- (axis cs:-5.0558,2.706);
+\addplot[udmgray,only marks,mark=*,mark size=1.8pt,forget plot] coordinates {(-5.0558,2.706)};
+\node[anchor=west,text=udmink,font=\fontsize{9}{10.5}\selectfont,rotate=90,inner sep=1pt] at (axis cs:-4.9258,.12) {$8.8\times10^{-6}$};
+\node[anchor=east,text=udmink,font=\fontsize{9}{10.5}\selectfont,inner sep=1pt] (lim) at (axis cs:-7.05,2.05) {$c_s^2<7.8\times10^{-7}$};
+\draw[black!60,line width=.5pt,-{Stealth[length=3.5pt]}] (lim.east) -- (axis cs:-6.1581,2.62);
+\nextgroupplot[xmin=-12,xmax=-5.6,ymin=0,ymax=0.412,
+  xtick={-12,-10,-8,-6},yticklabel style={/pgf/number format/fixed},
+  ylabel={Posterior density of $\log_{10}c_s^2$},
+  title={(b) Posterior density},legend style={at={(.03,.97)},anchor=north west}]
+\addplot[ybar interval,fill=black!13,draw=black!30,line width=.3pt,area legend]
+  table[col sep=comma,x=u,y=density] {../figure_data/sound_speed_density.csv};
+\addlegendentry{Posterior samples}
+\addplot[udmgray,dashed,line width=1.3pt] coordinates {(-6.4427,0) (-6.4427,0.311)};
+\addlegendentry{Posterior limit, $3.6\times10^{-7}$}
+\addplot[udmblue,line width=1.3pt] table[col sep=comma,x=u,y=curve] {../figure_data/paper_profile_likelihood.csv};
+\addlegendentry{Profile likelihood, rescaled}
+\addplot[udmblue,line width=1.3pt,forget plot] coordinates {(-6.1081,0) (-6.1081,0.311)};
+\node[anchor=west,text=udmink,font=\fontsize{9}{10.5}\selectfont,rotate=90] at (axis cs:-5.9381,0.099) {profile limit, $7.8\times10^{-7}$};
+\end{groupplot}
+\end{tikzpicture}
+\end{document}

@@ -1,0 +1,191 @@
+
+Invocation 2026-10-12T16:20:10Z: ['assumptions.py', 'tracer']
+  constant: grid for pressureless fraction 0.0000 done
+  constant: grid for pressureless fraction 0.1564 done
+constant | scalar, one fluid (the fit) {
+ "chi2_minimum": 46.49243660114705,
+ "c_s2_at_minimum": 2.684136023312696e-07,
+ "omega_at_minimum": 0.3040146753767231,
+ "sigma8_ref_at_minimum": 0.6438073448208448,
+ "chi2_at_zero_sound_speed": 47.43662993082528,
+ "delta_chi2_at_zero_sound_speed": 0.9441933296782352,
+ "delta_chi2_at_grid_end": 451.83243678196595,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 5.352552373369368e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 7.017132848583234e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 7.816263782117098e-07
+ },
+ "bayes_95_upper_limit": 3.8310542895090955e-07,
+ "omega_at_95_limit": 0.3059319726690309,
+ "sigma8_ref_at_95_limit": 0.6884631728898642
+}
+constant | scalar, with a pressureless fraction {
+ "chi2_minimum": 46.48684267288305,
+ "c_s2_at_minimum": 2.7340469642279055e-07,
+ "omega_at_minimum": 0.3039956455890265,
+ "sigma8_ref_at_minimum": 0.6434465672692967,
+ "chi2_at_zero_sound_speed": 47.436630029191534,
+ "delta_chi2_at_zero_sound_speed": 0.9497873563084838,
+ "delta_chi2_at_grid_end": 451.8308160856429,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 5.457510586122239e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 7.154703622091131e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 7.968870660936138e-07
+ },
+ "bayes_95_upper_limit": 3.9076160497000374e-07,
+ "omega_at_95_limit": 0.3059381840249864,
+ "sigma8_ref_at_95_limit": 0.6890933836864461
+}
+constant | momentum-weighted mean {
+ "chi2_minimum": 46.49194726062646,
+ "c_s2_at_minimum": 3.188434750976206e-07,
+ "omega_at_minimum": 0.3039590492881229,
+ "sigma8_ref_at_minimum": 0.6421092539062964,
+ "chi2_at_zero_sound_speed": 47.43663100358009,
+ "delta_chi2_at_zero_sound_speed": 0.9446837429536288,
+ "delta_chi2_at_grid_end": 452.3626963032194,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 6.406396775763764e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 8.41762846650054e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 9.38804214810249e-07
+ },
+ "bayes_95_upper_limit": 4.564499698365266e-07,
+ "omega_at_95_limit": 0.30593735041350484,
+ "sigma8_ref_at_95_limit": 0.6891556242186092
+}
+constant | pressureless fraction {
+ "chi2_minimum": 46.804123261853555,
+ "c_s2_at_minimum": 2.472494003150745e-06,
+ "omega_at_minimum": 0.303911514462122,
+ "sigma8_ref_at_minimum": 0.6297912655923706,
+ "chi2_at_zero_sound_speed": 47.43663625797002,
+ "delta_chi2_at_zero_sound_speed": 0.6325129961164677,
+ "delta_chi2_at_grid_end": 33.669222985077674,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 5.9669967031892045e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 8.488522667242478e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 9.819677612505366e-06
+ },
+ "bayes_95_upper_limit": 3.761128741278857e-06,
+ "omega_at_95_limit": 0.3056370610392269,
+ "sigma8_ref_at_95_limit": 0.6626956926615846
+}
+constant | test particle in the potential of the scalar {
+ "chi2_minimum": 46.80507270664998,
+ "c_s2_at_minimum": 2.0640462436427826e-06,
+ "omega_at_minimum": 0.3038751586631671,
+ "sigma8_ref_at_minimum": 0.6289535936936412,
+ "chi2_at_zero_sound_speed": 47.4366361596032,
+ "delta_chi2_at_zero_sound_speed": 0.6315634529532161,
+ "delta_chi2_at_grid_end": 60.96388603336683,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 4.8947169428913495e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 6.873519707257178e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 7.894597908030752e-06
+ },
+ "bayes_95_upper_limit": 3.0831216081800637e-06,
+ "omega_at_95_limit": 0.30563997312602725,
+ "sigma8_ref_at_95_limit": 0.6616290034468215
+}
+constant check {"chi2_minimum": [46.49243660114705, 46.49243660114705], "limit_95": [7.017132848583234e-07, 7.017132848583162e-07], "bayes_95": [3.8310542895090955e-07, 3.8310542895090955e-07]}
+constant velocity at z = 0.07, k = 0.232 relative to c_s = 0: {'scalar_at_one_fluid_limit': 0.6415, 'pressureless_at_one_fluid_limit': 0.9649, 'scalar_at_pressureless_limit': -0.9895, 'pressureless_at_pressureless_limit': 0.6647}
+  minimal: grid for pressureless fraction 0.0000 done
+  minimal: grid for pressureless fraction 0.1564 done
+minimal | scalar, one fluid (the fit) {
+ "chi2_minimum": 47.311833286967286,
+ "c_s2_at_minimum": 9.85654862428227e-07,
+ "omega_at_minimum": 0.3034864313203354,
+ "sigma8_ref_at_minimum": 0.623619114977021,
+ "chi2_at_zero_sound_speed": 47.522083920074344,
+ "delta_chi2_at_zero_sound_speed": 0.2102506331070586,
+ "delta_chi2_at_grid_end": 663.1898548982507,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 3.130265498989304e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 4.494602034728707e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 5.157286657115574e-06
+ },
+ "bayes_95_upper_limit": 1.7508583237400965e-06,
+ "omega_at_95_limit": 0.30500656526823106,
+ "sigma8_ref_at_95_limit": 0.6386666225631868,
+ "profile_95_upper_limit_omega_f": 0.000648224188358617,
+ "profile_95_upper_limit_c_s2_at_z_ref": 3.791677117323275e-07
+}
+minimal | scalar, with a pressureless fraction {
+ "chi2_minimum": 47.31195368489829,
+ "c_s2_at_minimum": 9.874329752420438e-07,
+ "omega_at_minimum": 0.30348562840998566,
+ "sigma8_ref_at_minimum": 0.6236070688880309,
+ "chi2_at_zero_sound_speed": 47.52208392301337,
+ "delta_chi2_at_zero_sound_speed": 0.21013023811507736,
+ "delta_chi2_at_grid_end": 664.5654430660765,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 3.136821338849125e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 4.504170278024213e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 5.1682724569362e-06
+ },
+ "bayes_95_upper_limit": 1.7542442489418562e-06,
+ "omega_at_95_limit": 0.3050074293729801,
+ "sigma8_ref_at_95_limit": 0.6386629476285698,
+ "profile_95_upper_limit_omega_f": 0.0033190461438315547,
+ "profile_95_upper_limit_c_s2_at_z_ref": 3.7997489863122146e-07
+}
+minimal | momentum-weighted mean {
+ "chi2_minimum": 47.3118483691839,
+ "c_s2_at_minimum": 1.1728794493488e-06,
+ "omega_at_minimum": 0.30346720985604697,
+ "sigma8_ref_at_minimum": 0.6233381376131197,
+ "chi2_at_zero_sound_speed": 47.52208398798494,
+ "delta_chi2_at_zero_sound_speed": 0.21023561880104324,
+ "delta_chi2_at_grid_end": 671.6526602812519,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 3.7209018852876047e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 5.34662093480842e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 6.137319147212326e-06
+ },
+ "bayes_95_upper_limit": 2.065533887898693e-06,
+ "omega_at_95_limit": 0.3050114056373748,
+ "sigma8_ref_at_95_limit": 0.6387185084355768,
+ "profile_95_upper_limit_omega_f": 0.0005964185608128977,
+ "profile_95_upper_limit_c_s2_at_z_ref": 4.510449626576444e-07
+}
+minimal | pressureless fraction {
+ "chi2_minimum": 47.23023059301829,
+ "c_s2_at_minimum": 0.00011859489950967854,
+ "omega_at_minimum": 0.303574557944506,
+ "sigma8_ref_at_minimum": 0.6247748478719272,
+ "chi2_at_zero_sound_speed": 47.522084338347064,
+ "delta_chi2_at_zero_sound_speed": 0.2918537453287726,
+ "delta_chi2_at_grid_end": 40.587919522587086,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 0.000443907349871173,
+  "95% one-sided (Delta chi2 = 2.71)": 0.0008006392385529464,
+  "95% two-sided (Delta chi2 = 3.84)": 0.0010437513805876067
+ },
+ "bayes_95_upper_limit": 0.00023266694361261618,
+ "omega_at_95_limit": 0.3051474438635179,
+ "sigma8_ref_at_95_limit": 0.6518043778168897,
+ "profile_95_upper_limit_omega_f": 0.007293573569530878,
+ "profile_95_upper_limit_c_s2_at_z_ref": 6.759174888716521e-05
+}
+minimal | test particle in the potential of the scalar {
+ "chi2_minimum": 47.234757789685,
+ "c_s2_at_minimum": 9.605361073350455e-05,
+ "omega_at_minimum": 0.3036024809036033,
+ "sigma8_ref_at_minimum": 0.6252058652731309,
+ "chi2_at_zero_sound_speed": 47.522084335407925,
+ "delta_chi2_at_zero_sound_speed": 0.2873265457229266,
+ "delta_chi2_at_grid_end": 69.93236545164507,
+ "profile_upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": 0.0003389773407475691,
+  "95% one-sided (Delta chi2 = 2.71)": 0.0005723187995187371,
+  "95% two-sided (Delta chi2 = 3.84)": 0.0007224592657657836
+ },
+ "bayes_95_upper_limit": 0.00017345377264919986,
+ "omega_at_95_limit": 0.3050367458668479,
+ "sigma8_ref_at_95_limit": 0.6489972577194395,
+ "profile_95_upper_limit_omega_f": 0.007308818597075782,
+ "profile_95_upper_limit_c_s2_at_z_ref": 4.830632227836931e-05
+}
+minimal check {"chi2_minimum": [47.311833286967286, 47.31183328696739], "limit_95": [4.494602034728707e-06, 4.49460203472879e-06], "bayes_95": [1.7508583237400965e-06, 1.75085832374811e-06]}
+minimal velocity at z = 0.07, k = 0.232 relative to c_s = 0: {'scalar_at_one_fluid_limit': 0.6201, 'pressureless_at_one_fluid_limit': 0.9957, 'scalar_at_pressureless_limit': 5.8022, 'pressureless_at_pressureless_limit': 0.6604}
+[tracer] done in 269.0 s

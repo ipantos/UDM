@@ -1,0 +1,27 @@
+
+Invocation 2026-10-12T15:35:00Z: ['extensions.py', 'chain', 'constant', '12000']
+  constant: 500 steps, acceptance 0.342, 36 s
+  constant: 1000 steps, acceptance 0.334, 69 s
+  constant: 1500 steps, acceptance 0.334, 101 s
+  constant: 2000 steps, acceptance 0.334, 133 s
+  constant: 2500 steps, acceptance 0.335, 166 s
+  constant: 3000 steps, acceptance 0.334, 200 s
+  constant: 3500 steps, acceptance 0.332, 234 s
+  constant: 4000 steps, acceptance 0.334, 267 s
+  constant: 4500 steps, acceptance 0.339, 302 s
+  constant: 5000 steps, acceptance 0.336, 336 s
+  constant: 5500 steps, acceptance 0.336, 370 s
+  constant: 6000 steps, acceptance 0.334, 405 s
+  constant: 6500 steps, acceptance 0.338, 439 s
+  constant: 7000 steps, acceptance 0.337, 474 s
+  constant: 7500 steps, acceptance 0.335, 507 s
+  constant: 8000 steps, acceptance 0.338, 541 s
+  constant: 8500 steps, acceptance 0.340, 575 s
+  constant: 9000 steps, acceptance 0.334, 611 s
+  constant: 9500 steps, acceptance 0.340, 645 s
+  constant: 10000 steps, acceptance 0.343, 679 s
+  constant: 10500 steps, acceptance 0.340, 714 s
+  constant: 11000 steps, acceptance 0.340, 747 s
+  constant: 11500 steps, acceptance 0.334, 781 s
+  constant: 12000 steps, acceptance 0.339, 814 s
+[chain] done in 814.9 s

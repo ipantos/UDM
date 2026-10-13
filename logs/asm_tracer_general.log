@@ -1,0 +1,240 @@
+
+Invocation 2026-10-12T17:12:12Z: ['assumptions.py', 'tracer_general']
+  test particle in the potential of the scalar u = -12.00: chi2 = 34.1695 sigma8 = 0.5445 starts 6 spread 5.1e-09
+  test particle in the potential of the scalar u =  -9.00: chi2 = 34.1690 sigma8 = 0.5445 starts 6 spread 2.4e-08
+  test particle in the potential of the scalar u =  -8.00: chi2 = 34.1640 sigma8 = 0.5446 starts 6 spread 2.0e-08
+  test particle in the potential of the scalar u =  -7.50: chi2 = 34.1522 sigma8 = 0.5450 starts 6 spread 9.3e-09
+  test particle in the potential of the scalar u =  -7.00: chi2 = 34.1153 sigma8 = 0.5461 starts 6 spread 2.2e-08
+  test particle in the potential of the scalar u =  -6.75: chi2 = 34.0741 sigma8 = 0.5473 starts 6 spread 1.1e-08
+  test particle in the potential of the scalar u =  -6.50: chi2 = 34.0030 sigma8 = 0.5496 starts 6 spread 7.6e-09
+  test particle in the potential of the scalar u =  -6.25: chi2 = 33.8847 sigma8 = 0.5525 starts 6 spread 1.1e-08
+  test particle in the potential of the scalar u =  -6.00: chi2 = 33.7144 sigma8 = 0.5555 starts 6 spread 9.5e-09
+  test particle in the potential of the scalar u =  -5.95: chi2 = 33.6763 sigma8 = 0.5563 starts 6 spread 4.7e-09
+  test particle in the potential of the scalar u =  -5.90: chi2 = 33.6384 sigma8 = 0.5572 starts 6 spread 1.3e-08
+  test particle in the potential of the scalar u =  -5.85: chi2 = 33.6018 sigma8 = 0.5582 starts 6 spread 5.5e-09
+  test particle in the potential of the scalar u =  -5.80: chi2 = 33.5683 sigma8 = 0.5594 starts 6 spread 2.6e-09
+  test particle in the potential of the scalar u =  -5.75: chi2 = 33.5398 sigma8 = 0.5607 starts 6 spread 6.8e-09
+  test particle in the potential of the scalar u =  -5.70: chi2 = 33.5192 sigma8 = 0.5621 starts 6 spread 6.5e-09
+  test particle in the potential of the scalar u =  -5.65: chi2 = 33.5102 sigma8 = 0.5637 starts 6 spread 5.7e-09
+  test particle in the potential of the scalar u =  -5.60: chi2 = 33.5175 sigma8 = 0.5655 starts 6 spread 4.6e-09
+  test particle in the potential of the scalar u =  -5.55: chi2 = 33.5469 sigma8 = 0.5674 starts 6 spread 1.5e-08
+  test particle in the potential of the scalar u =  -5.50: chi2 = 33.6059 sigma8 = 0.5696 starts 6 spread 1.2e-08
+  test particle in the potential of the scalar u =  -5.45: chi2 = 33.7039 sigma8 = 0.5721 starts 6 spread 4.8e-09
+  test particle in the potential of the scalar u =  -5.40: chi2 = 33.8521 sigma8 = 0.5748 starts 6 spread 6.1e-09
+  test particle in the potential of the scalar u =  -5.35: chi2 = 34.0646 sigma8 = 0.5778 starts 6 spread 6.5e-09
+  test particle in the potential of the scalar u =  -5.30: chi2 = 34.3583 sigma8 = 0.5811 starts 6 spread 7.5e-09
+  test particle in the potential of the scalar u =  -5.25: chi2 = 34.7532 sigma8 = 0.5847 starts 6 spread 6.9e-09
+  test particle in the potential of the scalar u =  -5.20: chi2 = 35.2731 sigma8 = 0.5888 starts 6 spread 5.6e-09
+  test particle in the potential of the scalar u =  -5.15: chi2 = 35.9452 sigma8 = 0.5931 starts 6 spread 5.1e-09
+  test particle in the potential of the scalar u =  -5.10: chi2 = 36.8008 sigma8 = 0.5980 starts 6 spread 7.6e-09
+  test particle in the potential of the scalar u =  -5.05: chi2 = 37.8745 sigma8 = 0.6032 starts 6 spread 9.8e-09
+  test particle in the potential of the scalar u =  -5.00: chi2 = 39.2035 sigma8 = 0.6089 starts 6 spread 7.0e-09
+  test particle in the potential of the scalar u =  -4.75: chi2 = 50.9630 sigma8 = 0.6443 starts 6 spread 5.8e-09
+  test particle in the potential of the scalar u =  -4.50: chi2 = 70.5121 sigma8 = 0.6284 starts 6 spread 1.0e-08
+  test particle in the potential of the scalar u =  -4.25: chi2 = 89.4889 sigma8 = 0.5991 starts 6 spread 1.4e-07
+  test particle in the potential of the scalar u =  -4.00: chi2 = 99.0024 sigma8 = 0.4160 starts 6 spread 5.4e-07
+  test particle in the potential of the scalar u =  -3.50: chi2 = 104.2143 sigma8 = 0.7265 starts 6 spread 4.7e-08
+  test particle in the potential of the scalar u =  -3.00: chi2 = 92.7887 sigma8 = 1.0553 starts 6 spread 6.5e-09
+  test particle in the potential of the scalar u =  -2.50: chi2 = 99.1764 sigma8 = 1.1402 starts 6 spread 1.4e-08
+  test particle in the potential of the scalar u =  -2.00: chi2 = 93.5312 sigma8 = 1.1784 starts 6 spread 1.0e-08
+test particle in the potential of the scalar {
+ "omega_b": 0.0,
+ "measurements": 52,
+ "chi2_minimum": 33.51013790965942,
+ "c_s2_at_minimum": 2.2662405976331374e-06,
+ "sigma8_ref_at_minimum": 0.563868812053857,
+ "chi2_bao_sn_growth_at_minimum": [
+  4.960753676481545,
+  20.638234908750746,
+  7.911149324427129
+ ],
+ "eps_nodes_at_minimum": [
+  -0.7455898582562827,
+  -0.9897708716745023,
+  -1.0092294460941027,
+  -0.8640488228350894,
+  -1.4539545320492662,
+  -1.4932587933515533,
+  -1.499996599639105
+ ],
+ "starts_for_the_minimum": 15,
+ "starts_within_0.001_of_minimum": 15,
+ "delta_chi2_at_zero_sound_speed": 0.6593804872817373,
+ "delta_chi2_at_grid_end": 60.02108402253964,
+ "upper_limits_c_s2": {
+  "68.3% two-sided (Delta chi2 = 1)": 5.259691261182983e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 7.364737414262265e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 8.4525079347342e-06
+ },
+ "lowest_delta_chi2_above_the_limit": 3.290709650464123,
+ "largest_spread_between_starts_where_delta_chi2_below_10": 2.383376340731047e-08,
+ "fewest_starts_inside_the_restrictions": 6,
+ "smallest_scalar_margin_along_the_profile": 1.9999999999999927e-09,
+ "smallest_scalar_margin_where_delta_chi2_below_10": 0.67854319261014,
+ "c_s2_where_the_scalar_margin_is_not_positive": [],
+ "delta_chi2_where_the_scalar_margin_is_not_positive": [],
+ "scalar_margin_at_minimum": 0.678669650946153
+}
+  pressureless component u = -12.00: chi2 = 34.1695 sigma8 = 0.5340 starts 6 spread 8.4e-09
+  pressureless component u =  -9.00: chi2 = 34.1690 sigma8 = 0.5340 starts 6 spread 1.9e-08
+  pressureless component u =  -8.00: chi2 = 34.1648 sigma8 = 0.5341 starts 6 spread 3.8e-09
+  pressureless component u =  -7.50: chi2 = 34.1546 sigma8 = 0.5346 starts 6 spread 1.6e-08
+  pressureless component u =  -7.00: chi2 = 34.1227 sigma8 = 0.5358 starts 6 spread 1.4e-08
+  pressureless component u =  -6.75: chi2 = 34.0869 sigma8 = 0.5371 starts 6 spread 8.7e-09
+  pressureless component u =  -6.50: chi2 = 34.0249 sigma8 = 0.5396 starts 6 spread 6.6e-09
+  pressureless component u =  -6.25: chi2 = 33.9198 sigma8 = 0.5432 starts 6 spread 4.4e-09
+  pressureless component u =  -6.00: chi2 = 33.7618 sigma8 = 0.5457 starts 6 spread 6.3e-09
+  pressureless component u =  -5.95: chi2 = 33.7249 sigma8 = 0.5464 starts 6 spread 3.4e-09
+  pressureless component u =  -5.90: chi2 = 33.6872 sigma8 = 0.5472 starts 6 spread 5.5e-09
+  pressureless component u =  -5.85: chi2 = 33.6493 sigma8 = 0.5481 starts 6 spread 8.8e-09
+  pressureless component u =  -5.80: chi2 = 33.6124 sigma8 = 0.5491 starts 6 spread 6.1e-09
+  pressureless component u =  -5.75: chi2 = 33.5780 sigma8 = 0.5502 starts 6 spread 7.5e-09
+  pressureless component u =  -5.70: chi2 = 33.5480 sigma8 = 0.5514 starts 6 spread 3.6e-09
+  pressureless component u =  -5.65: chi2 = 33.5248 sigma8 = 0.5528 starts 6 spread 3.1e-09
+  pressureless component u =  -5.60: chi2 = 33.5118 sigma8 = 0.5543 starts 6 spread 4.6e-09
+  pressureless component u =  -5.55: chi2 = 33.5132 sigma8 = 0.5560 starts 6 spread 7.6e-09
+  pressureless component u =  -5.50: chi2 = 33.5342 sigma8 = 0.5579 starts 6 spread 4.5e-09
+  pressureless component u =  -5.45: chi2 = 33.5814 sigma8 = 0.5600 starts 6 spread 1.3e-08
+  pressureless component u =  -5.40: chi2 = 33.6628 sigma8 = 0.5624 starts 6 spread 4.1e-09
+  pressureless component u =  -5.35: chi2 = 33.7884 sigma8 = 0.5650 starts 6 spread 2.7e-09
+  pressureless component u =  -5.30: chi2 = 33.9702 sigma8 = 0.5679 starts 6 spread 4.7e-09
+  pressureless component u =  -5.25: chi2 = 34.2224 sigma8 = 0.5711 starts 6 spread 4.4e-09
+  pressureless component u =  -5.20: chi2 = 34.5617 sigma8 = 0.5746 starts 6 spread 5.1e-09
+  pressureless component u =  -5.15: chi2 = 35.0075 sigma8 = 0.5785 starts 6 spread 7.9e-09
+  pressureless component u =  -5.10: chi2 = 35.5817 sigma8 = 0.5828 starts 6 spread 5.1e-09
+  pressureless component u =  -5.05: chi2 = 36.3085 sigma8 = 0.5874 starts 6 spread 4.0e-09
+  pressureless component u =  -5.00: chi2 = 37.2137 sigma8 = 0.5926 starts 6 spread 7.7e-09
+  pressureless component u =  -4.75: chi2 = 45.2502 sigma8 = 0.6124 starts 6 spread 6.4e-09
+  pressureless component u =  -4.50: chi2 = 57.1270 sigma8 = 0.5654 starts 6 spread 5.5e-09
+  pressureless component u =  -4.25: chi2 = 67.9743 sigma8 = 0.2728 starts 6 spread 5.9e+00
+  pressureless component u =  -4.00: chi2 = 74.0782 sigma8 = 0.2862 starts 6 spread 3.7e+00
+  pressureless component u =  -3.50: chi2 = 80.9049 sigma8 = 0.3005 starts 6 spread 7.2e+00
+  pressureless component u =  -3.00: chi2 = 68.0886 sigma8 = 0.9036 starts 6 spread 1.2e+01
+  pressureless component u =  -2.50: chi2 = 72.5206 sigma8 = 1.0080 starts 6 spread 6.7e-09
+  pressureless component u =  -2.00: chi2 = 68.5367 sigma8 = 1.0292 starts 6 spread 7.1e-09
+pressureless component {
+ "omega_b": 0.04743214252495135,
+ "measurements": 52,
+ "chi2_minimum": 33.51039240821456,
+ "c_s2_at_minimum": 2.6393621579343734e-06,
+ "sigma8_ref_at_minimum": 0.5550340736513759,
+ "chi2_bao_sn_growth_at_minimum": [
+  4.961068773758598,
+  20.637974574929103,
+  7.911349059526856
+ ],
+ "eps_nodes_at_minimum": [
+  -0.745567298458874,
+  -0.9897606552917831,
+  -1.0092423926116856,
+  -0.8640827370269873,
+  -1.4539659492610892,
+  -1.49325318940911,
+  -1.4999960399572472
+ ],
+ "starts_for_the_minimum": 15,
+ "starts_within_0.001_of_minimum": 15,
+ "delta_chi2_at_zero_sound_speed": 0.6591260655462747,
+ "delta_chi2_at_grid_end": 35.02628451387238,
+ "upper_limits_c_s2": {
+  "68.3% two-sided (Delta chi2 = 1)": 6.212176586379221e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 8.794849560514283e-06,
+  "95% two-sided (Delta chi2 = 3.84)": 1.0144061161858941e-05
+ },
+ "lowest_delta_chi2_above_the_limit": 2.7980741926264727,
+ "largest_spread_between_starts_where_delta_chi2_below_10": 1.875298494269373e-08,
+ "fewest_starts_inside_the_restrictions": 6,
+ "smallest_scalar_margin_along_the_profile": -0.21708055452674474,
+ "smallest_scalar_margin_where_delta_chi2_below_10": 0.5880155097396766,
+ "c_s2_where_the_scalar_margin_is_not_positive": [
+  5.623413251903491e-05,
+  0.0001,
+  0.00031622776601683794
+ ],
+ "delta_chi2_where_the_scalar_margin_is_not_positive": [
+  34.46391484567846,
+  40.567803767859914,
+  47.394501306774146
+ ],
+ "scalar_margin_at_minimum": 0.5881583143419657
+}
+  pressureless component, other wavenumber at z = 0.07 u = -12.00: chi2 = 34.1695 sigma8 = 0.5340 starts 6 spread 1.4e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -9.00: chi2 = 34.1690 sigma8 = 0.5340 starts 6 spread 1.1e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -8.00: chi2 = 34.1647 sigma8 = 0.5341 starts 6 spread 1.0e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -7.50: chi2 = 34.1541 sigma8 = 0.5345 starts 6 spread 8.2e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -7.00: chi2 = 34.1211 sigma8 = 0.5354 starts 6 spread 2.1e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -6.75: chi2 = 34.0839 sigma8 = 0.5366 starts 6 spread 5.4e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -6.50: chi2 = 34.0187 sigma8 = 0.5386 starts 6 spread 7.1e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -6.25: chi2 = 33.9060 sigma8 = 0.5424 starts 6 spread 2.7e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -6.00: chi2 = 33.7217 sigma8 = 0.5449 starts 6 spread 5.5e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.75: chi2 = 33.4594 sigma8 = 0.5487 starts 6 spread 1.6e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -5.50: chi2 = 33.1874 sigma8 = 0.5555 starts 6 spread 5.6e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.45: chi2 = 33.1532 sigma8 = 0.5573 starts 6 spread 6.8e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.40: chi2 = 33.1351 sigma8 = 0.5593 starts 6 spread 5.4e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.35: chi2 = 33.1394 sigma8 = 0.5616 starts 6 spread 6.6e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.30: chi2 = 33.1741 sigma8 = 0.5642 starts 6 spread 7.5e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.25: chi2 = 33.2488 sigma8 = 0.5670 starts 6 spread 3.7e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.20: chi2 = 33.3753 sigma8 = 0.5701 starts 6 spread 5.8e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.15: chi2 = 33.5675 sigma8 = 0.5736 starts 6 spread 8.2e-01
+  pressureless component, other wavenumber at z = 0.07 u =  -5.10: chi2 = 33.8419 sigma8 = 0.5774 starts 6 spread 2.8e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.05: chi2 = 34.2177 sigma8 = 0.5816 starts 6 spread 4.3e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -5.00: chi2 = 34.7165 sigma8 = 0.5862 starts 6 spread 6.2e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.95: chi2 = 35.3622 sigma8 = 0.5912 starts 6 spread 2.8e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.90: chi2 = 36.1805 sigma8 = 0.5967 starts 6 spread 9.4e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.85: chi2 = 37.1977 sigma8 = 0.6026 starts 6 spread 5.6e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.80: chi2 = 38.4398 sigma8 = 0.6090 starts 6 spread 1.3e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -4.75: chi2 = 39.9299 sigma8 = 0.6159 starts 6 spread 5.2e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.70: chi2 = 41.6864 sigma8 = 0.6233 starts 6 spread 3.8e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.65: chi2 = 43.7139 sigma8 = 0.6252 starts 6 spread 3.8e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.60: chi2 = 45.9229 sigma8 = 0.6152 starts 6 spread 1.6e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -4.55: chi2 = 48.2488 sigma8 = 0.6047 starts 6 spread 1.4e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -4.50: chi2 = 50.6504 sigma8 = 0.5952 starts 6 spread 9.6e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -4.25: chi2 = 62.5044 sigma8 = 0.5496 starts 6 spread 3.1e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -4.00: chi2 = 67.9893 sigma8 = 0.3518 starts 6 spread 3.6e+00
+  pressureless component, other wavenumber at z = 0.07 u =  -3.50: chi2 = 73.4057 sigma8 = 0.6540 starts 6 spread 1.1e-08
+  pressureless component, other wavenumber at z = 0.07 u =  -3.00: chi2 = 67.1870 sigma8 = 0.9596 starts 6 spread 8.4e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -2.50: chi2 = 72.8303 sigma8 = 1.0138 starts 6 spread 7.2e-09
+  pressureless component, other wavenumber at z = 0.07 u =  -2.00: chi2 = 68.4515 sigma8 = 1.0305 starts 6 spread 2.7e-09
+pressureless component, other wavenumber at z = 0.07 {
+ "omega_b": 0.04743214252495135,
+ "measurements": 52,
+ "chi2_minimum": 33.13366692834995,
+ "c_s2_at_minimum": 4.140739261753008e-06,
+ "sigma8_ref_at_minimum": 0.5600922826645105,
+ "chi2_bao_sn_growth_at_minimum": [
+  4.981616943579866,
+  20.619298171426635,
+  7.532751813343452
+ ],
+ "eps_nodes_at_minimum": [
+  -0.7437731669573903,
+  -0.9902811756077902,
+  -1.0108533344103454,
+  -0.8648540761608655,
+  -1.4541134401664109,
+  -1.4931764703917818,
+  -1.4999937878905139
+ ],
+ "starts_for_the_minimum": 15,
+ "starts_within_0.001_of_minimum": 15,
+ "delta_chi2_at_zero_sound_speed": 1.0358515319904882,
+ "delta_chi2_at_grid_end": 35.31785015625417,
+ "upper_limits_c_s2": {
+  "68.3% two-sided (Delta chi2 = 1)": 8.708974808376157e-06,
+  "95% one-sided (Delta chi2 = 2.71)": 1.2036666391169847e-05,
+  "95% two-sided (Delta chi2 = 3.84)": 1.3799209951615036e-05
+ },
+ "lowest_delta_chi2_above_the_limit": 3.046838741669035,
+ "largest_spread_between_starts_where_delta_chi2_below_10": 0.8243749744952993,
+ "fewest_starts_inside_the_restrictions": 6,
+ "smallest_scalar_margin_along_the_profile": -0.04287894917711127,
+ "smallest_scalar_margin_where_delta_chi2_below_10": 0.5849713391164375,
+ "c_s2_where_the_scalar_margin_is_not_positive": [
+  0.0001
+ ],
+ "delta_chi2_where_the_scalar_margin_is_not_positive": [
+  34.85562778807855
+ ],
+ "scalar_margin_at_minimum": 0.5859859575277859
+}
+[tracer_general] done in 1497.9 s

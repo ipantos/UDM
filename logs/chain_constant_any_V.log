@@ -1,0 +1,27 @@
+
+Invocation 2026-10-12T15:48:35Z: ['extensions.py', 'chain', 'constant_any_V', '12000']
+  constant_any_V: 500 steps, acceptance 0.406, 37 s
+  constant_any_V: 1000 steps, acceptance 0.392, 73 s
+  constant_any_V: 1500 steps, acceptance 0.391, 109 s
+  constant_any_V: 2000 steps, acceptance 0.397, 146 s
+  constant_any_V: 2500 steps, acceptance 0.398, 183 s
+  constant_any_V: 3000 steps, acceptance 0.396, 220 s
+  constant_any_V: 3500 steps, acceptance 0.398, 257 s
+  constant_any_V: 4000 steps, acceptance 0.391, 298 s
+  constant_any_V: 4500 steps, acceptance 0.395, 335 s
+  constant_any_V: 5000 steps, acceptance 0.399, 373 s
+  constant_any_V: 5500 steps, acceptance 0.393, 411 s
+  constant_any_V: 6000 steps, acceptance 0.397, 447 s
+  constant_any_V: 6500 steps, acceptance 0.396, 483 s
+  constant_any_V: 7000 steps, acceptance 0.398, 521 s
+  constant_any_V: 7500 steps, acceptance 0.393, 557 s
+  constant_any_V: 8000 steps, acceptance 0.397, 594 s
+  constant_any_V: 8500 steps, acceptance 0.396, 631 s
+  constant_any_V: 9000 steps, acceptance 0.396, 667 s
+  constant_any_V: 9500 steps, acceptance 0.396, 702 s
+  constant_any_V: 10000 steps, acceptance 0.398, 739 s
+  constant_any_V: 10500 steps, acceptance 0.397, 777 s
+  constant_any_V: 11000 steps, acceptance 0.399, 812 s
+  constant_any_V: 11500 steps, acceptance 0.396, 848 s
+  constant_any_V: 12000 steps, acceptance 0.389, 885 s
+[chain] done in 885.0 s

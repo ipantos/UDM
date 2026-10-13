@@ -1,0 +1,22 @@
+{
+  "scope": "Two single-start tracer fits, not a complete profile or global-minimum certification",
+  "input": "corrected Qin data",
+  "results": [
+    {
+      "u": -4.0,
+      "chi2_fast": 99.05481345580222,
+      "feasible": true,
+      "lower_margin": 2.000000609569952e-09,
+      "upper_margin": 2.7249105877898975e-08,
+      "seconds": 7.650065183639526
+    },
+    {
+      "u": -3.5,
+      "chi2_fast": 104.2142572193394,
+      "feasible": true,
+      "lower_margin": 7.635074794620778e-10,
+      "upper_margin": 0.5462314677540446,
+      "seconds": 14.192484378814697
+    }
+  ]
+}

@@ -4,36 +4,36 @@
   "pressureless_EdS_relative_error": 3.04867242562068e-13,
   "reconstruction_node_medians": {
     "coupling": [
-      1.0083472877987707,
+      1.0083858908388859,
       1.0,
-      0.9383955743604917,
-      0.8166355831049692,
-      0.9716061151188489,
-      1.0039667511729111
+      0.9414667536572761,
+      0.8177812706421606,
+      0.9692782691173688,
+      1.0022396059714134
     ],
     "potential": [
-      0.9905648623719983,
+      0.9910864535301032,
       1.0,
-      1.129289517867333,
-      1.4655654774340314,
-      0.6969578522431326,
-      0.4561553594798932
+      1.124469803250443,
+      1.4636246618422097,
+      0.711208197156782,
+      0.4709122954788785
     ]
   },
-  "cs2_upper95": 2.3645929536833905e-07,
+  "cs2_upper95": 3.608073572663056e-07,
   "prior_floor_upper95": {
-    "1e-12": 2.3645929536833905e-07,
-    "1e-10": 3.005109711768715e-07,
-    "1e-09": 3.389287991138651e-07,
-    "1e-08": 3.982644326178146e-07
+    "1e-12": 3.608073572663056e-07,
+    "1e-10": 4.3848905394389954e-07,
+    "1e-09": 4.865539777196098e-07,
+    "1e-08": 5.493353725833276e-07
   },
   "jeans_estimate_minimum": {
     "z": 0.38,
     "kmax": 0.3,
-    "median": 1.25089995345386e-06,
-    "lo68": 1.2042867031220799e-06,
-    "hi68": 1.2980971560166569e-06,
-    "median_over_cs2_upper95": 5.290128059906883
+    "median": 1.248776414402804e-06,
+    "lo68": 1.2014950266920846e-06,
+    "hi68": 1.2969021417861205e-06,
+    "median_over_cs2_upper95": 3.461061392606537
   },
   "mechanism": {
     "initial_cs2": 1e-10,
@@ -42,31 +42,31 @@
   },
   "growth_step_refinement": {
     "samples": 32,
-    "max_800_1600_sigma": 1.732559951525462e-08,
-    "max_1600_3200_sigma": 1.0907002483003096e-06
+    "max_800_1600_sigma": 2.282753716312634e-08,
+    "max_1600_3200_sigma": 9.869622773780476e-07
   },
-  "fit_solver_comparison_max_sigma": 0.00013485753016517776,
+  "fit_solver_comparison_max_sigma": 0.00019430242863428894,
   "best_in_plotted_random_subset": {
-    "chain_row": 14079,
+    "chain_row": 20520,
     "samples_searched": 4096,
-    "chi2": 35.21635377967587,
-    "bao": 5.1937752432284086,
-    "supernova": 20.738072733947707,
-    "growth": 9.284505802499755,
+    "chi2": 34.61232075606677,
+    "bao": 5.530828087166559,
+    "supernova": 21.149218779,
+    "growth": 7.93227388990021,
     "optimized": false
   },
-  "posterior_sha256": "142d03d41114899f543f78ee5349bc99a9cc271cd3a8bfbb374059370cc42a2c",
+  "posterior_sha256": "cd5ef4ed7fafc8282cec97b413705bef6ff2cdf584a8e94cdad8215e4b46a8ff",
   "observational_data_sha256": {
-    "udm_data.txt": "58023089668cb53bed19a4e0b4f023bfd7cd5c7a5d83e9230b992edd607f0d31"
+    "udm_data.txt": "7a401e70add15a86c83e6c3a97433ee93132de92bd04ff7f3452146d993bc98d"
   },
-  "samples_reconstruction_and_prior": 40000,
+  "samples_reconstruction_and_prior": 80000,
   "samples_observables": 4096,
   "numerics": {
     "backend": "independent NumPy not-a-knot spline + RK4 of the exact y-V system",
     "background_grid": 3201,
     "RK4_base_steps": 1600
   },
-  "figures_source_sha256": "d766228a33de7d529c0720aab946ef3ddd82b402bf362c531a15b43a2a7f12db",
+  "figures_source_sha256": "a048136d9899ad80a79656b8fb371ee11f923edf1d83d65365348ed7e142b452",
   "numpy_version": "2.3.5",
-  "elapsed_seconds": 4.791988709000066
+  "elapsed_seconds": 7.669562635000148
 }

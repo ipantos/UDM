@@ -1,0 +1,34 @@
+
+Invocation 2026-10-12T16:20:09Z: ['extensions.py', 'early']
+{
+ "inputs": {
+  "h": 0.7,
+  "kinetic_density_fraction_today": 0.3,
+  "omega_radiation": 8.53061224489796e-05
+ },
+ "cases": [
+  {
+   "c_s2_today": 1e-07,
+   "Lambda_E_today_eV": 2.334763967108086e-07,
+   "H_today_eV": 1.4931837745903169e-33,
+   "redshift_where_Lambda_E_equals_H": 441959.7698045162,
+   "Lambda_E_over_H_at_z_1100": 5109538377577.937
+  },
+  {
+   "c_s2_today": 1e-06,
+   "Lambda_E_today_eV": 9.84561912023795e-07,
+   "H_today_eV": 1.4931837745903169e-33,
+   "redshift_where_Lambda_E_equals_H": 589479.7858403283,
+   "Lambda_E_over_H_at_z_1100": 21546756799641.625
+  },
+  {
+   "c_s2_today": 1e-05,
+   "Lambda_E_today_eV": 4.151867827968307e-06,
+   "H_today_eV": 1.4931837745903169e-33,
+   "redshift_where_Lambda_E_equals_H": 786201.8892943235,
+   "Lambda_E_over_H_at_z_1100": 90862431128897.73
+  }
+ ],
+ "power_law_index_in_c_s_today": 0.250151344423647
+}
+[early] done in 0.0 s

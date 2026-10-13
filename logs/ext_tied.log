@@ -1,0 +1,358 @@
+
+Invocation 2026-10-12T15:29:32Z: ['extensions.py', 'tied']
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: invalid value encountered in divide
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -8.00: chi2 = 34.1696 (growth 8.493) c_s^2(0) = 1.78e-16 c_s^2(z_ref) = 6.06e-17 sigma8 = 0.5445 starts 5 spread 7.9e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: invalid value encountered in divide
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -6.00: chi2 = 34.1696 (growth 8.494) c_s^2(0) = 1.78e-12 c_s^2(z_ref) = 6.06e-13 sigma8 = 0.5445 starts 5 spread 1.2e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: invalid value encountered in divide
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -5.00: chi2 = 34.1693 (growth 8.493) c_s^2(0) = 1.78e-10 c_s^2(z_ref) = 6.06e-11 sigma8 = 0.5445 starts 5 spread 6.7e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: invalid value encountered in divide
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -4.50: chi2 = 34.1666 (growth 8.491) c_s^2(0) = 1.78e-09 c_s^2(z_ref) = 6.06e-10 sigma8 = 0.5446 starts 5 spread 8.7e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: invalid value encountered in divide
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -4.25: chi2 = 34.1601 (growth 8.488) c_s^2(0) = 5.62e-09 c_s^2(z_ref) = 1.92e-09 sigma8 = 0.5448 starts 5 spread 1.6e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -4.00: chi2 = 34.1400 (growth 8.475) c_s^2(0) = 1.77e-08 c_s^2(z_ref) = 6.06e-09 sigma8 = 0.5454 starts 5 spread 8.7e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -3.95: chi2 = 34.1325 (growth 8.470) c_s^2(0) = 2.23e-08 c_s^2(z_ref) = 7.62e-09 sigma8 = 0.5456 starts 5 spread 8.2e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/extensions.py:225: RuntimeWarning: overflow encountered in square
+  chi_g = gy @ cinv @ gy - sy**2/ss
+  log10 Omega_f =  -3.90: chi2 = 34.1232 (growth 8.465) c_s^2(0) = 2.81e-08 c_s^2(z_ref) = 9.59e-09 sigma8 = 0.5459 starts 5 spread 3.9e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+  log10 Omega_f =  -3.85: chi2 = 34.1116 (growth 8.457) c_s^2(0) = 3.53e-08 c_s^2(z_ref) = 1.21e-08 sigma8 = 0.5462 starts 5 spread 1.7e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+  log10 Omega_f =  -3.80: chi2 = 34.0974 (growth 8.449) c_s^2(0) = 4.44e-08 c_s^2(z_ref) = 1.52e-08 sigma8 = 0.5467 starts 5 spread 1.4e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+  log10 Omega_f =  -3.75: chi2 = 34.0798 (growth 8.438) c_s^2(0) = 5.59e-08 c_s^2(z_ref) = 1.91e-08 sigma8 = 0.5473 starts 5 spread 1.4e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+  log10 Omega_f =  -3.70: chi2 = 34.0582 (growth 8.426) c_s^2(0) = 7.02e-08 c_s^2(z_ref) = 2.40e-08 sigma8 = 0.5480 starts 5 spread 1.1e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+  log10 Omega_f =  -3.65: chi2 = 34.0324 (growth 8.411) c_s^2(0) = 8.82e-08 c_s^2(z_ref) = 3.02e-08 sigma8 = 0.5489 starts 5 spread 9.7e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+  log10 Omega_f =  -3.60: chi2 = 34.0015 (growth 8.393) c_s^2(0) = 1.11e-07 c_s^2(z_ref) = 3.80e-08 sigma8 = 0.5501 starts 5 spread 1.3e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+  log10 Omega_f =  -3.55: chi2 = 33.9652 (growth 8.373) c_s^2(0) = 1.39e-07 c_s^2(z_ref) = 4.78e-08 sigma8 = 0.5515 starts 5 spread 8.7e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+  log10 Omega_f =  -3.50: chi2 = 33.9250 (growth 8.332) c_s^2(0) = 1.75e-07 c_s^2(z_ref) = 6.02e-08 sigma8 = 0.5522 starts 5 spread 1.1e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+  log10 Omega_f =  -3.45: chi2 = 33.8839 (growth 8.291) c_s^2(0) = 2.20e-07 c_s^2(z_ref) = 7.57e-08 sigma8 = 0.5531 starts 5 spread 8.7e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+  log10 Omega_f =  -3.40: chi2 = 33.8476 (growth 8.254) c_s^2(0) = 2.78e-07 c_s^2(z_ref) = 9.53e-08 sigma8 = 0.5543 starts 5 spread 1.2e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+  log10 Omega_f =  -3.35: chi2 = 33.8256 (growth 8.229) c_s^2(0) = 3.50e-07 c_s^2(z_ref) = 1.20e-07 sigma8 = 0.5558 starts 5 spread 8.7e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: invalid value encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+  log10 Omega_f =  -3.30: chi2 = 33.8354 (growth 8.234) c_s^2(0) = 4.40e-07 c_s^2(z_ref) = 1.51e-07 sigma8 = 0.5576 starts 5 spread 1.2e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+  log10 Omega_f =  -3.25: chi2 = 33.9058 (growth 8.293) c_s^2(0) = 5.55e-07 c_s^2(z_ref) = 1.90e-07 sigma8 = 0.5599 starts 5 spread 6.1e-09
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+  log10 Omega_f =  -3.20: chi2 = 34.0825 (growth 8.444) c_s^2(0) = 6.99e-07 c_s^2(z_ref) = 2.39e-07 sigma8 = 0.5627 starts 5 spread 1.1e-08
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in multiply
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in multiply
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:162: RuntimeWarning: invalid value encountered in add
+  ky2, kv2 = rates(y+.5*dt*ky1, v+.5*dt*kv1, qm, pm)
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: overflow encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:165: RuntimeWarning: invalid value encountered in add
+  return y + dt*(ky1+2*ky2+2*ky3+ky4)/6, v + dt*(kv1+2*kv2+2*kv3+kv4)/6
+/home/claude/run_1212/UDM_rerun_package/figures.py:160: RuntimeWarning: overflow encountered in add
+  return 3*(opw-1)*a + opw*b, -(1-q)*b + (1.5-p/opw)*a
+  log10 Omega_f =  -3.15: chi2 = 34.4354 (growth 8.739) c_s^2(0) = 8.80e-07 c_s^2(z_ref) = 3.00e-07 sigma8 = 0.5661 starts 5 spread 9.9e-09
+  log10 Omega_f =  -3.10: chi2 = 35.0661 (growth 9.246) c_s^2(0) = 1.11e-06 c_s^2(z_ref) = 3.76e-07 sigma8 = 0.5700 starts 5 spread 1.2e-08
+  log10 Omega_f =  -3.05: chi2 = 36.1155 (growth 10.047) c_s^2(0) = 1.38e-06 c_s^2(z_ref) = 4.70e-07 sigma8 = 0.5744 starts 5 spread 2.4e-08
+  log10 Omega_f =  -3.00: chi2 = 37.7693 (growth 11.232) c_s^2(0) = 1.72e-06 c_s^2(z_ref) = 5.85e-07 sigma8 = 0.5791 starts 5 spread 3.4e-08
+  log10 Omega_f =  -2.95: chi2 = 40.2630 (growth 12.899) c_s^2(0) = 2.11e-06 c_s^2(z_ref) = 7.25e-07 sigma8 = 0.5838 starts 5 spread 1.8e-08
+  log10 Omega_f =  -2.90: chi2 = 43.8840 (growth 15.150) c_s^2(0) = 2.55e-06 c_s^2(z_ref) = 8.91e-07 sigma8 = 0.5881 starts 5 spread 5.4e-08
+  log10 Omega_f =  -2.85: chi2 = 48.9714 (growth 18.080) c_s^2(0) = 3.02e-06 c_s^2(z_ref) = 1.09e-06 sigma8 = 0.5915 starts 5 spread 6.2e-08
+  log10 Omega_f =  -2.80: chi2 = 55.9115 (growth 21.774) c_s^2(0) = 3.50e-06 c_s^2(z_ref) = 1.31e-06 sigma8 = 0.5936 starts 5 spread 8.2e-08
+  log10 Omega_f =  -2.75: chi2 = 65.1299 (growth 26.300) c_s^2(0) = 3.98e-06 c_s^2(z_ref) = 1.56e-06 sigma8 = 0.5943 starts 5 spread 1.3e-07
+  log10 Omega_f =  -2.70: chi2 = 77.0797 (growth 31.700) c_s^2(0) = 4.43e-06 c_s^2(z_ref) = 1.84e-06 sigma8 = 0.5936 starts 5 spread 1.2e-07
+{
+ "best_fit": {
+  "eps_nodes": [
+   -0.7465066612461109,
+   -0.9883046553028414,
+   -1.0070929038760819,
+   -0.8629259257171188,
+   -1.4535698210276842,
+   -1.4934593005782846,
+   -1.4999999970828477
+  ],
+  "A": 31.08841134987809,
+  "sigma8_ref": 0.5562564152073508,
+  "M": 35.66800465920061,
+  "chi2_rk4_solver": 33.824061285452785,
+  "chi2_bao": 4.945223858144496,
+  "chi2_sn": 20.651935499872362,
+  "chi2_growth": 8.227030482371516,
+  "max_w": -1.944768901473992e-09,
+  "min_w": -0.5461636271849404,
+  "q0": 0.13316569865601036,
+  "chi2": 33.82418984038837,
+  "omega_f": 0.00046152607969710127,
+  "c_s2_today": 3.7323971424534436e-07,
+  "c_s2_at_z_ref": 1.280671748086188e-07,
+  "u": -3.335803753037798
+ },
+ "delta_chi2_at_zero_sound_speed": 0.34537163513237346,
+ "upper_limits": {
+  "68.3% two-sided (Delta chi2 = 1)": {
+   "omega_f": 0.0007650359084054473,
+   "c_s2_today": 1.026926045822494e-06,
+   "c_s2_at_z_ref": 3.490533700599388e-07
+  },
+  "95% one-sided (Delta chi2 = 2.71)": {
+   "omega_f": 0.0009221519407180296,
+   "c_s2_today": 1.476439621493069e-06,
+   "c_s2_at_z_ref": 5.014554600856529e-07
+  },
+  "95% two-sided (Delta chi2 = 3.84)": {
+   "omega_f": 0.000993943784606931,
+   "c_s2_today": 1.7002996416387623e-06,
+   "c_s2_at_z_ref": 5.785397046755937e-07
+  }
+ },
+ "largest_spread_between_starts_where_delta_chi2_below_10": 3.425520844757557e-08,
+ "parameters": 11,
+ "measurements": 52
+}
+[tied] done in 326.7 s

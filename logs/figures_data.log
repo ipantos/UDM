@@ -1,0 +1,186 @@
+
+Invocation 2026-10-12T15:06:04Z: ['figures.py', '--data-only']
+Full-chain reconstructed functions tabulated.
+Growth step refinement: maximum error 8.53e-07 observational sigma.
+Observable predictions: 256/4096 samples.
+Observable predictions: 512/4096 samples.
+Observable predictions: 768/4096 samples.
+Observable predictions: 1024/4096 samples.
+Observable predictions: 1280/4096 samples.
+Observable predictions: 1536/4096 samples.
+Observable predictions: 1792/4096 samples.
+Observable predictions: 2048/4096 samples.
+Observable predictions: 2304/4096 samples.
+Observable predictions: 2560/4096 samples.
+Observable predictions: 2816/4096 samples.
+Observable predictions: 3072/4096 samples.
+Observable predictions: 3328/4096 samples.
+Observable predictions: 3584/4096 samples.
+Observable predictions: 3840/4096 samples.
+Observable predictions: 4096/4096 samples.
+{
+  "cubic_polynomial_max_error": 3.5388358909926865e-16,
+  "spline_cardinality_max_error": 1.0413079817834622e-15,
+  "pressureless_EdS_relative_error": 3.04867242562068e-13,
+  "reconstruction_node_medians": {
+    "coupling": [
+      1.01135141632447,
+      1.0,
+      0.9410572773566892,
+      0.8201152815438293,
+      0.9688643847745281,
+      1.00194225165643
+    ],
+    "potential": [
+      0.9870594679528523,
+      1.0,
+      1.1246957063660623,
+      1.4557562451384267,
+      0.7154553744401142,
+      0.4768487204921503
+    ]
+  },
+  "cs2_upper95": 3.5222443220953874e-07,
+  "prior_floor_upper95": {
+    "1e-12": 3.5222443220953874e-07,
+    "1e-10": 4.3367516921110565e-07,
+    "1e-09": 4.82813231775647e-07,
+    "1e-08": 5.545848829112741e-07
+  },
+  "jeans_estimate_minimum": {
+    "z": 0.38,
+    "kmax": 0.3,
+    "median": 1.2490982266217706e-06,
+    "lo68": 1.201452914005126e-06,
+    "hi68": 1.2982523539307244e-06,
+    "median_over_cs2_upper95": 3.5463134081473386
+  },
+  "mechanism": {
+    "initial_cs2": 1e-10,
+    "ceiling_cs2": 1e-07,
+    "A": 998.9999999999999
+  },
+  "growth_step_refinement": {
+    "samples": 32,
+    "max_800_1600_sigma": 2.282753716312634e-08,
+    "max_1600_3200_sigma": 8.532857720519954e-07
+  },
+  "fit_solver_comparison_max_sigma": 0.00019430242863428894,
+  "best_in_plotted_random_subset": {
+    "chain_row": 21016,
+    "samples_searched": 4096,
+    "chi2": 34.56693035482744,
+    "bao": 5.470062620261132,
+    "supernova": 20.888885347261827,
+    "growth": 8.207982387304485,
+    "optimized": false
+  },
+  "posterior_sha256": "20e6210fc35dd80e5122ea8b2ad35d3020b2765389c40748397318b59bc1e66d",
+  "observational_data_sha256": {
+    "udm_data.txt": "7a401e70add15a86c83e6c3a97433ee93132de92bd04ff7f3452146d993bc98d"
+  },
+  "samples_reconstruction_and_prior": 40000,
+  "samples_observables": 4096,
+  "numerics": {
+    "backend": "independent NumPy not-a-knot spline + RK4 of the exact y-V system",
+    "background_grid": 3201,
+    "RK4_base_steps": 1600
+  },
+  "figures_source_sha256": "a048136d9899ad80a79656b8fb371ee11f923edf1d83d65365348ed7e142b452",
+  "numpy_version": "2.3.5",
+  "elapsed_seconds": 8.047572211999977
+}
+Numerical figure tables written to /home/claude/run_1212/UDM_rerun_package/figure_data
+
+Invocation 2026-10-13T04:22:29Z: figures.py --data-only
+Full-chain reconstructed functions tabulated.
+Growth step refinement: maximum error 9.87e-07 observational sigma.
+Observable predictions: 256/4096 samples.
+Observable predictions: 512/4096 samples.
+Observable predictions: 768/4096 samples.
+Observable predictions: 1024/4096 samples.
+Observable predictions: 1280/4096 samples.
+Observable predictions: 1536/4096 samples.
+Observable predictions: 1792/4096 samples.
+Observable predictions: 2048/4096 samples.
+Observable predictions: 2304/4096 samples.
+Observable predictions: 2560/4096 samples.
+Observable predictions: 2816/4096 samples.
+Observable predictions: 3072/4096 samples.
+Observable predictions: 3328/4096 samples.
+Observable predictions: 3584/4096 samples.
+Observable predictions: 3840/4096 samples.
+Observable predictions: 4096/4096 samples.
+{
+  "cubic_polynomial_max_error": 3.5388358909926865e-16,
+  "spline_cardinality_max_error": 1.0413079817834622e-15,
+  "pressureless_EdS_relative_error": 3.04867242562068e-13,
+  "reconstruction_node_medians": {
+    "coupling": [
+      1.0083858908388859,
+      1.0,
+      0.9414667536572761,
+      0.8177812706421606,
+      0.9692782691173688,
+      1.0022396059714134
+    ],
+    "potential": [
+      0.9910864535301032,
+      1.0,
+      1.124469803250443,
+      1.4636246618422097,
+      0.711208197156782,
+      0.4709122954788785
+    ]
+  },
+  "cs2_upper95": 3.608073572663056e-07,
+  "prior_floor_upper95": {
+    "1e-12": 3.608073572663056e-07,
+    "1e-10": 4.3848905394389954e-07,
+    "1e-09": 4.865539777196098e-07,
+    "1e-08": 5.493353725833276e-07
+  },
+  "jeans_estimate_minimum": {
+    "z": 0.38,
+    "kmax": 0.3,
+    "median": 1.248776414402804e-06,
+    "lo68": 1.2014950266920846e-06,
+    "hi68": 1.2969021417861205e-06,
+    "median_over_cs2_upper95": 3.461061392606537
+  },
+  "mechanism": {
+    "initial_cs2": 1e-10,
+    "ceiling_cs2": 1e-07,
+    "A": 998.9999999999999
+  },
+  "growth_step_refinement": {
+    "samples": 32,
+    "max_800_1600_sigma": 2.282753716312634e-08,
+    "max_1600_3200_sigma": 9.869622773780476e-07
+  },
+  "fit_solver_comparison_max_sigma": 0.00019430242863428894,
+  "best_in_plotted_random_subset": {
+    "chain_row": 20520,
+    "samples_searched": 4096,
+    "chi2": 34.61232075606677,
+    "bao": 5.530828087166559,
+    "supernova": 21.149218779,
+    "growth": 7.93227388990021,
+    "optimized": false
+  },
+  "posterior_sha256": "cd5ef4ed7fafc8282cec97b413705bef6ff2cdf584a8e94cdad8215e4b46a8ff",
+  "observational_data_sha256": {
+    "udm_data.txt": "7a401e70add15a86c83e6c3a97433ee93132de92bd04ff7f3452146d993bc98d"
+  },
+  "samples_reconstruction_and_prior": 80000,
+  "samples_observables": 4096,
+  "numerics": {
+    "backend": "independent NumPy not-a-knot spline + RK4 of the exact y-V system",
+    "background_grid": 3201,
+    "RK4_base_steps": 1600
+  },
+  "figures_source_sha256": "a048136d9899ad80a79656b8fb371ee11f923edf1d83d65365348ed7e142b452",
+  "numpy_version": "2.3.5",
+  "elapsed_seconds": 7.669562635000148
+}
+Numerical figure tables written to /home/claude/run_1212/UDM_rerun_package/figure_data

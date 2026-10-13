@@ -632,6 +632,9 @@ def render():
 
 if __name__ == '__main__':
     check = compute()
-    draw(check)
-    render()
-    print(f'Figures written to {FIGURES}')
+    import sys
+    if '--data-only' not in sys.argv:
+        draw(check)
+        render()
+    print(f'Numerical figure tables written to {OUT}' if '--data-only' in sys.argv
+          else f'Figures written to {FIGURES}')

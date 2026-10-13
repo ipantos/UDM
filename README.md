@@ -1,167 +1,92 @@
-# Reconstructing a Born-Infeld scalar for unified dark matter and dark energy
+# Reconstructing a Born–Infeld scalar for unified dark matter and dark energy
 
-Code, data, stored posterior and logs of the joint distance-and-growth
-analysis described in the paper.
+Το αποθετήριο περιέχει τους κώδικες, τις εισόδους και την πλήρη εκτέλεση στην οποία βασίζεται το paper: αλυσίδες, προφίλ, όλα τα αποτελέσματα, τα logs κάθε σταδίου και τα πέντε σχήματα. Οι σύντομοι έλεγχοι του πακέτου περιγράφονται στο `REVIEW.md`.
 
-## Contents
+## Η εκτέλεση του paper
 
-| path | role |
-|---|---|
-| `udm_data.txt` | all observational inputs: DESI DR2 BAO, Union3 supernova moduli and covariance, the growth compilation with its scale windows, the WiggleZ covariance and the eBOSS correlation matrix |
-| `fit_joint.py` | background, sound-speed and sigma_8 likelihood; starting point, node scan, MCMC, posterior summary and numerical validation |
-| `figures.py` | figure data, PGFPlots sources and PDF figures from the stored posterior; writes `figure_data/numerical_validation.json` |
-| `checks.py` | sensitivity of the sound-speed limit by importance reweighting of the stored posterior, response of each growth measurement to the sound speed, within-chain stability of posterior summaries; writes `checks.json` |
-| `runs/joint_norm051_log_454989fb0b76b3f2/` | the supplied execution: `start.npz`, `best_{1,2,3}.npz`, `node_choice.npz`, `n1_mcmc.npz` (sampler checkpoint with the thinned chain of all 40 000 steps and the random-generator state), `n1_posterior.npz` (the 40 000 stored post-burn-in samples in physical coordinates) |
-| `logs/` | the terminal output of every stage of that run, in the order it was produced: `grid.log`, `start.log`, `nodes.log`, `mcmc_seg1.log` ... `mcmc_seg8.log`, `summary.log`, `validate.log`, `checks.log`; `figures.log` records figure generation |
-| `figure_data/`, `figure_tex/`, `figures/` | the output of `figures.py` from the stored run: the plotted quantities as CSV files and `numerical_validation.json`; the PGFPlots sources; the four generated figures |
-| `checks.json` | the output of `checks.py` from the stored run |
+Η εκτέλεση του paper είναι η προεπιλεγμένη εκτέλεση του `run_pipeline.py` με τρεις προσθήκες. Όλες είναι καταγεγραμμένες στα logs.
 
-Keep `udm_data.txt`, `fit_joint.py`, `figures.py` and `checks.py` in one
-directory with `runs/` beside them. `figures.py` and `checks.py` read the
-stored run directly, so the figures and all derived numbers can be
-regenerated without rerunning the chain.
+1. **Επέκταση της κύριας αλυσίδας στα 60.000 βήματα ανά walker.** Μετά την ολοκλήρωση του οδηγού (40.000 βήματα) η αλυσίδα συνεχίστηκε από το checkpoint της με τέσσερις εκτελέσεις του `python fit_joint.py mcmc 5000` (`logs/mcmc.log`). Το burn-in έμεινε 20.000 βήματα, οπότε κρατούνται 80.000 δείγματα. Στη συνέχεια ξανατρέχτηκαν τα στάδια που εξαρτώνται από την αλυσίδα, με αυτή τη σειρά: `fit_joint.py converged`, `fit_joint.py summary`, `fit_joint.py validate`, `figures.py --data-only`, `checks.py`, `extensions.py posterior`, `extensions.py chains`, `extensions.py figure`, `export_results.py`.
+2. **Ο έλεγχος χωρίς τις έξι μετρήσεις DESI full-shape** (γραμμή του Table II). Τρέχτηκε σε αντίγραφο του φακέλου με `python assumptions.py scales --legacy-desi-diagnostic`. Το αποτέλεσμα είναι στο `assumptions_desi_diagnostic.json` και η πλήρης έξοδος στο `logs/asm_scales_desi_diagnostic.log`. Όλες οι άλλες περιπτώσεις που ξαναϋπολόγισε η ίδια εντολή βγήκαν ίδιες με αυτές του `assumptions.json`.
+3. **Η στατιστική αβεβαιότητα του posterior ορίου** (μέθοδος batch means). `python mc_uncertainty.py`, με έξοδο στο `mc_uncertainty_output.txt`.
 
-## Requirements
+Τα πέντε σχήματα του paper είναι στο `paper_output/` και παράγονται με `python paper_scripts/paper_figures.py . paper_output`.
 
-This execution uses Python 3.12.14, NumPy 2.3.5, SciPy 1.17.0 and
-emcee 3.1.6. Install the Python dependencies with
-`python3 -m pip install -r requirements.txt`. The figures are compiled with `pdflatex` and need
-the packages `standalone`, `pgfplots` (compat 1.18), `tikz`, `amsmath` and `lmodern`.
-The numerical commands were run with `OPENBLAS_NUM_THREADS=1` and
-`OMP_NUM_THREADS=1`. Exact software and platform metadata are recorded in
-the NPZ files. Matching package versions alone does not guarantee bitwise
-identity across different platforms.
+## Εκκίνηση
 
-The supplied MCMC consists of eight completed segments of 5,000 steps per
-walker, resumed using saved walker positions and random-generator state.
-Every supplied NPZ records the SHA-256 of the included `fit_joint.py`.
-`run_summary.json` records the principal results and provenance checks.
+Κατεβάστε το αποθετήριο σε **καινούργιο φάκελο** και ανοίξτε τερματικό μέσα σε αυτόν. Συνιστάται Python 3.12, που χρησιμοποιήθηκε στους ελέγχους.
 
-## Using the supplied posterior
-
-Run commands from the directory containing this README. With
-`UDM_OUTPUT_DIR` unset, the programs read the supplied `runs/` directory.
-The following command prints the principal posterior summaries without
-running the sampler:
-
-```bash
-python3 fit_joint.py posterior
-```
-
-The figure and sensitivity commands below also use this stored posterior.
-Do not run `start`, `nodes`, `mcmc`, or `summary` in this directory merely to
-inspect the supplied results: these commands write run files.
-
-## Generating a new posterior
-
-Use a separate, initially empty output directory to preserve the supplied
-results. In a Linux/macOS shell, set:
-
-```bash
-export UDM_OUTPUT_DIR="$PWD/reproduction"
-```
-
-In Windows PowerShell, use instead:
+Windows:
 
 ```powershell
-$env:UDM_OUTPUT_DIR = Join-Path (Get-Location) "reproduction"
+py -3.12 -m venv .venv
+.venv\Scripts\python.exe -m pip install -r requirements.txt
+.venv\Scripts\python.exe run_pipeline.py
 ```
 
-Choose another directory name if `reproduction` already contains a run.
-Keep this environment setting active for all commands in the new calculation.
-On systems where the executable is named `python` rather than `python3`,
-substitute `python` in the commands below.
-
-Run the commands in this order. Runtime depends on the machine and software environment.
-
-```
-python3 fit_joint.py grid          # background grid and spline checks
-python3 fit_joint.py start         # BAO-only seed, analytic sigma_8 and M, 12 constrained minimizations
-python3 fit_joint.py nodes         # local searches for 1, 2 and 3 nodes; heuristic BIC selection
-python3 fit_joint.py mcmc 40000    # 40 walkers x 40 000 steps (see below)
-python3 fit_joint.py summary       # medians, intervals, 95% upper limit, best sampled chi^2
-python3 fit_joint.py validate      # growth rate at k = 0 from the u-equation for 300 samples
-```
-
-The argument to `mcmc` specifies **additional steps per walker**. Thus
-`mcmc 40000` starts a 40,000-step chain only when the selected output directory
-contains no sampler checkpoint. With an existing checkpoint it resumes the
-chain and adds another 40,000 steps. Running `mcmc` without a step argument
-instead adds only the steps needed to reach the configured total of 40,000.
-The checkpoint preserves the walker positions and random-generator state.
-
-Results are stored under `UDM_OUTPUT_DIR/runs/<run identity>/`, or under
-`runs/<run identity>/` beside the scripts when the variable is unset.
-The run identity hashes the configured settings and input data. Source-code
-hashes and library versions are recorded in the NPZ metadata but do not
-change that identity. Use a separate output directory for each new calculation.
-
-The node scan uses six Nelder--Mead searches per node number. The first starts
-at the base vector; the others use Gaussian perturbations in sampling
-coordinates with standard deviations `0.002 * abs(base) + 1e-9`.
-It writes the optimized vectors and a heuristic BIC-based node choice.
-The supplied results select one sound-speed node, and the optimized
-constant-sound-speed vector supplies the central values of the other
-coordinates for walker initialization. The sampled log10 sound speed is
-drawn uniformly over its prior range. These local searches
-do not establish a robust preference for the number of nodes; the paper's
-posterior is conditional on the constant-sound-speed model. Check the node
-choice before sampling in a new calculation, since the heuristic can select
-a different model. The figure and sensitivity scripts supplied here are
-intended for the one-node model.
-
-To return to the supplied posterior, unset `UDM_OUTPUT_DIR` (`unset
-UDM_OUTPUT_DIR` in a Linux/macOS shell, or `Remove-Item Env:UDM_OUTPUT_DIR`
-in PowerShell).
-
-## Figures and checks
-
-These commands read the posterior selected by `UDM_OUTPUT_DIR` and overwrite
-`figure_data/`, `figure_tex/`, `figures/`, and `checks.json` beside the scripts.
-Use a separate copy of the package if you want to preserve the supplied
-figure and check outputs while regenerating them.
-
-```
-python3 figures.py     # figure_data/, figure_tex/, figures/fig01-fig04.pdf
-python3 checks.py      # checks.json
-```
-
-`figure_data/numerical_validation.json` records the numerical checks for this posterior (spline tests, step refinement, solver
-comparison, prior-cutoff limits, reconstruction medians at the nodes, Jeans
-estimate) together with the SHA-256 of the posterior chain (of the 40 000 x 11
-array of physical parameter samples, excluding the separately stored
-chi-squared values; not of the `.npz` file), of the data file and of
-`figures.py` itself. `checks.json` records the reweighted upper limits for
-the alternative initial velocity rates and for the two treatments of the
-z = 0.07 measurement, their effective sample sizes, the response of every
-growth measurement to the sound speed at the best stored sample, and the
-upper limits and sigma_8 medians obtained from the two halves of the retained
-chain and from the two groups of twenty walkers split by their initial
-log10 c_s^2. These are within-chain stability diagnostics; they do not
-by themselves establish independence from the initialization.
-
-## Settings
-
-All settings are constants at the top of `fit_joint.py`: the seven background
-nodes, the 3201-point grid in ln(1+z), the priors, the physical restrictions,
-the integrator tolerances, the normalization redshift z = 0.51, the initial
-conditions at z = 2.33, and the sampler configuration (40 walkers, 40 000
-steps, 20 000 burn-in, thinning 20, seed 20260809).
-
-## File integrity
-
-`SHA256SUMS.txt` records the SHA-256 of every other supplied file, with paths
-relative to this directory. On systems with `sha256sum`, verify the package
-from this directory with:
+Linux / macOS:
 
 ```bash
-sha256sum -c SHA256SUMS.txt
+python3.12 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
+.venv/bin/python run_pipeline.py
 ```
 
-Regenerating outputs changes their hashes. The manifest describes the
-supplied package, not subsequently regenerated files.
+Αν χρησιμοποιείτε ήδη κατάλληλο περιβάλλον Python:
 
-## License
+```bash
+python -m pip install -r requirements.txt
+python run_pipeline.py
+```
 
-The source code is distributed under the MIT License; see `LICENSE`.
-Observational data retain their original source attribution in `udm_data.txt`.
+Μόνο έλεγχος πακέτου, χωρίς πλήρεις αλυσίδες:
+
+```bash
+python verify_package.py
+```
+
+Εμφάνιση των σταδίων χωρίς εκτέλεση:
+
+```bash
+python run_pipeline.py --plan
+```
+
+## Τι εκτελείται
+
+1. Έλεγχοι εισόδων, Union3, ανεξάρτητου υπολογισμού χ² και συνέχισης αλυσίδων.
+2. Αρχικοποίηση, διαγνωστική σύγκριση αριθμού κόμβων και κύρια αλυσίδα **σταθερού** c_s²: 40 walkers, 40.000 βήματα ανά walker, burn-in 20.000, thinning 20 (για το paper η αλυσίδα επεκτάθηκε στα 60.000 βήματα· βλ. «Η εκτέλεση του paper»). Η επιλογή ενός κόμβου είναι η υπόθεση της συγκεκριμένης ανάλυσης και δεν αλλάζει αυτόματα από τη διαγνωστική σύγκριση.
+3. Σύνοψη, έλεγχοι ολοκλήρωσης, αριθμητικά δεδομένα σχημάτων και έλεγχοι ευαισθησίας.
+4. Όλα τα στάδια `extensions.py`, με τις τρεις συμπληρωματικές αλυσίδες των 12.000 βημάτων ανά walker και τις συνόψεις τους.
+5. Τα στάδια `assumptions.py`, συμπεριλαμβανομένου του `tracer_general`.
+6. Οι δύο ανεξάρτητοι αριθμητικοί επανέλεγχοι και η εξαγωγή των νέων αποτελεσμάτων.
+
+Η βασική εκτέλεση διατηρεί τις έξι DESI. Δεν εκτελεί το παλιό πρόσθετο διαγνωστικό αφαίρεσής τους. Ο κώδικάς του διατηρείται ως προαιρετικό `python assumptions.py scales --legacy-desi-diagnostic`, αλλά δεν χρειάζεται για τη συμφωνημένη εκτέλεση.
+
+## Συνέχιση μετά από διακοπή
+
+Εκτελέστε ξανά **την ίδια εντολή** `python run_pipeline.py`. Ο οδηγός παραλείπει τα ολοκληρωμένα στάδια και συνεχίζει τις αλυσίδες έως τα παραπάνω συνολικά μήκη. Τα κύρια checkpoints γράφονται ανά 5.000 βήματα και τα συμπληρωματικά ανά 500. Βήματα μετά το τελευταίο checkpoint επαναλαμβάνονται μετά από διακοπή.
+
+Μην τρέχετε δύο οδηγούς ταυτόχρονα στον ίδιο φάκελο. Μην αντιγράφετε παλιά outputs μέσα στον νέο φάκελο. Μην ορίζετε `UDM_OUTPUT_DIR` και μην αλλάζετε κώδικες/δεδομένα ενδιάμεσα· ο οδηγός απορρίπτει αλλαγμένη ταυτότητα εισόδων. Για διαφορετική ανάλυση χρησιμοποιήστε νέο αντίγραφο του ZIP.
+
+Οι επιμέρους εντολές `extensions.py chain NAME 12000` **προσθέτουν** 12.000 βήματα. Ο οδηγός υπολογίζει μόνος του πόσα απομένουν. Για κανονική εκκίνηση και συνέχιση χρησιμοποιήστε τον οδηγό.
+
+Το `tracer_general` αποθηκεύει και τα σημεία που έχουν ήδη υπολογιστεί σε αρχεία `tracer_general_*_partial.json`, με ένδειξη `complete`. Αυτά είναι διαγνωστικά checkpoints: αν διακοπεί το στάδιο, ο οδηγός το επαναλαμβάνει από την αρχή, όχι από το τελευταίο σημείο.
+
+## Αποτελέσματα και σχήματα
+
+- `logs/`: πλήρης έξοδος κάθε σταδίου. Οι επανεκκινήσεις προστίθενται στο αντίστοιχο log.
+- `runs/`, `extensions_chains/`: αλυσίδες και checkpoints.
+- `extensions.json`, `assumptions.json`, `checks.json`: νέα αποτελέσματα ανά ανάλυση.
+- `figure_data/`: νέα αριθμητικά δεδομένα σχημάτων και αριθμητική επαλήθευση.
+- `crosscheck_extensions.json`, `crosscheck_assumptions.json`: διαφορές από τους ανεξάρτητους υπολογισμούς.
+- `new_results.json`, `new_results.csv`: συγκεντρωτικά νέα αποτελέσματα, χωρίς επιβολή των παλιών αριθμών ή λεκτικών ισχυρισμών του paper.
+
+Για τα πέντε PDF του paper χρειάζεται επιπλέον `pdflatex` με `standalone`, `pgfplots`, `tikz`, `amsmath`, `lmodern` και τις βιβλιοθήκες PGFPlots της εγκατάστασης TeX. Δεν χρειάζεται TeX για την αριθμητική εκτέλεση. Με εγκατεστημένο TeX:
+
+```bash
+python run_pipeline.py --figures
+```
+
+Μετά την αριθμητική ολοκλήρωση η εντολή παραλείπει τα ολοκληρωμένα στάδια και παράγει τα PDF στο `paper_output/`.
+
+Η ολοκλήρωση των προκαθορισμένων βημάτων **δεν πιστοποιεί από μόνη της σύγκλιση MCMC**. Εξετάστε `logs/converged.log`, `checks.json`, τις διαγνώσεις των συμπληρωματικών αλυσίδων και τους ανεξάρτητους επανελέγχους. Εάν απαιτούνται μεγαλύτερες αλυσίδες, η επέκταση και η αναπαραγωγή όλων των εξαρτώμενων αποτελεσμάτων είναι επόμενο βήμα.

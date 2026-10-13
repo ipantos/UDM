@@ -1,0 +1,60 @@
+
+Invocation 2026-10-12T17:37:11Z: ['crosscheck/crosscheck.py', 'udm_data.txt', 'extensions.json', 'figure_data', 'crosscheck_extensions.json']
+1. LambdaCDM on the 52 points
+  same_initial_rate chi2                                     independent     47.43662   extensions.py     47.43667   difference -5.4e-05
+  same_initial_rate sigma8_ref                               independent      0.61357   extensions.py      0.61357   difference -2.9e-11
+  same_initial_rate A                                        independent     29.65518   extensions.py     29.65518   difference -1.5e-07
+  growing_mode_initial_rate chi2                             independent     47.52206   extensions.py     47.52212   difference -5.6e-05
+  growing_mode_initial_rate sigma8_ref                       independent      0.61817   extensions.py      0.61817   difference -5.9e-10
+  growing_mode_initial_rate A                                independent     29.65379   extensions.py     29.65379   difference -1.5e-07
+  growing-mode rate at z = 2.33                              independent      0.96757   extensions.py      0.96757   difference +2.0e-12
+2. Best fit of the 11-parameter model
+  with_V_nonnegative chi2                                    independent     33.17482   extensions.py     33.17485   difference -2.7e-05
+  with_V_nonnegative chi2 growth                             independent      7.57391   extensions.py      7.57396   difference -4.6e-05
+  with_V_nonnegative sigma8_ref                              independent      0.57699   extensions.py      0.57699   difference -1.1e-07
+  without_V_restriction chi2                                 independent     32.58879   extensions.py     32.58879   difference -1.9e-07
+  without_V_restriction chi2 growth                          independent      7.76617   extensions.py      7.76619   difference -2.8e-05
+  without_V_restriction sigma8_ref                           independent      0.59570   extensions.py      0.59570   difference -1.2e-07
+3. Profile likelihood of the constant sound speed (chi2 at the tabulated nodes)
+  with_V_nonnegative u = -12.00 delta chi2                   independent      0.99471   extensions.py      0.99471   difference +3.3e-06
+  with_V_nonnegative u = -7.00 delta chi2                    independent      0.46390   extensions.py      0.46392   difference -2.3e-05
+  with_V_nonnegative u = -6.50 delta chi2                    independent      0.00126   extensions.py      0.00125   difference +2.0e-06
+  with_V_nonnegative u = -6.30 delta chi2                    independent      0.44421   extensions.py      0.44413   difference +8.3e-05
+  with_V_nonnegative u = -6.20 delta chi2                    independent      1.25091   extensions.py      1.25064   difference +2.6e-04
+  with_V_nonnegative u = -6.10 delta chi2                    independent      2.88033   extensions.py      2.88043   difference -9.5e-05
+  with_V_nonnegative u = -6.00 delta chi2                    independent      5.94964   extensions.py      5.94952   difference +1.1e-04
+  without_V_restriction u = -12.00 delta chi2                independent      1.17635   extensions.py      1.17639   difference -4.2e-05
+  without_V_restriction u = -7.00 delta chi2                 independent      0.71123   extensions.py      0.71116   difference +7.0e-05
+  without_V_restriction u = -6.50 delta chi2                 independent      0.06455   extensions.py      0.06455   difference +5.6e-06
+  without_V_restriction u = -6.30 delta chi2                 independent      0.10938   extensions.py      0.10935   difference +3.2e-05
+  without_V_restriction u = -6.20 delta chi2                 independent      0.61733   extensions.py      0.61727   difference +5.1e-05
+  without_V_restriction u = -6.10 delta chi2                 independent      1.96891   extensions.py      1.96887   difference +3.9e-05
+  without_V_restriction u = -6.00 delta chi2                 independent      4.96718   extensions.py      4.96713   difference +4.9e-05
+4. Models with a LambdaCDM-like expansion
+  constant same_initial_rate u = -12.000 chi2                independent     47.43661   extensions.py     47.43663   difference -2.0e-05
+  constant same_initial_rate u = -6.150 chi2                 independent     49.27871   extensions.py     49.27874   difference -2.8e-05
+  constant same_initial_rate u = -6.100 chi2                 independent     50.53200   extensions.py     50.53201   difference -6.5e-06
+  constant growing_mode_initial_rate u = -12.000 chi2        independent     47.52205   extensions.py     47.52208   difference -2.3e-05
+  constant growing_mode_initial_rate u = -6.150 chi2         independent     49.17423   extensions.py     49.17427   difference -3.3e-05
+  constant growing_mode_initial_rate u = -6.100 chi2         independent     50.42020   extensions.py     50.42021   difference -8.4e-06
+  minimal same_initial_rate u = -12.000 chi2                 independent     47.43662   extensions.py     47.43664   difference -2.0e-05
+  minimal same_initial_rate u = -5.350 chi2                  independent     49.99542   extensions.py     49.99544   difference -2.4e-05
+  minimal same_initial_rate u = -5.300 chi2                  independent     50.91228   extensions.py     50.91229   difference -1.2e-05
+  minimal growing_mode_initial_rate u = -12.000 chi2         independent     47.52206   extensions.py     47.52208   difference -2.3e-05
+  minimal growing_mode_initial_rate u = -5.350 chi2          independent     49.97487   extensions.py     49.97490   difference -2.8e-05
+  minimal growing_mode_initial_rate u = -5.300 chi2          independent     50.88698   extensions.py     50.88699   difference -1.4e-05
+5. Constant prefactor with a free potential (chi2 at the tabulated nodes)
+  tied log10 Omega_f = -8.00 chi2                            independent     34.16954   extensions.py     34.16956   difference -2.4e-05
+  tied log10 Omega_f = -3.60 chi2                            independent     34.00141   extensions.py     34.00148   difference -6.9e-05
+  tied log10 Omega_f = -3.30 chi2                            independent     33.83535   extensions.py     33.83542   difference -7.7e-05
+  tied log10 Omega_f = -3.20 chi2                            independent     34.08245   extensions.py     34.08246   difference -1.3e-05
+  tied log10 Omega_f = -3.10 chi2                            independent     35.06612   extensions.py     35.06610   difference +1.8e-05
+  tied log10 Omega_f = -3.00 chi2                            independent     37.76921   extensions.py     37.76928   difference -6.8e-05
+6. Profile likelihood without the growth point at z = 0.07 (chi2 of 51 measurements at the tabulated nodes)
+  u = -12.00 chi2                                            independent     34.16844   extensions.py     34.16842   difference +1.9e-05
+  u = -7.00 chi2                                             independent     33.60796   extensions.py     33.60794   difference +1.9e-05
+  u = -6.50 chi2                                             independent     32.87639   extensions.py     32.87637   difference +1.9e-05
+  u = -6.20 chi2                                             independent     33.19398   extensions.py     33.19396   difference +2.1e-05
+  u = -6.00 chi2                                             independent     35.91899   extensions.py     35.91896   difference +2.3e-05
+  u = -5.90 chi2                                             independent     39.50229   extensions.py     39.50226   difference +2.8e-05
+largest absolute difference: 2.6e-04; in the 44 values of chi2: 2.6e-04

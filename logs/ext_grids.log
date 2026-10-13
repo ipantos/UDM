@@ -1,0 +1,259 @@
+
+Invocation 2026-10-12T15:26:59Z: ['extensions.py', 'grids']
+constant same_initial_rate {
+ "all_data": {
+  "chi2_minimum": 46.49243660114705,
+  "u_at_minimum": -6.571195479308128,
+  "c_s2_at_minimum": 2.6841360233171043e-07,
+  "omega_at_minimum": 0.30401467537673804,
+  "sigma8_ref_at_minimum": 0.6438073448208449,
+  "chi2_at_zero_sound_speed": 47.436629930824786,
+  "omega_at_zero_sound_speed": 0.30321099328784384,
+  "sigma8_ref_at_zero_sound_speed": 0.6136667042824988,
+  "delta_chi2_at_zero_sound_speed": 0.9441933296777378,
+  "marginal_likelihood_at_grid_end": 2.1730102166196197e-142,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 5.35255237336928e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 7.017132848583162e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 7.816263782116986e-07
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 3.8310542895090955e-07,
+   "1e-10": 4.4722688266937227e-07,
+   "1e-9": 4.88913180274475e-07,
+   "1e-8": 5.420917180660033e-07
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 6.404486576381941e-07,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 7.325072102977993e-07
+ },
+ "without_growth_point_at_z_0.07": {
+  "chi2_minimum": 45.951118527621716,
+  "u_at_minimum": -6.407441881963601,
+  "c_s2_at_minimum": 3.9134349388399395e-07,
+  "omega_at_minimum": 0.30400013329498754,
+  "sigma8_ref_at_minimum": 0.6530307608405321,
+  "chi2_at_zero_sound_speed": 47.425365782385555,
+  "omega_at_zero_sound_speed": 0.3031665541437467,
+  "sigma8_ref_at_zero_sound_speed": 0.613191449211855,
+  "delta_chi2_at_zero_sound_speed": 1.4742472547638386,
+  "marginal_likelihood_at_grid_end": 9.727013841331702e-136,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 7.017275077980898e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 8.936533544464907e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 9.854098670709121e-07
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 5.419618277197092e-07,
+   "1e-10": 6.113989720081142e-07,
+   "1e-9": 6.545849730459889e-07,
+   "1e-8": 7.056607207134334e-07
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 8.248042803505179e-07,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 9.212832859770137e-07
+ }
+}
+constant growing_mode_initial_rate {
+ "all_data": {
+  "chi2_minimum": 46.48213506645026,
+  "u_at_minimum": -6.55496532255286,
+  "c_s2_at_minimum": 2.786343643081895e-07,
+  "omega_at_minimum": 0.30393401533877673,
+  "sigma8_ref_at_minimum": 0.649011588340419,
+  "chi2_at_zero_sound_speed": 47.52207710728341,
+  "omega_at_zero_sound_speed": 0.3031500204539446,
+  "sigma8_ref_at_zero_sound_speed": 0.6182492889626998,
+  "delta_chi2_at_zero_sound_speed": 1.0399420408331466,
+  "marginal_likelihood_at_grid_end": 2.2014800273885782e-142,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 5.44056839435213e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 7.09023730261885e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 7.881253361877927e-07
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 3.952903259486133e-07,
+   "1e-10": 4.5904913776255117e-07,
+   "1e-9": 4.986013823403236e-07,
+   "1e-8": 5.503733027570098e-07
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 6.488210596986796e-07,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 7.383954571718099e-07
+ },
+ "without_growth_point_at_z_0.07": {
+  "chi2_minimum": 45.92557837552717,
+  "u_at_minimum": -6.394644367454236,
+  "c_s2_at_minimum": 4.0304694397296195e-07,
+  "omega_at_minimum": 0.30392244842442345,
+  "sigma8_ref_at_minimum": 0.6585260165234623,
+  "chi2_at_zero_sound_speed": 47.51405941121057,
+  "omega_at_zero_sound_speed": 0.3031129603900179,
+  "sigma8_ref_at_zero_sound_speed": 0.6178446798176128,
+  "delta_chi2_at_zero_sound_speed": 1.588481035683401,
+  "marginal_likelihood_at_grid_end": 9.985705581270548e-136,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 7.107406304968473e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 9.006046497031374e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 9.91377488837611e-07
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 5.56828836461729e-07,
+   "1e-10": 6.241787735320719e-07,
+   "1e-9": 6.66888811394439e-07,
+   "1e-8": 7.165280526999014e-07
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 8.33183714072807e-07,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 9.27260857557334e-07
+ }
+}
+minimal same_initial_rate {
+ "all_data": {
+  "chi2_minimum": 47.258581168911505,
+  "u_at_minimum": -6.038861609084651,
+  "c_s2_at_minimum": 9.144045763397247e-07,
+  "omega_at_minimum": 0.30351313153512016,
+  "sigma8_ref_at_minimum": 0.6178965507128853,
+  "chi2_at_zero_sound_speed": 47.43663639294741,
+  "omega_at_zero_sound_speed": 0.30321099143737906,
+  "sigma8_ref_at_zero_sound_speed": 0.6136666016128809,
+  "delta_chi2_at_zero_sound_speed": 0.17805522403590857,
+  "marginal_likelihood_at_grid_end": 3.5283623070298395e-135,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 3.072958833641055e-06,
+   "95% one-sided (Delta chi2 = 2.71)": 4.446868675992395e-06,
+   "95% two-sided (Delta chi2 = 3.84)": 5.114597497550711e-06
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 1.7069186252421915e-06,
+   "1e-10": 2.151197057689512e-06,
+   "1e-9": 2.4415217076105607e-06,
+   "1e-8": 2.8084458444559933e-06
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 4.048654651917558e-06,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 4.896836218940824e-06,
+  "bayes_95_upper_limit_omega_f": 0.00039729220044136586,
+  "profile_upper_limits_omega_f": {
+   "68.3% two-sided (Delta chi2 = 1)": 0.0005341481862640557,
+   "95% one-sided (Delta chi2 = 2.71)": 0.0006448502613147528,
+   "95% two-sided (Delta chi2 = 3.84)": 0.0006929861367509992
+  },
+  "profile_upper_limits_c_s2_at_z_ref": {
+   "68.3% two-sided (Delta chi2 = 1)": 2.5923657833985954e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 3.751408764397214e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 4.3147119934519313e-07
+  },
+  "bayes_95_upper_limit_c_s2_at_z_ref": 1.439964589155461e-07
+ },
+ "without_growth_point_at_z_0.07": {
+  "chi2_minimum": 46.53945038312509,
+  "u_at_minimum": -5.42752862411068,
+  "c_s2_at_minimum": 3.736554971419953e-06,
+  "omega_at_minimum": 0.303826499303365,
+  "sigma8_ref_at_minimum": 0.6255052796122665,
+  "chi2_at_zero_sound_speed": 47.42537256084894,
+  "omega_at_zero_sound_speed": 0.3031665529435492,
+  "sigma8_ref_at_zero_sound_speed": 0.6131913531136289,
+  "delta_chi2_at_zero_sound_speed": 0.8859221777238488,
+  "marginal_likelihood_at_grid_end": 3.8116131150928674e-119,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 7.634372632076344e-06,
+   "95% one-sided (Delta chi2 = 2.71)": 1.0104052874016014e-05,
+   "95% two-sided (Delta chi2 = 3.84)": 1.1299459579509919e-05
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 4.869678144671797e-06,
+   "1e-10": 5.68731925097136e-06,
+   "1e-9": 6.186458333783743e-06,
+   "1e-8": 6.785372259799038e-06
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 9.17490635286456e-06,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 1.0565877140593695e-05,
+  "bayes_95_upper_limit_omega_f": 0.0006715835995752209,
+  "profile_upper_limits_omega_f": {
+   "68.3% two-sided (Delta chi2 = 1)": 0.0008434949456152885,
+   "95% one-sided (Delta chi2 = 2.71)": 0.000974385317368487,
+   "95% two-sided (Delta chi2 = 3.84)": 0.0010327872785583622
+  },
+  "profile_upper_limits_c_s2_at_z_ref": {
+   "68.3% two-sided (Delta chi2 = 1)": 6.440427653211995e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 8.523892116882517e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 9.532361029773055e-07
+  },
+  "bayes_95_upper_limit_c_s2_at_z_ref": 4.1080953082167003e-07
+ }
+}
+minimal growing_mode_initial_rate {
+ "all_data": {
+  "chi2_minimum": 47.31183328696739,
+  "u_at_minimum": -6.006275131288183,
+  "c_s2_at_minimum": 9.856548624298395e-07,
+  "omega_at_minimum": 0.3034864313203319,
+  "sigma8_ref_at_minimum": 0.6236191149770213,
+  "chi2_at_zero_sound_speed": 47.522083920074344,
+  "omega_at_zero_sound_speed": 0.30315001869013086,
+  "sigma8_ref_at_zero_sound_speed": 0.6182491841585326,
+  "delta_chi2_at_zero_sound_speed": 0.21025063310695202,
+  "marginal_likelihood_at_grid_end": 7.018618443178602e-135,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 3.130265498988011e-06,
+   "95% one-sided (Delta chi2 = 2.71)": 4.49460203472879e-06,
+   "95% two-sided (Delta chi2 = 3.84)": 5.157286657115817e-06
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 1.75085832374811e-06,
+   "1e-10": 2.1958429498430935e-06,
+   "1e-9": 2.484951295390752e-06,
+   "1e-8": 2.852362944075435e-06
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 4.087883793635285e-06,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 4.92035692391449e-06,
+  "bayes_95_upper_limit_omega_f": 0.0004025982721640348,
+  "profile_upper_limits_omega_f": {
+   "68.3% two-sided (Delta chi2 = 1)": 0.0005390373084102581,
+   "95% one-sided (Delta chi2 = 2.71)": 0.00064822418835867,
+   "95% two-sided (Delta chi2 = 3.84)": 0.0006958079077513304
+  },
+  "profile_upper_limits_c_s2_at_z_ref": {
+   "68.3% two-sided (Delta chi2 = 1)": 2.6407101551430166e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 3.791677117323345e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 4.3507250518890833e-07
+  },
+  "bayes_95_upper_limit_c_s2_at_z_ref": 1.477032385127336e-07
+ },
+ "without_growth_point_at_z_0.07": {
+  "chi2_minimum": 46.547802350897356,
+  "u_at_minimum": -5.413243505824433,
+  "c_s2_at_minimum": 3.861504045614298e-06,
+  "omega_at_minimum": 0.3038545158688522,
+  "sigma8_ref_at_minimum": 0.631905420442937,
+  "chi2_at_zero_sound_speed": 47.51406649239411,
+  "omega_at_zero_sound_speed": 0.3031129592690161,
+  "sigma8_ref_at_zero_sound_speed": 0.6178445817043963,
+  "delta_chi2_at_zero_sound_speed": 0.966264141496751,
+  "marginal_likelihood_at_grid_end": 8.94601941783645e-119,
+  "profile_upper_limits": {
+   "68.3% two-sided (Delta chi2 = 1)": 7.739051642444229e-06,
+   "95% one-sided (Delta chi2 = 2.71)": 1.0190812359398955e-05,
+   "95% two-sided (Delta chi2 = 3.84)": 1.1377073664986284e-05
+  },
+  "bayes_95_upper_limit_by_lower_prior_edge": {
+   "1e-12": 5.018861488425566e-06,
+   "1e-10": 5.83310297963014e-06,
+   "1e-9": 6.316280663859668e-06,
+   "1e-8": 6.9058291077158985e-06
+  },
+  "bayes_95_upper_limit_prior_uniform_in_c_s": 9.270644856012672e-06,
+  "bayes_95_upper_limit_prior_uniform_in_c_s2": 1.0630093331503103e-05,
+  "bayes_95_upper_limit_omega_f": 0.0006826043282781317,
+  "profile_upper_limits_omega_f": {
+   "68.3% two-sided (Delta chi2 = 1)": 0.000849157994581171,
+   "95% one-sided (Delta chi2 = 2.71)": 0.0009784820573894896,
+   "95% two-sided (Delta chi2 = 3.84)": 0.0010362635816438845
+  },
+  "profile_upper_limits_c_s2_at_z_ref": {
+   "68.3% two-sided (Delta chi2 = 1)": 6.528736464289799e-07,
+   "95% one-sided (Delta chi2 = 2.71)": 8.597084072964796e-07,
+   "95% two-sided (Delta chi2 = 3.84)": 9.597837894911858e-07
+  },
+  "bayes_95_upper_limit_c_s2_at_z_ref": 4.2339480222402283e-07
+ }
+}
+[grids] done in 114.7 s

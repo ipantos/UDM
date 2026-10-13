@@ -1,0 +1,185 @@
+
+Invocation 2026-10-12T15:09:53Z: ['extensions.py', 'bestfit']
+  with_V_nonnegative start  0 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  0 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  1 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  1 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  2 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  2 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  3 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  3 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  4 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  4 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  5 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  5 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  6 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  6 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  7 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  7 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  8 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  8 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  9 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start  9 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 10 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 10 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 11 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 11 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 12 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 12 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 13 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 13 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 14 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 14 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 15 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 15 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 16 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 16 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 17 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 17 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 18 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 18 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 19 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 19 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 20 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 20 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 21 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 21 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 22 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 22 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 23 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 23 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 24 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 24 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 25 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 25 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 26 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 26 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 27 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 27 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 28 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 28 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 29 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 29 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 30 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 30 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 31 (c_s^2 from 2e-07): chi2 = 33.1748  c_s^2 = 3.057e-07
+  with_V_nonnegative start 31 (c_s^2 from 1e-09): chi2 = 33.1748  c_s^2 = 3.057e-07
+with_V_nonnegative {
+ "eps_nodes": [
+  -0.7450825976985999,
+  -0.9896336083218948,
+  -1.0096624226527278,
+  -0.8648023136268572,
+  -1.4541909901325565,
+  -1.493162113135313,
+  -1.4999995404586288
+ ],
+ "A": 31.083581276283066,
+ "sigma8_ref": 0.5769857563600743,
+ "M": 35.66826031348489,
+ "chi2_rk4_solver": 33.174801686107116,
+ "chi2_bao": 4.967575769342832,
+ "chi2_sn": 20.63331218246182,
+ "chi2_growth": 7.573959396171989,
+ "max_w": -3.0636070602607646e-07,
+ "min_w": -0.5477070739008307,
+ "q0": 0.1334909789060803,
+ "chi2": 33.174847347976645,
+ "c_s2": 3.056942503273831e-07,
+ "starts": 64,
+ "starts_within_0.001_of_minimum": 64,
+ "parameters": 11,
+ "measurements": 52
+}
+  without_V_restriction start  0 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  0 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  1 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  1 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  2 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  2 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  3 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  3 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  4 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  4 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  5 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  5 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  6 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  6 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  7 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  7 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  8 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  8 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  9 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start  9 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 10 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 10 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 11 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 11 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 12 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 12 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 13 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 13 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 14 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 14 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 15 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 15 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 16 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 16 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 17 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 17 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 18 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 18 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 19 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 19 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 20 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 20 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 21 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 21 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 22 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 22 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 23 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 23 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 24 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 24 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 25 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 25 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 26 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 26 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 27 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 27 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 28 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 28 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 29 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 29 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 30 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 30 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 31 (c_s^2 from 2e-07): chi2 = 32.5888  c_s^2 = 3.996e-07
+  without_V_restriction start 31 (c_s^2 from 1e-09): chi2 = 32.5888  c_s^2 = 3.996e-07
+without_V_restriction {
+ "eps_nodes": [
+  -0.7314233574530515,
+  -1.0348657627321245,
+  -1.010069924840008,
+  -0.7605016074973387,
+  -1.5888512566957558,
+  -1.5593425691931662,
+  -1.9231404634193545
+ ],
+ "A": 31.205128791564196,
+ "sigma8_ref": 0.5956982197405178,
+ "M": 35.66790444013541,
+ "chi2_rk4_solver": 32.5887633110907,
+ "chi2_bao": 4.349211131189413,
+ "chi2_sn": 20.47338600327884,
+ "chi2_growth": 7.766193943152414,
+ "max_w": 0.282093642279569,
+ "min_w": -0.5688009472242737,
+ "q0": 0.2740420684631073,
+ "chi2": 32.58879107762067,
+ "c_s2": 3.995949884343611e-07,
+ "starts": 64,
+ "starts_within_0.001_of_minimum": 64,
+ "parameters": 11,
+ "measurements": 52
+}
+[bestfit] done in 160.1 s

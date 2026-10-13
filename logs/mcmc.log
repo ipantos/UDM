@@ -1,0 +1,103 @@
+
+Invocation 2026-10-12T14:13:06Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Completed raw steps: 5000; elapsed 385.8 s
+Mean acceptance fraction (this segment): 0.2964
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: still inside the burn-in (5000 of 20000 burn-in steps).
+
+Invocation 2026-10-12T14:19:33Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 5000 completed steps, with saved random state
+Completed raw steps: 10000; elapsed 372.5 s
+Mean acceptance fraction (this segment): 0.2937
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: still inside the burn-in (10000 of 20000 burn-in steps).
+
+Invocation 2026-10-12T14:25:46Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 10000 completed steps, with saved random state
+Completed raw steps: 15000; elapsed 369.1 s
+Mean acceptance fraction (this segment): 0.2949
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: still inside the burn-in (15000 of 20000 burn-in steps).
+
+Invocation 2026-10-12T14:31:56Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 15000 completed steps, with saved random state
+Completed raw steps: 20000; elapsed 375.0 s
+Mean acceptance fraction (this segment): 0.2961
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: still inside the burn-in (20000 of 20000 burn-in steps).
+
+Invocation 2026-10-12T14:38:12Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 20000 completed steps, with saved random state
+Completed raw steps: 25000; elapsed 373.4 s
+Mean acceptance fraction (this segment): 0.2942
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+The chain is shorter than 50 times the integrated autocorrelation time for 11 parameter(s). Use this estimate with caution and run a longer chain!
+N/50 = 5;
+tau: [ 9.48366757  9.41803062  9.58070051  9.30401229 11.05204088 10.79850259
+  8.76616075  9.18477743 10.05774464  9.80495162  9.59165092]
+Convergence: integrated autocorrelation time 221 raw steps; retained 5000 of the 11052 the rule of fifty lengths asks for (NOT met: run 6052 more raw steps).
+
+Invocation 2026-10-12T14:44:26Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 25000 completed steps, with saved random state
+Completed raw steps: 30000; elapsed 379.2 s
+Mean acceptance fraction (this segment): 0.2990
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+The chain is shorter than 50 times the integrated autocorrelation time for 10 parameter(s). Use this estimate with caution and run a longer chain!
+N/50 = 10;
+tau: [12.44152668 10.35419664 12.06278636  9.67049037 12.77660673 12.81688686
+ 10.53834173 11.68986045 12.55372236 11.82809648 11.7568474 ]
+Convergence: integrated autocorrelation time 256 raw steps; retained 10000 of the 12817 the rule of fifty lengths asks for (NOT met: run 2817 more raw steps).
+
+Invocation 2026-10-12T14:50:46Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 30000 completed steps, with saved random state
+Completed raw steps: 35000; elapsed 385.8 s
+Mean acceptance fraction (this segment): 0.2932
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 273 raw steps; retained 15000 of the 13672 the rule of fifty lengths asks for (MET).
+
+Invocation 2026-10-12T14:57:13Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 35000 completed steps, with saved random state
+Completed raw steps: 40000; elapsed 399.9 s
+Mean acceptance fraction (this segment): 0.2950
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 290 raw steps; retained 20000 of the 14478 the rule of fifty lengths asks for (MET).
+
+Invocation 2026-10-13T03:48:23Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 40000 completed steps, with saved random state
+Completed raw steps: 45000; elapsed 358.1 s
+Mean acceptance fraction (this segment): 0.2943
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 303 raw steps; retained 25000 of the 15132 the rule of fifty lengths asks for (MET).
+
+Invocation 2026-10-13T03:54:22Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 45000 completed steps, with saved random state
+Completed raw steps: 50000; elapsed 351.4 s
+Mean acceptance fraction (this segment): 0.2945
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 302 raw steps; retained 30000 of the 15101 the rule of fifty lengths asks for (MET).
+
+Invocation 2026-10-13T04:00:14Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 50000 completed steps, with saved random state
+Completed raw steps: 55000; elapsed 357.4 s
+Mean acceptance fraction (this segment): 0.2935
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 305 raw steps; retained 35000 of the 15261 the rule of fifty lengths asks for (MET).
+
+Invocation 2026-10-13T04:06:13Z: ['fit_joint.py', 'mcmc', '5000']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Resuming from 55000 completed steps, with saved random state
+Completed raw steps: 60000; elapsed 356.9 s
+Mean acceptance fraction (this segment): 0.2939
+Saved checkpoint: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_mcmc.npz
+Convergence: integrated autocorrelation time 306 raw steps; retained 40000 of the 15315 the rule of fifty lengths asks for (MET).

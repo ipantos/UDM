@@ -1,0 +1,12 @@
+{
+  "official_commit": "f5c387349b68f3535fdabf0fbc4f45cd407f9084",
+  "official_fits_sha256": "ef98b7dde1025ee7134f3242aaea3f1f0ed3f2b29a718458c550a8e4e24d0349",
+  "n": 22,
+  "z_max_abs": 4.4518752129185657e-07,
+  "mu_max_abs": 4.987871236039609e-07,
+  "cov_max_abs": 1.5612511283791264e-16,
+  "cov_max_relative": 2.297363456752492e-14,
+  "cov_symmetry_max": 1.0061396160665481e-16,
+  "cov_min_eigenvalue": 0.000142324678946534,
+  "precision_relative_max": 2.9912347899848977e-10
+}

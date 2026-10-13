@@ -1,0 +1,6 @@
+
+Invocation 2026-10-12T15:28:54Z: ['extensions.py', 'coverage']
+{"true_c_s2": 7.079457843841923e-07, "true_omega": 0.3060000000000001, "true_sigma8_ref": 0.6891058421555334, "fraction_of_limits_above_truth_at_2.71": 0.95175, "fraction_of_limits_above_truth_at_3.84": 0.97625, "binomial_error_at_2.71": 0.0033882863478460613, "fraction_of_data_sets_with_best_c_s2_below_1e-9": 0.005}
+{"true_c_s2": 3.5481338923359924e-07, "true_omega": 0.3040000000000001, "true_sigma8_ref": 0.6517875353259119, "fraction_of_limits_above_truth_at_2.71": 0.9535, "fraction_of_limits_above_truth_at_3.84": 0.98525, "binomial_error_at_2.71": 0.0033293298875299217, "fraction_of_data_sets_with_best_c_s2_below_1e-9": 0.10325}
+{"true_c_s2": 1e-12, "true_omega": 0.3030000000000001, "true_sigma8_ref": 0.6136667042824989, "fraction_of_limits_above_truth_at_2.71": 1.0, "fraction_of_limits_above_truth_at_3.84": 1.0, "binomial_error_at_2.71": 0.00025, "fraction_of_data_sets_with_best_c_s2_below_1e-9": 0.48325}
+[coverage] done in 37.6 s

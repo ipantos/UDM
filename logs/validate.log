@@ -1,4 +1,40 @@
-Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
+
+Invocation 2026-10-12T15:05:52Z: ['fit_joint.py', 'validate']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+
+Closure diagnostic at k=0
+Source: 300 posterior samples
+Usable samples: 300
+Skipped samples: 0
+
+Maximum absolute fractional difference within each sample:
+  median:          0.002%
+  68th percentile: 0.005%
+  95th percentile: 0.031%
+  maximum:         0.959%
+
+First usable sample, redshift by redshift:
+       z      f (growth)    f (u-equation)    difference %
+   0.070        5.427465          5.427476           0.000
+   0.170        1.409348          1.409348           0.000
+   0.180        1.210091          1.210091           0.000
+   0.295       -0.261807         -0.261808           0.000
+   0.380       -0.759475         -0.759476           0.000
+   0.440       -0.861534         -0.861534           0.000
+   0.510       -0.710736         -0.710737           0.000
+   0.600       -0.100732         -0.100734           0.001
+   0.706        1.082557          1.082554           0.000
+   0.730        1.347929          1.347927           0.000
+   0.919        1.294568          1.294567           0.000
+   0.978        0.813559          0.813559           0.000
+   1.230        0.316999          0.316999           0.000
+   1.317        0.704151          0.704152           0.000
+   1.491        1.499286          1.499287           0.000
+   1.526        1.593200          1.593201           0.000
+   1.944        1.413123          1.413124           0.000
+
+Invocation 2026-10-13T04:22:16Z: fit_joint.py validate
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
 
 Closure diagnostic at k=0
 Source: 300 posterior samples
@@ -8,25 +44,25 @@ Skipped samples: 0
 Maximum absolute fractional difference within each sample:
   median:          0.003%
   68th percentile: 0.005%
-  95th percentile: 0.043%
-  maximum:         0.296%
+  95th percentile: 0.055%
+  maximum:         7.487%
 
 First usable sample, redshift by redshift:
        z      f (growth)    f (u-equation)    difference %
-   0.070       -1.594378         -1.594376           0.000
-   0.170       -0.083527         -0.083525           0.003
-   0.180        0.030488          0.030490           0.007
-   0.295        0.821799          0.821802           0.000
-   0.380        0.929718          0.929721           0.000
-   0.440        0.837652          0.837656           0.000
-   0.510        0.585027          0.585031           0.001
-   0.600        0.035553          0.035557           0.013
-   0.706       -0.990880         -0.990875           0.001
-   0.730       -1.237056         -1.237051           0.000
-   0.919        0.224975          0.224980           0.002
-   0.978        1.604243          1.604244           0.000
-   1.230        2.899014          2.899014           0.000
-   1.317        2.327640          2.327639           0.000
-   1.491        1.064028          1.064027           0.000
-   1.526        0.859918          0.859917           0.000
-   1.944       -0.493280         -0.493281           0.000
+   0.070       -4.706812         -4.706806           0.000
+   0.170       -1.772493         -1.772490           0.000
+   0.180       -1.441393         -1.441390           0.000
+   0.295        1.226412          1.226415           0.000
+   0.380        1.796090          1.796094           0.000
+   0.440        1.760370          1.760374           0.000
+   0.510        1.426984          1.426989           0.000
+   0.600        0.605742          0.605748           0.001
+   0.706       -1.050754         -1.050746           0.001
+   0.730       -1.492691         -1.492685           0.000
+   0.919       -0.957362         -0.957356           0.001
+   0.978        0.611602          0.611603           0.000
+   1.230        2.576477          2.576478           0.000
+   1.317        2.072808          2.072808           0.000
+   1.491        0.994114          0.994114           0.000
+   1.526        0.847418          0.847418           0.000
+   1.944        0.618354          0.618353           0.000

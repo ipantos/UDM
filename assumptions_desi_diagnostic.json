@@ -1,0 +1,200 @@
+{
+ "command": "python assumptions.py scales --legacy-desi-diagnostic",
+ "note": "Optional diagnostic, not part of the default pipeline. Run on a copy of this folder after the pipeline had completed; all other scale cases it recomputed were identical to those in assumptions.json.",
+ "constant": {
+  "without the six DESI full-shape amplitudes": {
+   "chi2_minimum": 42.92788744084832,
+   "c_s2_at_minimum": 2.2666218246145256e-07,
+   "omega_at_minimum": 0.30406053709266384,
+   "sigma8_ref_at_minimum": 0.6309866237733213,
+   "chi2_at_zero_sound_speed": 43.32150520632207,
+   "delta_chi2_at_zero_sound_speed": 0.39361776547374916,
+   "delta_chi2_at_grid_end": 193.53493993258058,
+   "profile_upper_limits": {
+    "68.3% two-sided (Delta chi2 = 1)": 5.579792469798076e-07,
+    "95% one-sided (Delta chi2 = 2.71)": 7.526302383413381e-07,
+    "95% two-sided (Delta chi2 = 3.84)": 8.433285689397364e-07
+   },
+   "bayes_95_upper_limit": 3.683391230000207e-07,
+   "omega_at_95_limit": 0.30535322158094114,
+   "sigma8_ref_at_95_limit": 0.724241881873181,
+   "measurements": 46,
+   "spot_values": [
+    {
+     "u": -9.0,
+     "omega": 0.3040000000000001,
+     "chi2": 43.31850136711054,
+     "bao": 11.13351199994213,
+     "sn": 27.981964858016,
+     "growth": 4.203024509152414,
+     "sigma8": 0.59355531194821
+    },
+    {
+     "u": -6.649999999999974,
+     "omega": 0.3040000000000001,
+     "chi2": 42.92800326535772,
+     "bao": 11.13351199994213,
+     "sn": 27.981964858016,
+     "growth": 3.812526407399588,
+     "sigma8": 0.6309866237733213
+    },
+    {
+     "u": -6.099999999999966,
+     "omega": 0.3060000000000001,
+     "chi2": 46.13015086761635,
+     "bao": 11.537370380799985,
+     "sn": 27.66525086108595,
+     "growth": 6.927529625730415,
+     "sigma8": 0.7311056061686362
+    }
+   ]
+  },
+  "as in the fit": {
+   "chi2_minimum": 46.492436601147,
+   "c_s2_at_minimum": 2.6841360233110163e-07,
+   "omega_at_minimum": 0.30401467537673443,
+   "sigma8_ref_at_minimum": 0.6438073448208445,
+   "chi2_at_zero_sound_speed": 47.43662993082507,
+   "delta_chi2_at_zero_sound_speed": 0.9441933296780718,
+   "delta_chi2_at_grid_end": 451.832436781966,
+   "profile_upper_limits": {
+    "68.3% two-sided (Delta chi2 = 1)": 5.352552373369161e-07,
+    "95% one-sided (Delta chi2 = 2.71)": 7.01713284858319e-07,
+    "95% two-sided (Delta chi2 = 3.84)": 7.81626378211697e-07
+   },
+   "bayes_95_upper_limit": 3.8310542895090876e-07,
+   "omega_at_95_limit": 0.3059319726690306,
+   "sigma8_ref_at_95_limit": 0.6884631728898636,
+   "measurements": 52,
+   "spot_values": [
+    {
+     "u": -9.0,
+     "omega": 0.3030000000000001,
+     "chi2": 47.43047062270068,
+     "bao": 10.969764746638248,
+     "sn": 28.145620413532015,
+     "growth": 8.31508546253042,
+     "sigma8": 0.6137746858377875
+    },
+    {
+     "u": -6.549999999999972,
+     "omega": 0.3040000000000001,
+     "chi2": 46.495159466881205,
+     "bao": 11.13351199994213,
+     "sn": 27.981964858016,
+     "growth": 7.379682608923076,
+     "sigma8": 0.6438073448208445
+    },
+    {
+     "u": -6.149999999999967,
+     "omega": 0.3060000000000001,
+     "chi2": 49.27875629068137,
+     "bao": 11.537370380799985,
+     "sn": 27.66525086108595,
+     "growth": 10.076135048795436,
+     "sigma8": 0.6891058421555333
+    }
+   ]
+  }
+ },
+ "minimal": {
+  "without the six DESI full-shape amplitudes": {
+   "chi2_minimum": 43.31314292655061,
+   "c_s2_at_minimum": 1.1502020128686689e-07,
+   "omega_at_minimum": 0.3038507309766477,
+   "sigma8_ref_at_minimum": 0.5981405975294314,
+   "chi2_at_zero_sound_speed": 43.315147783785754,
+   "delta_chi2_at_zero_sound_speed": 0.002004857235142765,
+   "delta_chi2_at_grid_end": 209.46511976127795,
+   "profile_upper_limits": {
+    "68.3% two-sided (Delta chi2 = 1)": 2.6049097261480103e-06,
+    "95% one-sided (Delta chi2 = 2.71)": 4.129125064516183e-06,
+    "95% two-sided (Delta chi2 = 3.84)": 4.853666421690053e-06
+   },
+   "bayes_95_upper_limit": 1.4397799454757136e-06,
+   "omega_at_95_limit": 0.30489761105972424,
+   "sigma8_ref_at_95_limit": 0.6396568870551821,
+   "profile_95_upper_limit_omega_f": 0.0006208682906959332,
+   "profile_95_upper_limit_c_s2_at_z_ref": 3.483357071747599e-07,
+   "measurements": 46,
+   "spot_values": [
+    {
+     "u": -9.0,
+     "omega": 0.3040000000000001,
+     "chi2": 43.315523220260815,
+     "bao": 11.133511978783645,
+     "sn": 27.981964884063927,
+     "growth": 4.2000463574132425,
+     "sigma8": 0.596866429393894
+    },
+    {
+     "u": -6.949999999999978,
+     "omega": 0.3040000000000001,
+     "chi2": 43.313470298989046,
+     "bao": 11.13350962891127,
+     "sn": 27.98196868674131,
+     "growth": 4.197991983336465,
+     "sigma8": 0.5981405975294314
+    },
+    {
+     "u": -5.399999999999956,
+     "omega": 0.3050000000000001,
+     "chi2": 45.81427106093392,
+     "bao": 11.322710623440798,
+     "sn": 27.821981308370596,
+     "growth": 6.669579129122525,
+     "sigma8": 0.6382283753806103
+    }
+   ]
+  },
+  "as in the fit": {
+   "chi2_minimum": 47.311833286967385,
+   "c_s2_at_minimum": 9.856548624282752e-07,
+   "omega_at_minimum": 0.3034864313203319,
+   "sigma8_ref_at_minimum": 0.6236191149770213,
+   "chi2_at_zero_sound_speed": 47.522083920074344,
+   "delta_chi2_at_zero_sound_speed": 0.21025063310695913,
+   "delta_chi2_at_grid_end": 663.1898548982505,
+   "profile_upper_limits": {
+    "68.3% two-sided (Delta chi2 = 1)": 3.1302654989894703e-06,
+    "95% one-sided (Delta chi2 = 2.71)": 4.494602034728781e-06,
+    "95% two-sided (Delta chi2 = 3.84)": 5.157286657115817e-06
+   },
+   "bayes_95_upper_limit": 1.7508583237400785e-06,
+   "omega_at_95_limit": 0.3050065652682305,
+   "sigma8_ref_at_95_limit": 0.6386666225631871,
+   "profile_95_upper_limit_omega_f": 0.0006482241883586216,
+   "profile_95_upper_limit_c_s2_at_z_ref": 3.791677117323337e-07,
+   "measurements": 52,
+   "spot_values": [
+    {
+     "u": -9.0,
+     "omega": 0.3030000000000001,
+     "chi2": 47.52200016226175,
+     "bao": 10.969764729117742,
+     "sn": 28.145620444382075,
+     "growth": 8.40661498876193,
+     "sigma8": 0.6182547066364109
+    },
+    {
+     "u": -5.9999999999999645,
+     "omega": 0.3030000000000001,
+     "chi2": 47.31541931489801,
+     "bao": 10.969747225608444,
+     "sn": 28.14565509656677,
+     "growth": 8.200016992722794,
+     "sigma8": 0.6236191149770213
+    },
+    {
+     "u": -5.349999999999955,
+     "omega": 0.3050000000000001,
+     "chi2": 49.97490116311019,
+     "bao": 11.32269861473469,
+     "sn": 27.821997618186288,
+     "growth": 10.830204930189211,
+     "sigma8": 0.6385536418343226
+    }
+   ]
+  }
+ }
+}

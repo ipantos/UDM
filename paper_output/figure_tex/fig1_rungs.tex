@@ -1,0 +1,41 @@
+\input{plot_style.tex}
+\begin{tikzpicture}
+\begin{axis}[width=8.5cm,height=7.6cm,xmode=log,ymode=log,
+  xmin=.03,xmax=1,ymin=1e-8,ymax=3,
+  xtick={.03,.1,.3,1},xticklabels={0.03,0.1,0.3,1},
+  ytick={1e-8,1e-6,1e-4,1e-2,1},
+  xlabel={Scale factor $a$},ylabel={Sound speed $c_s$ (units of $c$)},
+  legend image code/.code={\draw[#1] (0cm,0cm) -- (.5cm,0cm);},
+  legend style={at={(.01,.985)},anchor=north west,font=\fontsize{8.6}{10}\selectfont,fill=none}]
+\addplot[draw=none,forget plot,name path=jtop] table[col sep=comma,x=a,y=jeans] {../figure_data/paper_rungs.csv};
+\addplot[draw=none,forget plot,name path=jbot] table[col sep=comma,x=a,y=floor] {../figure_data/paper_rungs.csv};
+\addplot[draw=none,fill=black!7,forget plot] fill between[of=jbot and jtop];
+\addplot[black!40,line width=.5pt,forget plot] table[col sep=comma,x=a,y=jeans] {../figure_data/paper_rungs.csv};
+\addplot[udmgray,dashed,line width=1.3pt] table[col sep=comma,x=a,y=chaplygin] {../figure_data/paper_rungs.csv};
+\addlegendentry{Chaplygin gas}
+\addplot[udmorange,line width=1.5pt] table[col sep=comma,x=a,y=minimal] {../figure_data/paper_rungs.csv};
+\addlegendentry{Minimal model}
+\addplot[udmblue,line width=1.5pt] coordinates {(0.30030,0.000882961) (1,0.000882961)};
+\addlegendentry{General model}
+\addplot[udmorange,densely dotted,line width=1.5pt,forget plot] table[col sep=comma,x=a,y=minimal_tracer] {../figure_data/paper_rungs.csv};
+\addplot[udmblue,densely dotted,line width=1.5pt,forget plot] coordinates {(0.30030,0.00296561) (1,0.00296561)};
+\addlegendimage{black!70,densely dotted,line width=1.5pt}
+\addlegendentry{pressureless galaxies}
+\node[anchor=south east,text=udmink,font=\fontsize{9}{10.5}\selectfont,align=right] at (axis cs:.283,1.3e-8)
+  {structure grows\\at $k=0.2\,h\,\mathrm{Mpc}^{-1}$};
+\node[anchor=north west,text=black,font=\fontsize{10}{12}\selectfont,rotate=-9.5] at (axis cs:.0315,5.4e-3) {$c_s=c_J$};
+\draw[black!45,densely dotted] (axis cs:.3003,1e-8) -- (axis cs:.3003,3);
+\draw[black!60,-{Stealth[length=4pt]}] (axis cs:.3003,3.5e-7) -- (axis cs:.56,3.5e-7);
+\node[anchor=west,text=black!70,font=\fontsize{9}{10.5}\selectfont] at (axis cs:.56,3.5e-7) {fitted};
+\end{axis}
+\begin{axis}[width=8.5cm,height=7.6cm,xmode=log,ymode=log,
+  xmin=.03,xmax=1,ymin=0.00299792,ymax=899377,
+  axis x line*=top,axis y line*=right,
+  xtick={1.00000,0.50000,0.30030,0.16667,0.09091,0.03226},
+  xticklabels={0,1,2.33,5,10,30},
+  xminorticks=false,
+  ytick={1e-2,1,1e2,1e4},
+  xlabel={Redshift $z$},ylabel={$c_s$ ($\mathrm{km\,s^{-1}}$)}]
+\end{axis}
+\end{tikzpicture}
+\end{document}

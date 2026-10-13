@@ -1,0 +1,103 @@
+
+Invocation 2026-10-12T15:12:34Z: ['extensions.py', 'profile']
+  with_V_nonnegative u = -12.00: chi2 = 34.1696 (BAO 5.032, SN 20.644, growth 8.493) sigma8 = 0.5445 starts 6 spread 1.1e-08
+  with_V_nonnegative u =  -9.00: chi2 = 34.1637 (BAO 5.031, SN 20.644, growth 8.489) sigma8 = 0.5446 starts 6 spread 9.0e-09
+  with_V_nonnegative u =  -8.50: chi2 = 34.1509 (BAO 5.027, SN 20.644, growth 8.480) sigma8 = 0.5450 starts 6 spread 1.8e-08
+  with_V_nonnegative u =  -8.00: chi2 = 34.1109 (BAO 5.018, SN 20.642, growth 8.451) sigma8 = 0.5462 starts 6 spread 1.3e-08
+  with_V_nonnegative u =  -7.75: chi2 = 34.0659 (BAO 5.007, SN 20.641, growth 8.418) sigma8 = 0.5475 starts 6 spread 7.8e-09
+  with_V_nonnegative u =  -7.50: chi2 = 33.9874 (BAO 4.988, SN 20.638, growth 8.361) sigma8 = 0.5498 starts 6 spread 3.1e-09
+  with_V_nonnegative u =  -7.40: chi2 = 33.9418 (BAO 4.977, SN 20.637, growth 8.328) sigma8 = 0.5512 starts 6 spread 8.0e-09
+  with_V_nonnegative u =  -7.35: chi2 = 33.9151 (BAO 4.970, SN 20.636, growth 8.309) sigma8 = 0.5520 starts 6 spread 9.1e-09
+  with_V_nonnegative u =  -7.30: chi2 = 33.8854 (BAO 4.963, SN 20.635, growth 8.288) sigma8 = 0.5530 starts 6 spread 1.2e-08
+  with_V_nonnegative u =  -7.25: chi2 = 33.8524 (BAO 4.958, SN 20.634, growth 8.260) sigma8 = 0.5538 starts 6 spread 3.9e-09
+  with_V_nonnegative u =  -7.20: chi2 = 33.8164 (BAO 4.958, SN 20.634, growth 8.224) sigma8 = 0.5544 starts 6 spread 6.2e-09
+  with_V_nonnegative u =  -7.15: chi2 = 33.7771 (BAO 4.958, SN 20.634, growth 8.185) sigma8 = 0.5552 starts 6 spread 8.4e-09
+  with_V_nonnegative u =  -7.10: chi2 = 33.7344 (BAO 4.959, SN 20.634, growth 8.142) sigma8 = 0.5560 starts 6 spread 4.7e-09
+  with_V_nonnegative u =  -7.05: chi2 = 33.6883 (BAO 4.959, SN 20.634, growth 8.096) sigma8 = 0.5569 starts 6 spread 5.9e-09
+  with_V_nonnegative u =  -7.00: chi2 = 33.6388 (BAO 4.959, SN 20.634, growth 8.046) sigma8 = 0.5579 starts 6 spread 4.6e-09
+  with_V_nonnegative u =  -6.95: chi2 = 33.5861 (BAO 4.959, SN 20.634, growth 7.993) sigma8 = 0.5590 starts 6 spread 6.5e-09
+  with_V_nonnegative u =  -6.90: chi2 = 33.5307 (BAO 4.959, SN 20.634, growth 7.938) sigma8 = 0.5603 starts 6 spread 3.1e-09
+  with_V_nonnegative u =  -6.85: chi2 = 33.4732 (BAO 4.960, SN 20.633, growth 7.880) sigma8 = 0.5617 starts 6 spread 7.9e-09
+  with_V_nonnegative u =  -6.80: chi2 = 33.4146 (BAO 4.960, SN 20.633, growth 7.821) sigma8 = 0.5633 starts 6 spread 7.5e-09
+  with_V_nonnegative u =  -6.75: chi2 = 33.3563 (BAO 4.961, SN 20.633, growth 7.762) sigma8 = 0.5651 starts 6 spread 5.3e-09
+  with_V_nonnegative u =  -6.70: chi2 = 33.3003 (BAO 4.962, SN 20.633, growth 7.705) sigma8 = 0.5671 starts 6 spread 5.7e-09
+  with_V_nonnegative u =  -6.65: chi2 = 33.2497 (BAO 4.963, SN 20.633, growth 7.654) sigma8 = 0.5694 starts 6 spread 8.3e-09
+  with_V_nonnegative u =  -6.60: chi2 = 33.2082 (BAO 4.964, SN 20.633, growth 7.611) sigma8 = 0.5719 starts 6 spread 1.1e-08
+  with_V_nonnegative u =  -6.55: chi2 = 33.1813 (BAO 4.966, SN 20.633, growth 7.582) sigma8 = 0.5748 starts 6 spread 9.4e-09
+  with_V_nonnegative u =  -6.50: chi2 = 33.1761 (BAO 4.968, SN 20.633, growth 7.574) sigma8 = 0.5780 starts 6 spread 7.0e-09
+  with_V_nonnegative u =  -6.45: chi2 = 33.2023 (BAO 4.972, SN 20.634, growth 7.597) sigma8 = 0.5816 starts 6 spread 3.6e-09
+  with_V_nonnegative u =  -6.40: chi2 = 33.2727 (BAO 4.976, SN 20.634, growth 7.663) sigma8 = 0.5856 starts 6 spread 1.2e-08
+  with_V_nonnegative u =  -6.35: chi2 = 33.4041 (BAO 4.982, SN 20.635, growth 7.787) sigma8 = 0.5901 starts 6 spread 8.1e-09
+  with_V_nonnegative u =  -6.30: chi2 = 33.6190 (BAO 4.990, SN 20.637, growth 7.992) sigma8 = 0.5951 starts 6 spread 1.2e-08
+  with_V_nonnegative u =  -6.25: chi2 = 33.9466 (BAO 5.001, SN 20.640, growth 8.305) sigma8 = 0.6007 starts 6 spread 8.1e-09
+  with_V_nonnegative u =  -6.20: chi2 = 34.4255 (BAO 5.016, SN 20.646, growth 8.764) sigma8 = 0.6070 starts 6 spread 9.0e-09
+  with_V_nonnegative u =  -6.15: chi2 = 35.1065 (BAO 5.038, SN 20.655, growth 9.414) sigma8 = 0.6140 starts 6 spread 5.7e-09
+  with_V_nonnegative u =  -6.10: chi2 = 36.0553 (BAO 5.069, SN 20.670, growth 10.317) sigma8 = 0.6217 starts 6 spread 4.8e-09
+  with_V_nonnegative u =  -6.05: chi2 = 37.3574 (BAO 5.113, SN 20.695, growth 11.549) sigma8 = 0.6303 starts 6 spread 3.7e-09
+  with_V_nonnegative u =  -6.00: chi2 = 39.1244 (BAO 5.178, SN 20.738, growth 13.209) sigma8 = 0.6397 starts 6 spread 7.6e-09
+  with_V_nonnegative u =  -5.95: chi2 = 41.5001 (BAO 5.272, SN 20.810, growth 15.418) sigma8 = 0.6500 starts 6 spread 5.5e-09
+  with_V_nonnegative u =  -5.90: chi2 = 44.6685 (BAO 5.410, SN 20.930, growth 18.328) sigma8 = 0.6612 starts 6 spread 8.2e-09
+  with_V_nonnegative u =  -5.85: chi2 = 48.8636 (BAO 5.615, SN 21.130, growth 22.119) sigma8 = 0.6733 starts 6 spread 6.3e-09
+  with_V_nonnegative u =  -5.80: chi2 = 54.3787 (BAO 5.917, SN 21.456, growth 27.005) sigma8 = 0.6861 starts 6 spread 6.2e-09
+with_V_nonnegative {
+ "chi2_minimum": 33.174847347976645,
+ "c_s2_at_minimum": 3.056942503273831e-07,
+ "delta_chi2_at_zero_sound_speed": 0.9947082179836144,
+ "upper_limits_c_s2": {
+  "68.3% two-sided (Delta chi2 = 1)": 5.971491134917042e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 7.796206466265678e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 8.674748359369528e-07
+ },
+ "largest_spread_between_starts_where_delta_chi2_below_10": 1.7526531337352935e-08
+}
+  without_V_restriction u = -12.00: chi2 = 33.7652 (BAO 4.752, SN 20.430, growth 8.583) sigma8 = 0.5110 starts 6 spread 5.0e-09
+  without_V_restriction u =  -9.00: chi2 = 33.7602 (BAO 4.751, SN 20.430, growth 8.579) sigma8 = 0.5112 starts 6 spread 5.9e-09
+  without_V_restriction u =  -8.50: chi2 = 33.7493 (BAO 4.748, SN 20.431, growth 8.570) sigma8 = 0.5117 starts 6 spread 3.2e-09
+  without_V_restriction u =  -8.00: chi2 = 33.7151 (BAO 4.741, SN 20.431, growth 8.543) sigma8 = 0.5131 starts 6 spread 5.8e-09
+  without_V_restriction u =  -7.75: chi2 = 33.6768 (BAO 4.733, SN 20.432, growth 8.512) sigma8 = 0.5147 starts 6 spread 1.4e-08
+  without_V_restriction u =  -7.50: chi2 = 33.6095 (BAO 4.718, SN 20.433, growth 8.458) sigma8 = 0.5175 starts 6 spread 4.5e-09
+  without_V_restriction u =  -7.40: chi2 = 33.5705 (BAO 4.709, SN 20.434, growth 8.427) sigma8 = 0.5192 starts 6 spread 9.7e-09
+  without_V_restriction u =  -7.35: chi2 = 33.5475 (BAO 4.704, SN 20.434, growth 8.409) sigma8 = 0.5202 starts 6 spread 1.2e-08
+  without_V_restriction u =  -7.30: chi2 = 33.5218 (BAO 4.698, SN 20.435, growth 8.389) sigma8 = 0.5214 starts 6 spread 1.1e-08
+  without_V_restriction u =  -7.25: chi2 = 33.4937 (BAO 4.692, SN 20.435, growth 8.367) sigma8 = 0.5226 starts 6 spread 1.2e-08
+  without_V_restriction u =  -7.20: chi2 = 33.4620 (BAO 4.684, SN 20.436, growth 8.342) sigma8 = 0.5241 starts 6 spread 1.4e-08
+  without_V_restriction u =  -7.15: chi2 = 33.4272 (BAO 4.676, SN 20.437, growth 8.314) sigma8 = 0.5257 starts 6 spread 4.2e-09
+  without_V_restriction u =  -7.10: chi2 = 33.3888 (BAO 4.667, SN 20.438, growth 8.284) sigma8 = 0.5275 starts 6 spread 8.2e-09
+  without_V_restriction u =  -7.05: chi2 = 33.3464 (BAO 4.656, SN 20.439, growth 8.251) sigma8 = 0.5295 starts 6 spread 6.6e-09
+  without_V_restriction u =  -7.00: chi2 = 33.3000 (BAO 4.645, SN 20.440, growth 8.216) sigma8 = 0.5318 starts 6 spread 1.7e-08
+  without_V_restriction u =  -6.95: chi2 = 33.2491 (BAO 4.632, SN 20.441, growth 8.176) sigma8 = 0.5343 starts 6 spread 5.7e-09
+  without_V_restriction u =  -6.90: chi2 = 33.1937 (BAO 4.617, SN 20.442, growth 8.134) sigma8 = 0.5372 starts 6 spread 2.0e-08
+  without_V_restriction u =  -6.85: chi2 = 33.1338 (BAO 4.601, SN 20.444, growth 8.089) sigma8 = 0.5405 starts 6 spread 1.1e-08
+  without_V_restriction u =  -6.80: chi2 = 33.0696 (BAO 4.582, SN 20.446, growth 8.041) sigma8 = 0.5442 starts 6 spread 6.3e-09
+  without_V_restriction u =  -6.75: chi2 = 33.0014 (BAO 4.562, SN 20.448, growth 7.992) sigma8 = 0.5483 starts 6 spread 6.6e-09
+  without_V_restriction u =  -6.70: chi2 = 32.9300 (BAO 4.539, SN 20.450, growth 7.940) sigma8 = 0.5529 starts 6 spread 1.4e-08
+  without_V_restriction u =  -6.65: chi2 = 32.8568 (BAO 4.514, SN 20.453, growth 7.890) sigma8 = 0.5582 starts 6 spread 2.1e-08
+  without_V_restriction u =  -6.60: chi2 = 32.7838 (BAO 4.487, SN 20.456, growth 7.841) sigma8 = 0.5640 starts 6 spread 1.5e-08
+  without_V_restriction u =  -6.55: chi2 = 32.7144 (BAO 4.456, SN 20.459, growth 7.799) sigma8 = 0.5706 starts 6 spread 6.5e-09
+  without_V_restriction u =  -6.50: chi2 = 32.6533 (BAO 4.423, SN 20.463, growth 7.767) sigma8 = 0.5780 starts 6 spread 9.4e-09
+  without_V_restriction u =  -6.45: chi2 = 32.6079 (BAO 4.388, SN 20.468, growth 7.752) sigma8 = 0.5862 starts 6 spread 8.6e-09
+  without_V_restriction u =  -6.40: chi2 = 32.5888 (BAO 4.350, SN 20.473, growth 7.765) sigma8 = 0.5954 starts 6 spread 3.7e-09
+  without_V_restriction u =  -6.35: chi2 = 32.6114 (BAO 4.312, SN 20.479, growth 7.820) sigma8 = 0.6055 starts 6 spread 2.2e-08
+  without_V_restriction u =  -6.30: chi2 = 32.6981 (BAO 4.275, SN 20.487, growth 7.936) sigma8 = 0.6165 starts 6 spread 1.1e-08
+  without_V_restriction u =  -6.25: chi2 = 32.8812 (BAO 4.241, SN 20.495, growth 8.145) sigma8 = 0.6284 starts 6 spread 1.6e-08
+  without_V_restriction u =  -6.20: chi2 = 33.2061 (BAO 4.213, SN 20.507, growth 8.486) sigma8 = 0.6409 starts 6 spread 3.3e-08
+  without_V_restriction u =  -6.15: chi2 = 33.7363 (BAO 4.196, SN 20.522, growth 9.018) sigma8 = 0.6538 starts 6 spread 1.1e-08
+  without_V_restriction u =  -6.10: chi2 = 34.5577 (BAO 4.197, SN 20.544, growth 9.817) sigma8 = 0.6666 starts 6 spread 1.9e-08
+  without_V_restriction u =  -6.05: chi2 = 35.7833 (BAO 4.223, SN 20.578, growth 10.982) sigma8 = 0.6788 starts 6 spread 1.0e-08
+  without_V_restriction u =  -6.00: chi2 = 37.5559 (BAO 4.288, SN 20.634, growth 12.633) sigma8 = 0.6895 starts 6 spread 2.0e-08
+  without_V_restriction u =  -5.95: chi2 = 40.0484 (BAO 4.411, SN 20.726, growth 14.911) sigma8 = 0.6978 starts 6 spread 1.7e-08
+  without_V_restriction u =  -5.90: chi2 = 43.4577 (BAO 4.619, SN 20.872, growth 17.967) sigma8 = 0.7020 starts 6 spread 7.2e-09
+  without_V_restriction u =  -5.85: chi2 = 47.9893 (BAO 4.949, SN 21.090, growth 21.950) sigma8 = 0.6997 starts 6 spread 9.4e-09
+  without_V_restriction u =  -5.80: chi2 = 53.8228 (BAO 5.438, SN 21.391, growth 26.995) sigma8 = 0.6876 starts 6 spread 9.5e-09
+without_V_restriction {
+ "chi2_minimum": 32.58879107762067,
+ "c_s2_at_minimum": 3.995949884343611e-07,
+ "delta_chi2_at_zero_sound_speed": 1.1763937821965484,
+ "upper_limits_c_s2": {
+  "68.3% two-sided (Delta chi2 = 1)": 6.888102974779032e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 8.555061383473904e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 9.340514823993626e-07
+ },
+ "largest_spread_between_starts_where_delta_chi2_below_10": 3.3367200558132026e-08
+}
+[profile] done in 586.8 s

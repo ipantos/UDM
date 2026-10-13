@@ -1,0 +1,25 @@
+
+Invocation 2026-10-12T14:07:47Z: ['verify_package.py']
+{
+  "python": "3.12.3",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "emcee": "3.1.6",
+  "qin": {
+    "zg": 0.07,
+    "fs8": 0.44,
+    "sig": 0.088,
+    "kmin": 0.025,
+    "kmax": 0.3,
+    "keff": 0.23244580218927163
+  },
+  "union3_official_fits_match": true,
+  "all_other_input_rows_unchanged": true,
+  "independent_chi2_abs_differences": [
+    0.00010453124667719749,
+    0.00015664953390626124,
+    0.0005898876088110683
+  ],
+  "chain_restart_17_plus_23_equals_40_bitwise": true,
+  "full_scientific_runs_performed": false
+}

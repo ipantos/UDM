@@ -1,0 +1,183 @@
+
+Invocation 2026-10-12T17:37:12Z: ['crosscheck/crosscheck_assumptions.py', 'udm_data.txt', 'assumptions.json', 'figure_data', 'crosscheck_assumptions.json']
+tracer: chi2 at single grid points
+  constant | scalar, one fluid (the fit) | u = -9.00                         independent    47.43044   assumptions.py    47.43047   difference -3.0e-05
+  constant | scalar, one fluid (the fit) | u = -6.55                         independent    46.49513   assumptions.py    46.49516   difference -2.9e-05
+  constant | scalar, one fluid (the fit) | u = -6.15                         independent    49.27873   assumptions.py    49.27876   difference -2.6e-05
+  constant | scalar, with a pressureless fraction | u = -9.00                independent    47.43054   assumptions.py    47.43057   difference -3.0e-05
+  constant | scalar, with a pressureless fraction | u = -6.55                independent    46.48781   assumptions.py    46.48784   difference -2.9e-05
+  constant | scalar, with a pressureless fraction | u = -6.15                independent    49.09936   assumptions.py    49.09939   difference -2.6e-05
+  constant | momentum-weighted mean | u = -9.00                              independent    47.43151   assumptions.py    47.43154   difference -3.0e-05
+  constant | momentum-weighted mean | u = -6.50                              independent    46.49201   assumptions.py    46.49204   difference -2.9e-05
+  constant | momentum-weighted mean | u = -6.05                              independent    49.75115   assumptions.py    49.75118   difference -2.6e-05
+  constant | pressureless fraction | u = -9.00                               independent    47.43674   assumptions.py    47.43677   difference -3.0e-05
+  constant | pressureless fraction | u = -5.60                               independent    46.80436   assumptions.py    46.80439   difference -2.9e-05
+  constant | pressureless fraction | u = -5.05                               independent    49.85724   assumptions.py    49.85727   difference -2.6e-05
+  constant | test particle in the potential of the scalar | u = -9.00        independent    47.43664   assumptions.py    47.43668   difference -3.0e-05
+  constant | test particle in the potential of the scalar | u = -5.70        independent    46.80589   assumptions.py    46.80592   difference -2.9e-05
+  constant | test particle in the potential of the scalar | u = -5.15        independent    49.72801   assumptions.py    49.72804   difference -2.6e-05
+  minimal | scalar, one fluid (the fit) | u = -9.00                          independent    47.52197   assumptions.py    47.52200   difference -3.0e-05
+  minimal | scalar, one fluid (the fit) | u = -6.00                          independent    47.31539   assumptions.py    47.31542   difference -3.0e-05
+  minimal | scalar, one fluid (the fit) | u = -5.35                          independent    49.97487   assumptions.py    49.97490   difference -2.8e-05
+  minimal | scalar, with a pressureless fraction | u = -9.00                 independent    47.52197   assumptions.py    47.52200   difference -3.0e-05
+  minimal | scalar, with a pressureless fraction | u = -6.00                 independent    47.31549   assumptions.py    47.31552   difference -3.0e-05
+  minimal | scalar, with a pressureless fraction | u = -5.35                 independent    49.96039   assumptions.py    49.96041   difference -2.8e-05
+  minimal | momentum-weighted mean | u = -9.00                               independent    47.52204   assumptions.py    47.52207   difference -3.0e-05
+  minimal | momentum-weighted mean | u = -5.95                               independent    47.31545   assumptions.py    47.31548   difference -3.0e-05
+  minimal | momentum-weighted mean | u = -5.25                               independent    50.39216   assumptions.py    50.39218   difference -2.8e-05
+  minimal | pressureless fraction | u = -9.00                                independent    47.52238   assumptions.py    47.52241   difference -3.0e-05
+  minimal | pressureless fraction | u = -3.95                                independent    47.23351   assumptions.py    47.23353   difference -2.9e-05
+  minimal | pressureless fraction | u = -3.10                                independent    49.90655   assumptions.py    49.90658   difference -2.8e-05
+  minimal | test particle in the potential of the scalar | u = -9.00         independent    47.52238   assumptions.py    47.52241   difference -3.0e-05
+  minimal | test particle in the potential of the scalar | u = -4.00         independent    47.23749   assumptions.py    47.23752   difference -2.9e-05
+  minimal | test particle in the potential of the scalar | u = -3.25         independent    49.86505   assumptions.py    49.86508   difference -2.8e-05
+scales: chi2 at single grid points
+  constant | as in the fit | u = -9.00                                       independent    47.43044   assumptions.py    47.43047   difference -3.0e-05   (stored twice)
+  constant | as in the fit | u = -6.55                                       independent    46.49513   assumptions.py    46.49516   difference -2.9e-05   (stored twice)
+  constant | as in the fit | u = -6.15                                       independent    49.27873   assumptions.py    49.27876   difference -2.6e-05   (stored twice)
+  constant | z = 0.07 with 0.025 < k < 0.1 | u = -9.00                       independent    47.42993   assumptions.py    47.42996   difference -3.0e-05
+  constant | z = 0.07 with 0.025 < k < 0.1 | u = -6.40                       independent    45.95937   assumptions.py    45.95940   difference -2.9e-05
+  constant | z = 0.07 with 0.025 < k < 0.1 | u = -6.05                       independent    48.73517   assumptions.py    48.73520   difference -2.6e-05
+  constant | midpoint of each interval | u = -9.00                           independent    47.43360   assumptions.py    47.43363   difference -3.0e-05
+  constant | midpoint of each interval | u = -6.30                           independent    46.55013   assumptions.py    46.55016   difference -2.9e-05
+  constant | midpoint of each interval | u = -5.90                           independent    49.22044   assumptions.py    49.22047   difference -2.6e-05
+  constant | upper end of each interval | u = -9.00                          independent    47.42595   assumptions.py    47.42598   difference -3.0e-05
+  constant | upper end of each interval | u = -6.80                          independent    46.49463   assumptions.py    46.49466   difference -2.9e-05
+  constant | upper end of each interval | u = -6.35                          independent    49.74422   assumptions.py    49.74425   difference -2.6e-05
+  constant | k_eff capped at 0.155 | u = -9.00                               independent    47.43483   assumptions.py    47.43486   difference -3.0e-05
+  constant | k_eff capped at 0.155 | u = -6.20                               independent    46.64432   assumptions.py    46.64435   difference -2.9e-05
+  constant | k_eff capped at 0.155 | u = -5.80                               independent    49.25951   assumptions.py    49.25953   difference -2.6e-05
+  constant | without z = 0.07 | u = -9.00                                    independent    47.41852   assumptions.py    47.41855   difference -3.0e-05
+  constant | without z = 0.07 | u = -6.40                                    independent    45.95157   assumptions.py    45.95160   difference -2.9e-05
+  constant | without z = 0.07 | u = -6.05                                    independent    48.63073   assumptions.py    48.63075   difference -2.6e-05
+  constant | without the three measurements with k_eff = 0.23 at z < 0.4 | u = -9.00 independent    46.11402   assumptions.py    46.11405   difference -2.9e-05
+  constant | without the three measurements with k_eff = 0.23 at z < 0.4 | u = -6.20 independent    45.63058   assumptions.py    45.63061   difference -2.9e-05
+  constant | without the three measurements with k_eff = 0.23 at z < 0.4 | u = -5.70 independent    48.70140   assumptions.py    48.70143   difference -2.6e-05
+  constant | z = 0.07 from the power spectrum alone | u = -9.00              independent    47.43044   assumptions.py    47.43047   difference -3.0e-05   (stored twice)
+  constant | z = 0.07 from the power spectrum alone | u = -6.55              independent    46.49513   assumptions.py    46.49516   difference -2.9e-05   (stored twice)
+  constant | z = 0.07 from the power spectrum alone | u = -6.15              independent    49.27873   assumptions.py    49.27876   difference -2.6e-05   (stored twice)
+  minimal | as in the fit | u = -9.00                                        independent    47.52197   assumptions.py    47.52200   difference -3.0e-05   (stored twice)
+  minimal | as in the fit | u = -6.00                                        independent    47.31539   assumptions.py    47.31542   difference -3.0e-05   (stored twice)
+  minimal | as in the fit | u = -5.35                                        independent    49.97487   assumptions.py    49.97490   difference -2.8e-05   (stored twice)
+  minimal | z = 0.07 with 0.025 < k < 0.1 | u = -9.00                        independent    47.52190   assumptions.py    47.52193   difference -3.0e-05
+  minimal | z = 0.07 with 0.025 < k < 0.1 | u = -5.40                        independent    46.57516   assumptions.py    46.57519   difference -2.9e-05
+  minimal | z = 0.07 with 0.025 < k < 0.1 | u = -5.00                        independent    49.18524   assumptions.py    49.18527   difference -2.6e-05
+  minimal | midpoint of each interval | u = -9.00                            independent    47.52215   assumptions.py    47.52218   difference -3.0e-05
+  minimal | midpoint of each interval | u = -5.65                            independent    47.26245   assumptions.py    47.26248   difference -2.9e-05
+  minimal | midpoint of each interval | u = -5.05                            independent    49.87300   assumptions.py    49.87303   difference -2.8e-05
+  minimal | upper end of each interval | u = -9.00                           independent    47.52169   assumptions.py    47.52172   difference -3.0e-05
+  minimal | upper end of each interval | u = -6.25                           independent    47.31723   assumptions.py    47.31726   difference -3.0e-05
+  minimal | upper end of each interval | u = -5.55                           independent    50.33912   assumptions.py    50.33915   difference -2.8e-05
+  minimal | k_eff capped at 0.155 | u = -9.00                                independent    47.52226   assumptions.py    47.52229   difference -3.0e-05
+  minimal | k_eff capped at 0.155 | u = -5.85                                independent    47.42770   assumptions.py    47.42773   difference -3.0e-05
+  minimal | k_eff capped at 0.155 | u = -5.05                                independent    50.04838   assumptions.py    50.04841   difference -2.8e-05
+  minimal | without z = 0.07 | u = -9.00                                     independent    47.51374   assumptions.py    47.51377   difference -3.0e-05
+  minimal | without z = 0.07 | u = -5.40                                     independent    46.54909   assumptions.py    46.54912   difference -2.9e-05
+  minimal | without z = 0.07 | u = -5.00                                     independent    49.09467   assumptions.py    49.09470   difference -2.8e-05
+  minimal | without the three measurements with k_eff = 0.23 at z < 0.4 | u = -9.00 independent    46.14834   assumptions.py    46.14837   difference -2.9e-05
+  minimal | without the three measurements with k_eff = 0.23 at z < 0.4 | u = -12.00 independent    46.14829   assumptions.py    46.14832   difference -2.9e-05
+  minimal | without the three measurements with k_eff = 0.23 at z < 0.4 | u = -4.85 independent    48.80237   assumptions.py    48.80240   difference -2.8e-05
+  minimal | z = 0.07 from the power spectrum alone | u = -9.00               independent    47.52197   assumptions.py    47.52200   difference -3.0e-05   (stored twice)
+  minimal | z = 0.07 from the power spectrum alone | u = -6.00               independent    47.31539   assumptions.py    47.31542   difference -3.0e-05   (stored twice)
+  minimal | z = 0.07 from the power spectrum alone | u = -5.35               independent    49.97487   assumptions.py    49.97490   difference -2.8e-05   (stored twice)
+tracer_checks: chi2 at single grid points
+  start at z = 10 | scalar, one fluid | u = -9.00                            independent    47.51337   assumptions.py    47.51340   difference -3.0e-05
+  start at z = 10 | scalar, one fluid | u = -6.60                            independent    46.37096   assumptions.py    46.37099   difference -2.9e-05
+  start at z = 10 | scalar, one fluid | u = -6.20                            independent    49.19091   assumptions.py    49.19094   difference -2.6e-05
+  start at z = 10 | pressureless fraction | u = -9.00                        independent    47.52065   assumptions.py    47.52068   difference -3.0e-05
+  start at z = 10 | pressureless fraction | u = -5.85                        independent    46.40406   assumptions.py    46.40409   difference -2.9e-05
+  start at z = 10 | pressureless fraction | u = -5.40                        independent    49.56823   assumptions.py    49.56825   difference -2.6e-05
+  start at z = 10 | test particle in the potential of the scalar | u = -9.00 independent    47.52033   assumptions.py    47.52036   difference -3.0e-05
+  start at z = 10 | test particle in the potential of the scalar | u = -5.95 independent    46.40546   assumptions.py    46.40548   difference -2.9e-05
+  start at z = 10 | test particle in the potential of the scalar | u = -5.50 independent    49.51029   assumptions.py    49.51031   difference -2.6e-05
+  start at z = 100 | scalar, one fluid | u = -9.00                           independent    47.51265   assumptions.py    47.51268   difference -3.0e-05
+  start at z = 100 | scalar, one fluid | u = -6.60                           independent    46.35122   assumptions.py    46.35125   difference -2.9e-05
+  start at z = 100 | scalar, one fluid | u = -6.25                           independent    48.59252   assumptions.py    48.59254   difference -2.8e-05
+  start at z = 100 | pressureless fraction | u = -9.00                       independent    47.52007   assumptions.py    47.52010   difference -3.0e-05
+  start at z = 100 | pressureless fraction | u = -5.95                       independent    46.31115   assumptions.py    46.31118   difference -2.9e-05
+  start at z = 100 | pressureless fraction | u = -5.55                       independent    48.64552   assumptions.py    48.64554   difference -2.8e-05
+  start at z = 100 | test particle in the potential of the scalar | u = -9.00 independent    47.51964   assumptions.py    47.51967   difference -3.0e-05
+  start at z = 100 | test particle in the potential of the scalar | u = -6.05 independent    46.31440   assumptions.py    46.31443   difference -2.9e-05
+  start at z = 100 | test particle in the potential of the scalar | u = -5.60 independent    49.46486   assumptions.py    49.46489   difference -2.6e-05
+  other wavenumber | constant | pressureless | u = -9.00                     independent    47.43670   assumptions.py    47.43673   difference -3.0e-05
+  other wavenumber | constant | pressureless | u = -5.40                     independent    46.32394   assumptions.py    46.32397   difference -2.9e-05
+  other wavenumber | constant | pressureless | u = -4.95                     independent    48.72678   assumptions.py    48.72681   difference -2.6e-05
+  other wavenumber | minimal | pressureless | u = -9.00                      independent    47.52238   assumptions.py    47.52241   difference -3.0e-05
+  other wavenumber | minimal | pressureless | u = -3.45                      independent    46.61395   assumptions.py    46.61397   difference -2.9e-05
+  other wavenumber | minimal | pressureless | u = -2.90                      independent    49.22618   assumptions.py    49.22621   difference -2.8e-05
+  minimal, start at z = 10 | scalar, one fluid | u = -9.00                   independent    47.52197   assumptions.py    47.52200   difference -3.0e-05
+  minimal, start at z = 10 | scalar, one fluid | u = -6.00                   independent    47.31518   assumptions.py    47.31521   difference -3.0e-05
+  minimal, start at z = 10 | scalar, one fluid | u = -5.35                   independent    49.97468   assumptions.py    49.97471   difference -2.8e-05
+  minimal, start at z = 10 | pressureless fraction | u = -9.00               independent    47.52238   assumptions.py    47.52241   difference -3.0e-05
+  minimal, start at z = 10 | pressureless fraction | u = -3.90               independent    47.22323   assumptions.py    47.22326   difference -2.9e-05
+  minimal, start at z = 10 | pressureless fraction | u = -3.10               independent    49.94947   assumptions.py    49.94950   difference -2.8e-05
+  pressureless share 0.30 | constant | u = -9.00                             independent    47.43683   assumptions.py    47.43686   difference -3.0e-05
+  pressureless share 0.30 | constant | u = -5.50                             independent    46.80427   assumptions.py    46.80430   difference -2.9e-05
+  pressureless share 0.30 | constant | u = -4.95                             independent    49.72784   assumptions.py    49.72787   difference -2.6e-05
+  pressureless share 0.30 | minimal | u = -9.00                              independent    47.52239   assumptions.py    47.52242   difference -3.0e-05
+  pressureless share 0.30 | minimal | u = -3.80                              independent    47.22595   assumptions.py    47.22598   difference -2.9e-05
+  pressureless share 0.30 | minimal | u = -2.90                              independent    50.03990   assumptions.py    50.03992   difference -2.8e-05
+  pressureless share 0.50 | constant | u = -9.00                             independent    47.43696   assumptions.py    47.43699   difference -3.0e-05
+  pressureless share 0.50 | constant | u = -5.35                             independent    46.80166   assumptions.py    46.80169   difference -2.9e-05
+  pressureless share 0.50 | constant | u = -4.75                             independent    49.43048   assumptions.py    49.43050   difference -2.6e-05
+  pressureless share 0.50 | minimal | u = -9.00                              independent    47.52239   assumptions.py    47.52242   difference -3.0e-05
+  pressureless share 0.50 | minimal | u = -3.60                              independent    47.20686   assumptions.py    47.20688   difference -2.9e-05
+  pressureless share 0.50 | minimal | u = -2.60                              independent    49.74378   assumptions.py    49.74381   difference -2.8e-05
+  pressureless share 0.70 | constant | u = -9.00                             independent    47.43708   assumptions.py    47.43711   difference -3.0e-05
+  pressureless share 0.70 | constant | u = -5.10                             independent    46.79837   assumptions.py    46.79840   difference -2.9e-05
+  pressureless share 0.70 | constant | u = -4.10                             independent    49.62007   assumptions.py    49.62010   difference -2.6e-05
+  pressureless share 0.70 | minimal | u = -9.00                              independent    47.52239   assumptions.py    47.52242   difference -3.0e-05
+  pressureless share 0.70 | minimal | u = -3.15                              independent    47.14380   assumptions.py    47.14383   difference -2.9e-05
+tracer_checks: velocities and source of the potential at the limits for pressureless galaxies, over their values for c_s = 0
+  constant | start at z = 2.33 | scalar       at z = 0.07: independent -0.98955   assumptions.py -0.98955   largest difference over the 17 measurements 1.8e-10
+  constant | start at z = 2.33 | pressureless at z = 0.07: independent +0.66470   assumptions.py +0.66470   largest difference over the 17 measurements 1.2e-10
+  constant | start at z = 2.33 | potential    at z = 0.07: independent +0.19451   assumptions.py +0.19451   largest difference over the 17 measurements 1.3e-10
+  constant | start at z = 10 | scalar       at z = 0.07: independent -0.29599   assumptions.py -0.29599   largest difference over the 17 measurements 7.5e-11
+  constant | start at z = 10 | pressureless at z = 0.07: independent +0.61397   assumptions.py +0.61397   largest difference over the 17 measurements 7.3e-11
+  constant | start at z = 10 | potential    at z = 0.07: independent +0.35660   assumptions.py +0.35660   largest difference over the 17 measurements 7.2e-11
+  constant | start at z = 100 | scalar       at z = 0.07: independent -0.15214   assumptions.py -0.15214   largest difference over the 17 measurements 1.3e-10
+  constant | start at z = 100 | pressureless at z = 0.07: independent +0.60194   assumptions.py +0.60194   largest difference over the 17 measurements 1.6e-10
+  constant | start at z = 100 | potential    at z = 0.07: independent +0.39840   assumptions.py +0.39840   largest difference over the 17 measurements 1.2e-10
+  minimal | start at z = 2.33 | scalar       at z = 0.07: independent +5.80216   assumptions.py +5.80216   largest difference over the 17 measurements 2.5e-09
+  minimal | start at z = 2.33 | pressureless at z = 0.07: independent +0.66037   assumptions.py +0.66037   largest difference over the 17 measurements 1.1e-10
+  minimal | start at z = 2.33 | potential    at z = 0.07: independent +0.10998   assumptions.py +0.10998   largest difference over the 17 measurements 6.4e-11
+window: profile of the 11-parameter model with the other wavenumber at z = 0.07 (chi2 at tabulated nodes)
+  window | u = -12.00                                                        independent    34.16953   assumptions.py    34.16951   difference +1.8e-05
+  window | u = -7.00                                                         independent    33.60955   assumptions.py    33.60953   difference +1.9e-05
+  window | u = -6.40                                                         independent    32.82785   assumptions.py    32.82783   difference +1.9e-05
+  window | u = -6.10                                                         independent    34.20701   assumptions.py    34.20699   difference +2.0e-05
+  window | u = -6.00                                                         independent    36.13625   assumptions.py    36.13623   difference +2.4e-05
+  window | u = -5.90                                                         independent    39.84151   assumptions.py    39.84148   difference +2.8e-05
+tracer_general: profiles of the 11-parameter model with the velocity of a pressureless component (chi2 at tabulated nodes)
+  general model | test particle in the potential of the scalar | u = -12.00  independent    34.16954   assumptions.py    34.16952   difference +1.9e-05
+  general model | test particle in the potential of the scalar | u = -7.00   independent    34.11529   assumptions.py    34.11527   difference +1.9e-05
+  general model | test particle in the potential of the scalar | u = -6.00   independent    33.71438   assumptions.py    33.71436   difference +1.9e-05
+  general model | test particle in the potential of the scalar | u = -5.50   independent    33.60596   assumptions.py    33.60595   difference +1.9e-05
+  general model | test particle in the potential of the scalar | u = -5.15   independent    35.94525   assumptions.py    35.94523   difference +2.0e-05
+  general model | test particle in the potential of the scalar | u = -5.10   independent    36.80087   assumptions.py    36.80085   difference +2.1e-05
+  general model | test particle in the potential of the scalar | u = -5.00   independent    39.20353   assumptions.py    39.20351   difference +2.2e-05
+  general model | test particle in the potential of the scalar | u = -4.50   independent    70.51212   assumptions.py    70.51209   difference +3.1e-05
+  general model | test particle in the potential of the scalar | u = -3.00   independent    92.78867   assumptions.py    92.78866   difference +3.6e-06
+  general model | test particle in the potential of the scalar | u = -2.00   independent    93.53122   assumptions.py    93.53122   difference +2.8e-06
+  general model | pressureless component | u = -12.00                        independent    34.16954   assumptions.py    34.16952   difference +1.9e-05
+  general model | pressureless component | u = -7.00                         independent    34.12269   assumptions.py    34.12267   difference +1.9e-05
+  general model | pressureless component | u = -6.00                         independent    33.76183   assumptions.py    33.76181   difference +1.9e-05
+  general model | pressureless component | u = -5.50                         independent    33.53422   assumptions.py    33.53420   difference +1.8e-05
+  general model | pressureless component | u = -5.10                         independent    35.58172   assumptions.py    35.58171   difference +1.9e-05
+  general model | pressureless component | u = -5.05                         independent    36.30849   assumptions.py    36.30847   difference +2.0e-05
+  general model | pressureless component | u = -5.00                         independent    37.21372   assumptions.py    37.21370   difference +2.0e-05
+  general model | pressureless component | u = -4.50                         independent    57.12699   assumptions.py    57.12697   difference +1.5e-05
+  general model | pressureless component | u = -3.00                         independent    68.08864   assumptions.py    68.08864   difference +3.9e-08
+  general model | pressureless component | u = -2.00                         independent    68.53668   assumptions.py    68.53668   difference +1.4e-06
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -12.00 independent    34.16954   assumptions.py    34.16952   difference +1.9e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -7.00 independent    34.12114   assumptions.py    34.12112   difference +1.9e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -6.00 independent    33.72168   assumptions.py    33.72166   difference +1.9e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -5.50 independent    33.18746   assumptions.py    33.18744   difference +1.9e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -5.00 independent    34.71656   assumptions.py    34.71654   difference +2.0e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -4.95 independent    35.36226   assumptions.py    35.36224   difference +1.9e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -4.90 independent    36.18053   assumptions.py    36.18051   difference +2.0e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -4.50 independent    50.65041   assumptions.py    50.65039   difference +2.1e-05
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -3.00 independent    67.18702   assumptions.py    67.18702   difference +1.6e-06
+  general model | pressureless component, other wavenumber at z = 0.07 | u = -2.00 independent    68.45152   assumptions.py    68.45152   difference +2.2e-06
+largest absolute difference in the 149 distinct values of chi2: 3.1e-05
+largest absolute difference in the 204 ratios: 2.5e-09

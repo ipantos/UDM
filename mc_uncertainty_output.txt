@@ -1,0 +1,7 @@
+raw steps done: 60000; retained rows x walkers: (2000, 40); samples: 80000
+95% upper limit: 3.6081e-07
+halves:   ['3.5222e-07', '3.6723e-07']
+quarters: ['3.2386e-07', '3.8091e-07', '3.6865e-07', '3.6534e-07']
+batch means,  5 blocks: standard error 1.081e-08 (3.0%)
+batch means, 10 blocks: standard error 8.090e-09 (2.2%)
+batch means, 20 blocks: standard error 8.316e-09 (2.3%)

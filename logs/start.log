@@ -1,35 +1,37 @@
-Prior: log; data points: 52; run directory: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2
+
+Invocation 2026-10-12T14:07:49Z: ['fit_joint.py', 'start']
+Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
 
 Background-only preparation: BAO chi2 = 4.5562
-Seed: A = 32.4088, sigma_8 = 0.5657, CALM = 35.6099, seed chi2 = 44.8889
+Seed: A = 32.4088, sigma_8 = 0.5652, CALM = 35.6099, seed chi2 = 44.9009
 
 Constrained minimisation with 12 independent starts
-  restart  0: chi2 =      44.3850   accepted
-  restart  1: chi2 =     801.4211   accepted
-  restart  2: chi2 =      91.3107   accepted
-  restart  3: chi2 =     290.0682   accepted
-  restart  4: chi2 =      65.4108   accepted
-  restart  5: chi2 =     877.6976   accepted
-  restart  6: chi2 =      67.3596   accepted
-  restart  7: chi2 =    1605.3252   accepted
-  restart  8: chi2 =    1880.7228   accepted
-  restart  9: chi2 =    2825.8568   accepted
-  restart 10: chi2 =    2758.5788   accepted
-  restart 11: chi2 =    1285.1934   accepted
+  restart  0: chi2 =      44.9009   accepted
+  restart  1: chi2 =     688.0371   accepted
+  restart  2: chi2 =     525.0898   accepted
+  restart  3: chi2 =     289.0277   accepted
+  restart  4: chi2 =      54.5111   accepted
+  restart  5: chi2 =     365.1574   accepted
+  restart  6: chi2 =      87.1734   accepted
+  restart  7: chi2 =    1703.3713   accepted
+  restart  8: chi2 =     874.1654   accepted
+  restart  9: chi2 =    2825.7667   accepted
+  restart 10: chi2 =    2758.2574   accepted
+  restart 11: chi2 =    1280.9853   accepted
 
-Best chi2 = 44.3850
+Best chi2 = 44.9009
 Measurements: 52 | parameters: 11 | dof: 41
-Reduced chi2 = 1.0826
-BAO chi2    = 4.8127
-SNe chi2    = 31.4080
-growth chi2 = 8.1643
-c_s^2       = 9.988001e-08
-sigma_8     = 0.567386
-A           = 32.407239
-CALM        = 35.609812
+Reduced chi2 = 1.0951
+BAO chi2    = 4.5562
+SNe chi2    = 31.8707
+growth chi2 = 8.4740
+c_s^2       = 1.001239e-12
+sigma_8     = 0.565165
+A           = 32.408823
+CALM        = 35.609854
 
 Full-grid physical check:
-  max(w+c_s^2) = -7.1257e-04  [must be <= 0]
-  min(w+1)     = +5.3154e-01  [must be >= 0]
+  max(w+c_s^2) = -6.6667e-07  [must be <= 0]
+  min(w+1)     = +5.3246e-01  [must be >= 0]
 
-Saved physical starting point: /workspace/scratch/b46695869ef0/fresh_fit/UDM/runs/joint_norm051_log_454989fb0b76b3f2/start.npz
+Saved physical starting point: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/start.npz

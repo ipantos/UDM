@@ -36,12 +36,12 @@ background pressure history:
     V_N = -(1-q) V + [3/2 - c_s^2 k^2/((1+w) a^2 H^2)] y,
     y = delta rho_com/rho = (1+w) D,   D = delta rho_com/(rho_phi + p_phi),
     V = -theta/(aH) = D_N + beta D,    beta = p_N/(rho+p).
-Eliminating V gives Eq. (C8) for D.  The compressed growth measurements are
+Eliminating V gives Eq. (A7) for D.  The compressed growth measurements are
 compared with the velocity:  [f sigma_8] = sigma_8 V(k,z)/D(k=0, z=Z_NORM),
 with Z_NORM = 0.51, a redshift where the background is constrained by data.
 Start at z = 2.33 with D = 1 and V/D = F_INI = 1.
 `validate` compares this system at k=0 with the independent u-equation
-(Eq. C2), which uses w_NN; the two must agree to integration accuracy.
+(Eq. A1), which uses w_NN; the two must agree to integration accuracy.
 
 PHYSICAL CONSTRAINTS, at every grid point
 -----------------------------------------
@@ -538,12 +538,12 @@ def node_positions(number_of_nodes):
 
 
 def selected_node_number():
-    if not result_path('node_choice').exists():
-        return 1
-    number = int(load_result('node_choice', 'node_choice', 'none', 0)['chosen'].item())
-    if number not in (1, 2, 3):
-        raise ValueError('Invalid saved node choice')
-    return number
+    """The submitted analysis conditions on constant sound speed (one node).
+
+    The optional node scan remains a diagnostic; it must not silently change
+    the model subsequently used by the posterior and supplementary scripts.
+    """
+    return 1
 
 
 def configuration():
@@ -637,7 +637,7 @@ def growth(cs2_grid, q_grid, inv_hubble, amplitude):
         y = delta rho_com / rho = (1+w) D,   V = -theta/(aH) = D_N + beta D,
         y_N = 3 w y + (1+w) V                         (energy conservation)
         V_N = -(1-q) V + [3/2 - Q/(1+w)] y            (momentum conservation)
-    with Q = c_s^2 k^2/(a^2 H^2).  Eliminating V gives Eq. (C8) for D.
+    with Q = c_s^2 k^2/(a^2 H^2).  Eliminating V gives Eq. (A7) for D.
     Only w and q enter; no derivative of the background spline is used.
     Initial conditions at Z_INI: D = 1 (so y = 1+w) and V/D = F_INI.
     """
@@ -790,7 +790,7 @@ def log_prob(parameters, z_nodes):
 # CLOSURE DIAGNOSTIC
 # ============================================================
 def validate_zero_mode(eps, amplitude):
-    """Compare at k=0 the production growth system with the u-equation (C2).
+    """Compare at k=0 the production growth system with the u-equation (A1).
     The production system (y, V) uses only w and q; the u-equation contains
     theta''/theta and therefore w_NN.  Both are exact, so their growth rates
     D_N/D must agree to integration accuracy: an independent check of the
@@ -812,7 +812,7 @@ def validate_zero_mode(eps, amplitude):
     N_initial = -np.log(1.0 + Z_INI)
     g_initial = float(np.interp(-N_initial, XG, g_grid))
 
-    beta_grid = w_N/one_plus_w - 3.0*w                     # Eq. (C5)
+    beta_grid = w_N/one_plus_w - 3.0*w                     # Eq. (A5)
 
     def rhs_D(N, state):
         # Production system at k=0 (same equations as growth()).

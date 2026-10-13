@@ -1,0 +1,6 @@
+
+Invocation 2026-10-12T17:37:23Z: ['export_results.py']
+Written new_results.json and new_results.csv. Inspect logs/converged.log and validation diagnostics.
+
+Invocation 2026-10-13T04:28:25Z: export_results.py
+Written new_results.json and new_results.csv. Inspect logs/converged.log and validation diagnostics.

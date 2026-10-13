@@ -1,0 +1,57 @@
+
+Invocation 2026-10-12T15:22:21Z: ['extensions.py', 'leaveout']
+  u = -12.00: chi2 = 34.1684 sigma8 = 0.5441 starts 6 spread 7.9e-09
+  u =  -9.00: chi2 = 34.1624 sigma8 = 0.5443 starts 6 spread 1.7e-08
+  u =  -8.50: chi2 = 34.1495 sigma8 = 0.5446 starts 6 spread 2.2e-08
+  u =  -8.00: chi2 = 34.1088 sigma8 = 0.5456 starts 6 spread 4.3e-09
+  u =  -7.75: chi2 = 34.0629 sigma8 = 0.5468 starts 6 spread 1.1e-08
+  u =  -7.50: chi2 = 33.9822 sigma8 = 0.5490 starts 6 spread 9.9e-09
+  u =  -7.40: chi2 = 33.9350 sigma8 = 0.5502 starts 6 spread 9.3e-09
+  u =  -7.35: chi2 = 33.9073 sigma8 = 0.5510 starts 6 spread 8.2e-09
+  u =  -7.30: chi2 = 33.8764 sigma8 = 0.5519 starts 6 spread 5.0e-09
+  u =  -7.25: chi2 = 33.8419 sigma8 = 0.5529 starts 6 spread 3.0e-09
+  u =  -7.20: chi2 = 33.8036 sigma8 = 0.5539 starts 6 spread 7.5e-09
+  u =  -7.15: chi2 = 33.7611 sigma8 = 0.5547 starts 6 spread 1.1e-08
+  u =  -7.10: chi2 = 33.7145 sigma8 = 0.5554 starts 6 spread 4.0e-09
+  u =  -7.05: chi2 = 33.6635 sigma8 = 0.5562 starts 6 spread 8.1e-09
+  u =  -7.00: chi2 = 33.6079 sigma8 = 0.5572 starts 6 spread 5.5e-09
+  u =  -6.95: chi2 = 33.5476 sigma8 = 0.5582 starts 6 spread 2.1e-09
+  u =  -6.90: chi2 = 33.4826 sigma8 = 0.5594 starts 6 spread 1.4e-08
+  u =  -6.85: chi2 = 33.4130 sigma8 = 0.5607 starts 6 spread 6.3e-09
+  u =  -6.80: chi2 = 33.3391 sigma8 = 0.5622 starts 6 spread 6.6e-09
+  u =  -6.75: chi2 = 33.2615 sigma8 = 0.5639 starts 6 spread 1.1e-08
+  u =  -6.70: chi2 = 33.1813 sigma8 = 0.5658 starts 6 spread 6.0e-09
+  u =  -6.65: chi2 = 33.0999 sigma8 = 0.5679 starts 6 spread 9.1e-09
+  u =  -6.60: chi2 = 33.0196 sigma8 = 0.5703 starts 6 spread 6.1e-09
+  u =  -6.55: chi2 = 32.9437 sigma8 = 0.5729 starts 6 spread 2.0e-08
+  u =  -6.50: chi2 = 32.8764 sigma8 = 0.5759 starts 6 spread 1.0e-08
+  u =  -6.45: chi2 = 32.8239 sigma8 = 0.5793 starts 6 spread 3.1e-09
+  u =  -6.40: chi2 = 32.7944 sigma8 = 0.5830 starts 6 spread 9.2e-09
+  u =  -6.35: chi2 = 32.7990 sigma8 = 0.5873 starts 6 spread 4.6e-09
+  u =  -6.30: chi2 = 32.8528 sigma8 = 0.5920 starts 6 spread 9.5e-09
+  u =  -6.25: chi2 = 32.9756 sigma8 = 0.5973 starts 6 spread 8.2e-09
+  u =  -6.20: chi2 = 33.1940 sigma8 = 0.6032 starts 6 spread 8.2e-09
+  u =  -6.15: chi2 = 33.5431 sigma8 = 0.6099 starts 6 spread 5.7e-09
+  u =  -6.10: chi2 = 34.0694 sigma8 = 0.6173 starts 6 spread 1.2e-08
+  u =  -6.05: chi2 = 34.8345 sigma8 = 0.6255 starts 6 spread 5.2e-09
+  u =  -6.00: chi2 = 35.9190 sigma8 = 0.6347 starts 6 spread 6.9e-09
+  u =  -5.95: chi2 = 37.4288 sigma8 = 0.6449 starts 6 spread 6.0e-09
+  u =  -5.90: chi2 = 39.5023 sigma8 = 0.6560 starts 6 spread 6.8e-09
+  u =  -5.85: chi2 = 42.3185 sigma8 = 0.6682 starts 6 spread 6.9e-09
+  u =  -5.80: chi2 = 46.1081 sigma8 = 0.6814 starts 6 spread 2.3e-09
+{
+ "measurements": 51,
+ "chi2_minimum": 32.79139185854717,
+ "c_s2_at_minimum": 4.1680966697388015e-07,
+ "sigma8_ref_at_minimum": 0.5846575388162537,
+ "starts_for_the_minimum": 15,
+ "starts_within_0.001_of_minimum": 15,
+ "delta_chi2_at_zero_sound_speed": 1.3770252048234397,
+ "upper_limits_c_s2": {
+  "68.3% two-sided (Delta chi2 = 1)": 7.516249191179195e-07,
+  "95% one-sided (Delta chi2 = 2.71)": 9.604290952244956e-07,
+  "95% two-sided (Delta chi2 = 3.84)": 1.0607943898571712e-06
+ },
+ "largest_spread_between_starts_where_delta_chi2_below_10": 2.1713503883802332e-08
+}
+[leaveout] done in 277.3 s
