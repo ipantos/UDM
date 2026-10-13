@@ -1,20 +1,38 @@
 # Reconstructing a Born–Infeld scalar for unified dark matter and dark energy
 
-Το αποθετήριο περιέχει τους κώδικες, τις εισόδους και την πλήρη εκτέλεση στην οποία βασίζεται το paper: αλυσίδες, προφίλ, όλα τα αποτελέσματα, τα logs κάθε σταδίου και τα πέντε σχήματα. Οι σύντομοι έλεγχοι του πακέτου περιγράφονται στο `REVIEW.md`.
+This repository contains the code, the input data and the complete run on
+which the paper is based: chains, profiles, all results, the log of every
+stage and the five figures of the paper.
 
-## Η εκτέλεση του paper
+## The run of the paper
 
-Η εκτέλεση του paper είναι η προεπιλεγμένη εκτέλεση του `run_pipeline.py` με τρεις προσθήκες. Όλες είναι καταγεγραμμένες στα logs.
+The run of the paper is the default run of `run_pipeline.py` with three
+additions. All of them are recorded in the logs.
 
-1. **Επέκταση της κύριας αλυσίδας στα 60.000 βήματα ανά walker.** Μετά την ολοκλήρωση του οδηγού (40.000 βήματα) η αλυσίδα συνεχίστηκε από το checkpoint της με τέσσερις εκτελέσεις του `python fit_joint.py mcmc 5000` (`logs/mcmc.log`). Το burn-in έμεινε 20.000 βήματα, οπότε κρατούνται 80.000 δείγματα. Στη συνέχεια ξανατρέχτηκαν τα στάδια που εξαρτώνται από την αλυσίδα, με αυτή τη σειρά: `fit_joint.py converged`, `fit_joint.py summary`, `fit_joint.py validate`, `figures.py --data-only`, `checks.py`, `extensions.py posterior`, `extensions.py chains`, `extensions.py figure`, `export_results.py`.
-2. **Ο έλεγχος χωρίς τις έξι μετρήσεις DESI full-shape** (γραμμή του Table II). Τρέχτηκε σε αντίγραφο του φακέλου με `python assumptions.py scales --legacy-desi-diagnostic`. Το αποτέλεσμα είναι στο `assumptions_desi_diagnostic.json` και η πλήρης έξοδος στο `logs/asm_scales_desi_diagnostic.log`. Όλες οι άλλες περιπτώσεις που ξαναϋπολόγισε η ίδια εντολή βγήκαν ίδιες με αυτές του `assumptions.json`.
-3. **Η στατιστική αβεβαιότητα του posterior ορίου** (μέθοδος batch means). `python mc_uncertainty.py`, με έξοδο στο `mc_uncertainty_output.txt`.
+1. **Main chain extended to 60,000 steps per walker.** After the pipeline
+   had finished (40,000 steps), the chain was continued from its checkpoint
+   by four runs of `python fit_joint.py mcmc 5000` (`logs/mcmc.log`). The
+   burn-in stayed at 20,000 steps, so 80,000 samples are retained. The
+   stages that depend on the chain were then run again, in this order:
+   `fit_joint.py converged`, `fit_joint.py summary`, `fit_joint.py validate`,
+   `figures.py --data-only`, `checks.py`, `extensions.py posterior`,
+   `extensions.py chains`, `extensions.py figure`, `export_results.py`.
+2. **The fit without the six DESI full-shape amplitudes** (a row of
+   Table II of the paper). It was run on a copy of this folder with
+   `python assumptions.py scales --legacy-desi-diagnostic`. The result is in
+   `assumptions_desi_diagnostic.json` and the full output in
+   `logs/asm_scales_desi_diagnostic.log`. All other cases that the same
+   command recomputed were identical to those in `assumptions.json`.
+3. **The Monte Carlo uncertainty of the posterior limit** (batch means):
+   `python mc_uncertainty.py`, with its output in `mc_uncertainty_output.txt`.
 
-Τα πέντε σχήματα του paper είναι στο `paper_output/` και παράγονται με `python paper_scripts/paper_figures.py . paper_output`.
+The five figures of the paper are in `paper_output/` and are produced by
+`python paper_scripts/paper_figures.py . paper_output`.
 
-## Εκκίνηση
+## Getting started
 
-Κατεβάστε το αποθετήριο σε **καινούργιο φάκελο** και ανοίξτε τερματικό μέσα σε αυτόν. Συνιστάται Python 3.12, που χρησιμοποιήθηκε στους ελέγχους.
+Download the repository into a **new folder** and open a terminal in it.
+Python 3.12, which was used for the run, is recommended.
 
 Windows:
 
@@ -32,61 +50,97 @@ python3.12 -m venv .venv
 .venv/bin/python run_pipeline.py
 ```
 
-Αν χρησιμοποιείτε ήδη κατάλληλο περιβάλλον Python:
+With a suitable Python environment already in place:
 
 ```bash
 python -m pip install -r requirements.txt
 python run_pipeline.py
 ```
 
-Μόνο έλεγχος πακέτου, χωρίς πλήρεις αλυσίδες:
+Check of the package only, without the full chains:
 
 ```bash
 python verify_package.py
 ```
 
-Εμφάνιση των σταδίων χωρίς εκτέλεση:
+List of the stages without running them:
 
 ```bash
 python run_pipeline.py --plan
 ```
 
-## Τι εκτελείται
+## What the pipeline runs
 
-1. Έλεγχοι εισόδων, Union3, ανεξάρτητου υπολογισμού χ² και συνέχισης αλυσίδων.
-2. Αρχικοποίηση, διαγνωστική σύγκριση αριθμού κόμβων και κύρια αλυσίδα **σταθερού** c_s²: 40 walkers, 40.000 βήματα ανά walker, burn-in 20.000, thinning 20 (για το paper η αλυσίδα επεκτάθηκε στα 60.000 βήματα· βλ. «Η εκτέλεση του paper»). Η επιλογή ενός κόμβου είναι η υπόθεση της συγκεκριμένης ανάλυσης και δεν αλλάζει αυτόματα από τη διαγνωστική σύγκριση.
-3. Σύνοψη, έλεγχοι ολοκλήρωσης, αριθμητικά δεδομένα σχημάτων και έλεγχοι ευαισθησίας.
-4. Όλα τα στάδια `extensions.py`, με τις τρεις συμπληρωματικές αλυσίδες των 12.000 βημάτων ανά walker και τις συνόψεις τους.
-5. Τα στάδια `assumptions.py`, συμπεριλαμβανομένου του `tracer_general`.
-6. Οι δύο ανεξάρτητοι αριθμητικοί επανέλεγχοι και η εξαγωγή των νέων αποτελεσμάτων.
+1. Checks of the inputs, of Union3, of an independent computation of
+   $\chi^2$ and of the continuation of chains.
+2. Initialization, a diagnostic comparison of the number of sound-speed
+   nodes, and the main chain for a **constant** $c_s^2$: 40 walkers,
+   40,000 steps per walker, burn-in 20,000, thinning 20 (for the paper the
+   chain was extended to 60,000 steps; see "The run of the paper"). One node
+   is the assumption of this analysis; the diagnostic comparison does not
+   change it.
+3. Summary, completion checks, the numerical data of the figures and the
+   sensitivity checks.
+4. All stages of `extensions.py`, with the three supplementary chains of
+   12,000 steps per walker and their summaries.
+5. The stages of `assumptions.py`, including `tracer_general`.
+6. The two independent numerical cross-checks and the export of the
+   results.
 
-Η βασική εκτέλεση διατηρεί τις έξι DESI. Δεν εκτελεί το παλιό πρόσθετο διαγνωστικό αφαίρεσής τους. Ο κώδικάς του διατηρείται ως προαιρετικό `python assumptions.py scales --legacy-desi-diagnostic`, αλλά δεν χρειάζεται για τη συμφωνημένη εκτέλεση.
+The default run keeps the six DESI full-shape amplitudes. The fit without
+them is optional: `python assumptions.py scales --legacy-desi-diagnostic`.
 
-## Συνέχιση μετά από διακοπή
+## Resuming after an interruption
 
-Εκτελέστε ξανά **την ίδια εντολή** `python run_pipeline.py`. Ο οδηγός παραλείπει τα ολοκληρωμένα στάδια και συνεχίζει τις αλυσίδες έως τα παραπάνω συνολικά μήκη. Τα κύρια checkpoints γράφονται ανά 5.000 βήματα και τα συμπληρωματικά ανά 500. Βήματα μετά το τελευταίο checkpoint επαναλαμβάνονται μετά από διακοπή.
+Run **the same command** `python run_pipeline.py` again. The pipeline skips
+the completed stages and continues the chains up to the lengths given
+above. The main chain writes a checkpoint every 5,000 steps and the
+supplementary chains every 500; steps after the last checkpoint are
+repeated after an interruption.
 
-Μην τρέχετε δύο οδηγούς ταυτόχρονα στον ίδιο φάκελο. Μην αντιγράφετε παλιά outputs μέσα στον νέο φάκελο. Μην ορίζετε `UDM_OUTPUT_DIR` και μην αλλάζετε κώδικες/δεδομένα ενδιάμεσα· ο οδηγός απορρίπτει αλλαγμένη ταυτότητα εισόδων. Για διαφορετική ανάλυση χρησιμοποιήστε νέο αντίγραφο του ZIP.
+Do not run two pipelines at the same time in the same folder, do not copy
+outputs of other runs into the folder, do not set `UDM_OUTPUT_DIR`, and do
+not change code or data in between: the pipeline refuses inputs whose
+identity has changed. For a different analysis use a fresh copy of the
+repository.
 
-Οι επιμέρους εντολές `extensions.py chain NAME 12000` **προσθέτουν** 12.000 βήματα. Ο οδηγός υπολογίζει μόνος του πόσα απομένουν. Για κανονική εκκίνηση και συνέχιση χρησιμοποιήστε τον οδηγό.
+The individual commands `extensions.py chain NAME 12000` **add** 12,000
+steps. The pipeline computes by itself how many remain; use it for normal
+starts and continuations.
 
-Το `tracer_general` αποθηκεύει και τα σημεία που έχουν ήδη υπολογιστεί σε αρχεία `tracer_general_*_partial.json`, με ένδειξη `complete`. Αυτά είναι διαγνωστικά checkpoints: αν διακοπεί το στάδιο, ο οδηγός το επαναλαμβάνει από την αρχή, όχι από το τελευταίο σημείο.
+`tracer_general` also stores the points already computed in the files
+`tracer_general_*_partial.json`, marked `complete`. These are diagnostic
+checkpoints: if the stage is interrupted, the pipeline repeats it from the
+beginning, not from the last point.
 
-## Αποτελέσματα και σχήματα
+## Results and figures
 
-- `logs/`: πλήρης έξοδος κάθε σταδίου. Οι επανεκκινήσεις προστίθενται στο αντίστοιχο log.
-- `runs/`, `extensions_chains/`: αλυσίδες και checkpoints.
-- `extensions.json`, `assumptions.json`, `checks.json`: νέα αποτελέσματα ανά ανάλυση.
-- `figure_data/`: νέα αριθμητικά δεδομένα σχημάτων και αριθμητική επαλήθευση.
-- `crosscheck_extensions.json`, `crosscheck_assumptions.json`: διαφορές από τους ανεξάρτητους υπολογισμούς.
-- `new_results.json`, `new_results.csv`: συγκεντρωτικά νέα αποτελέσματα, χωρίς επιβολή των παλιών αριθμών ή λεκτικών ισχυρισμών του paper.
+- `logs/`: the full output of every stage. Restarts are appended to the
+  corresponding log.
+- `runs/`, `extensions_chains/`, `assumptions_grids/`: chains, grids and
+  checkpoints.
+- `extensions.json`, `assumptions.json`, `checks.json`: the results of each
+  analysis.
+- `figure_data/`: the numerical data of the figures and the numerical
+  validation.
+- `crosscheck_extensions.json`, `crosscheck_assumptions.json`: the
+  differences from the independent computations.
+- `new_results.json`, `new_results.csv`: the main results collected in one
+  place.
+- `provenance/`: the sources of the inputs and their checks, including the
+  official Union3 file.
 
-Για τα πέντε PDF του paper χρειάζεται επιπλέον `pdflatex` με `standalone`, `pgfplots`, `tikz`, `amsmath`, `lmodern` και τις βιβλιοθήκες PGFPlots της εγκατάστασης TeX. Δεν χρειάζεται TeX για την αριθμητική εκτέλεση. Με εγκατεστημένο TeX:
+The five PDF figures need `pdflatex` with `standalone`, `pgfplots`, `tikz`,
+`amsmath`, `lmodern` and the PGFPlots libraries of the TeX installation.
+TeX is not needed for the numerical run. With TeX installed:
 
 ```bash
 python run_pipeline.py --figures
 ```
 
-Μετά την αριθμητική ολοκλήρωση η εντολή παραλείπει τα ολοκληρωμένα στάδια και παράγει τα PDF στο `paper_output/`.
+After the numerical stages this command skips the completed stages and
+writes the PDF files to `paper_output/`.
 
-Η ολοκλήρωση των προκαθορισμένων βημάτων **δεν πιστοποιεί από μόνη της σύγκλιση MCMC**. Εξετάστε `logs/converged.log`, `checks.json`, τις διαγνώσεις των συμπληρωματικών αλυσίδων και τους ανεξάρτητους επανελέγχους. Εάν απαιτούνται μεγαλύτερες αλυσίδες, η επέκταση και η αναπαραγωγή όλων των εξαρτώμενων αποτελεσμάτων είναι επόμενο βήμα.
+Completing the preset number of steps does **not by itself establish
+convergence** of the MCMC. See `logs/converged.log`, `checks.json`, the
+diagnostics of the supplementary chains and the independent cross-checks.
