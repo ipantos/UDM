@@ -25,7 +25,7 @@
 \node[anchor=south east,text=black!70,font=\fontsize{9}{10.5}\selectfont] at (axis cs:2.31,.5) {$w_\phi=0$};
 \nextgroupplot[ymode=log,ymin=.4,ymax=3.4,ytick={.5,1,2,3},yticklabels={0.5,1,2,3},
   ylabel={$\mathcal{F}$: normalized $f a^3$},
-  title={(b) Kinetic prefactor},legend style={at={(.97,.96)},anchor=north east}]
+  title={(b) Prefactor},legend style={at={(.97,.96)},anchor=north east}]
 \addplot[draw=none,forget plot,name path=b5lo95] table[col sep=comma,x=z,y=lo95] {../figure_data/ext_prefactor_full_range.csv};
 \addplot[draw=none,forget plot,name path=b5hi95] table[col sep=comma,x=z,y=hi95] {../figure_data/ext_prefactor_full_range.csv};
 \addplot[draw=none,fill=udmblue!20,forget plot] fill between[of=b5lo95 and b5hi95];

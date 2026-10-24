@@ -487,7 +487,7 @@ def fig_functions():
 \node[anchor=south east,text=black!70,font=''' + SMALL + r'''] at (axis cs:2.31,.5) {$w_\phi=0$};
 \nextgroupplot[ymode=log,ymin=.4,ymax=3.4,ytick={.5,1,2,3},yticklabels={0.5,1,2,3},
   ylabel={$\mathcal{F}$: normalized $f a^3$},
-  title={(b) Kinetic prefactor},legend style={at={(.97,.96)},anchor=north east}]
+  title={(b) Prefactor},legend style={at={(.97,.96)},anchor=north east}]
 ''' + bands('ext_prefactor_full_range') + frame(.4, 3.4) + marks('prefactor')
     body += r'''\addplot[udmorange,dashed,line width=1pt] coordinates {(0,1) (2.33,1)};
 \addlegendentry{$f\propto a^{-3}$}
