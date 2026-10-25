@@ -17,8 +17,8 @@ additions. All of them are recorded in the logs.
    `fit_joint.py converged`, `fit_joint.py summary`, `fit_joint.py validate`,
    `figures.py --data-only`, `checks.py`, `extensions.py posterior`,
    `extensions.py chains`, `extensions.py figure`, `export_results.py`.
-2. **The fit without the six DESI full-shape amplitudes** (a row of
-   Table II of the paper). It was run on a copy of this folder with
+2. **The fit without the six DESI full-shape amplitudes** (reported in
+   Table SII of the Supplemental Material). It was run on a copy of this folder with
    `python assumptions.py scales --legacy-desi-diagnostic`. The result is in
    `assumptions_desi_diagnostic.json` and the full output in
    `logs/asm_scales_desi_diagnostic.log`. All other cases that the same
