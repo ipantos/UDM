@@ -1,8 +1,8 @@
 
 Invocation 2026-10-12T15:03:54Z: ['fit_joint.py', 'converged']
-Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Prior: log; data points: 52; run directory: UDM/runs/joint_norm051_log_db43adae17eb9aa2
 Convergence: integrated autocorrelation time 290 raw steps; retained 20000 of the 14478 the rule of fifty lengths asks for (MET).
 
 Invocation 2026-10-13T04:12:11Z: ['fit_joint.py', 'converged']
-Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Prior: log; data points: 52; run directory: UDM/runs/joint_norm051_log_db43adae17eb9aa2
 Convergence: integrated autocorrelation time 306 raw steps; retained 40000 of the 15315 the rule of fifty lengths asks for (MET).

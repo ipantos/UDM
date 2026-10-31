@@ -1,6 +1,6 @@
 
 Invocation 2026-10-12T15:03:55Z: ['fit_joint.py', 'summary']
-Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Prior: log; data points: 52; run directory: UDM/runs/joint_norm051_log_db43adae17eb9aa2
 
 Posterior samples after burn-in: 40000
 Number of c_s^2 nodes: 1
@@ -21,10 +21,10 @@ Reduced chi2 = 0.8421
 
 Posterior samples with monotonic w at the seven nodes: 9.79%
 
-Saved physical posterior: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_posterior.npz
+Saved physical posterior: UDM/runs/joint_norm051_log_db43adae17eb9aa2/n1_posterior.npz
 
 Invocation 2026-10-13T04:12:12Z: ['fit_joint.py', 'summary']
-Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Prior: log; data points: 52; run directory: UDM/runs/joint_norm051_log_db43adae17eb9aa2
 
 Posterior samples after burn-in: 80000
 Number of c_s^2 nodes: 1
@@ -45,4 +45,4 @@ Reduced chi2 = 0.8396
 
 Posterior samples with monotonic w at the seven nodes: 9.32%
 
-Saved physical posterior: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2/n1_posterior.npz
+Saved physical posterior: UDM/runs/joint_norm051_log_db43adae17eb9aa2/n1_posterior.npz

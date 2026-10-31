@@ -1,6 +1,6 @@
 
 Invocation 2026-10-12T14:07:52Z: ['fit_joint.py', 'nodes']
-Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Prior: log; data points: 52; run directory: UDM/runs/joint_norm051_log_db43adae17eb9aa2
 
 Node scan on the joint likelihood
 Penalty per extra c_s node: ln(52) = 3.9512

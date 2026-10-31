@@ -90,7 +90,7 @@ Observable predictions: 4096/4096 samples.
   "numpy_version": "2.3.5",
   "elapsed_seconds": 8.047572211999977
 }
-Numerical figure tables written to /home/claude/run_1212/UDM_rerun_package/figure_data
+Numerical figure tables written to UDM/figure_data
 
 Invocation 2026-10-13T04:22:29Z: figures.py --data-only
 Full-chain reconstructed functions tabulated.
@@ -183,4 +183,4 @@ Observable predictions: 4096/4096 samples.
   "numpy_version": "2.3.5",
   "elapsed_seconds": 7.669562635000148
 }
-Numerical figure tables written to /home/claude/run_1212/UDM_rerun_package/figure_data
+Numerical figure tables written to UDM/figure_data

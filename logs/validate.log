@@ -1,6 +1,6 @@
 
 Invocation 2026-10-12T15:05:52Z: ['fit_joint.py', 'validate']
-Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Prior: log; data points: 52; run directory: UDM/runs/joint_norm051_log_db43adae17eb9aa2
 
 Closure diagnostic at k=0
 Source: 300 posterior samples
@@ -34,7 +34,7 @@ First usable sample, redshift by redshift:
    1.944        1.413123          1.413124           0.000
 
 Invocation 2026-10-13T04:22:16Z: fit_joint.py validate
-Prior: log; data points: 52; run directory: /home/claude/run_1212/UDM_rerun_package/runs/joint_norm051_log_db43adae17eb9aa2
+Prior: log; data points: 52; run directory: UDM/runs/joint_norm051_log_db43adae17eb9aa2
 
 Closure diagnostic at k=0
 Source: 300 posterior samples
