@@ -1,0 +1,38 @@
+[
+  {
+    "file": "coverage_general_pressureless_0.5.jsonl",
+    "changed_classifications": 0,
+    "max_q_change": 1.105720578209457e-06,
+    "selected_audit_max_q_change": 0.0
+  },
+  {
+    "file": "coverage_general_pressureless_0.jsonl",
+    "changed_classifications": 0,
+    "max_q_change": 6.012573479097227e-07,
+    "selected_audit_max_q_change": 0.0
+  },
+  {
+    "file": "coverage_general_pressureless_1.jsonl",
+    "changed_classifications": 0,
+    "max_q_change": 8.546057728153755e-07,
+    "selected_audit_max_q_change": 3.2421780815639067e-09
+  },
+  {
+    "file": "coverage_general_scalar_0.5.jsonl",
+    "changed_classifications": 0,
+    "max_q_change": 3.732710922577098e-07,
+    "selected_audit_max_q_change": 0.0
+  },
+  {
+    "file": "coverage_general_scalar_0.jsonl",
+    "changed_classifications": 0,
+    "max_q_change": 9.8879553434017e-09,
+    "selected_audit_max_q_change": 0.0
+  },
+  {
+    "file": "coverage_general_scalar_1.jsonl",
+    "changed_classifications": 0,
+    "max_q_change": 1.2433192274841076e-05,
+    "selected_audit_max_q_change": 0.0
+  }
+]

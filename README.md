@@ -29,6 +29,16 @@ additions. All of them are recorded in the logs.
 The five figures of the paper are in `paper_output/` and are produced by
 `python paper_scripts/paper_figures.py . paper_output`.
 
+## Supplementary checks
+
+The folder `supplement_checks/` contains the code and the results of the
+checks added to the Supplemental Material: the profiles without the
+low-redshift or the DESI growth measurements (Table SIII), the coverage of
+the $\Delta\chi^2=2.71$ level in the general and minimal models
+(Sec. SIV B, Table SVI) and the test with the DESI DR1 windows (Sec. SIV C).
+They use the code of this folder; `supplement_checks/README.md` explains how
+to run them.
+
 ## Using the stored results
 
 The repository holds the completed run. The following commands work in the
